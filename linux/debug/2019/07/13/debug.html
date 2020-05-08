@@ -1,10 +1,19 @@
 <!DOCTYPE html><html lang="zh">
-  <head><meta charset="utf-8">
+  <head><!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-124448466-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-124448466-1');
+		
+	</script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><title>记录使用Linux中出现的许多奇奇怪怪的bug以及解决方法 - Code for Good</title>
 
 <meta name="description" content="记录自己遇到的奇奇怪怪的bug。升级反代后 Groovy 脚本挂掉这个问题对于我来说，难度在于问题的定位，因为问题本身很好解决。背景情况是这样的，我们一个服务的生产环境上，使用一个 Groovy (Grails 2.3.11) 脚本作为反代。前一天晚上进行更新以后，第二天起床发现微信端发送给这个脚本的请求都会返回...">
-<link rel="canonical" href="http://localhost:4000/linux/debug/2019/07/13/debug.html"><link rel="alternate" type="application/rss+xml" title="Code for Good" href="/feed.xml"><!-- start favicons snippet, use https://realfavicongenerator.net/ --><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png"><link rel="manifest" href="/assets/site.webmanifest"><link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#fc4d50"><link rel="shortcut icon" href="/assets/favicon.ico">
+<link rel="canonical" href="https://blog.fkynjyq.com/linux/debug/2019/07/13/debug.html"><link rel="alternate" type="application/rss+xml" title="Code for Good" href="/feed.xml"><!-- start favicons snippet, use https://realfavicongenerator.net/ --><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png"><link rel="manifest" href="/assets/site.webmanifest"><link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#fc4d50"><link rel="shortcut icon" href="/assets/favicon.ico">
 
 <meta name="msapplication-TileColor" content="#ffc40d"><meta name="msapplication-config" content="/assets/browserconfig.xml">
 
