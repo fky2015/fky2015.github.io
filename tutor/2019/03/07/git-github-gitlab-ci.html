@@ -10,10 +10,10 @@
 		
 	</script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><title>容器化技术在网络安全应用展望 -- 并没有什么参考价值的节课论文 - Code for Good</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><title>Git Github Gitlab and CI - Code for Good</title>
 
-<meta name="description" content="这是大一时参加《计算机与网络安全》所写的结课论文，针对当时接触的 docker 容器化技术在安全方面做了一些简单不全面的总结。如今看起来还真是青涩呢。">
-<link rel="canonical" href="https://blog.fkynjyq.com/2018/05/16/security_of_container.html"><link rel="alternate" type="application/rss+xml" title="Code for Good" href="/feed.xml"><!-- start favicons snippet, use https://realfavicongenerator.net/ --><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png"><link rel="manifest" href="/assets/site.webmanifest"><link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#fc4d50"><link rel="shortcut icon" href="/assets/favicon.ico">
+<meta name="description" content="这篇文章是一次分享的大体提纲，因此有很多概念不会用文字详细解释。git的重要性便不在此赘述，为什么在网络上已经有丰富教程的前提下还要做这个东西，就是希望大家（班里的同学们）大家能够尽可能站在一个水平线上，为以后的合作提供技术基础。不过，也请不要期待仅仅在两个小时之后就能上手全部的内容。因为坑注定是要自己踩才会有感...">
+<link rel="canonical" href="https://blog.fkynjyq.com/tutor/2019/03/07/git-github-gitlab-ci.html"><link rel="alternate" type="application/rss+xml" title="Code for Good" href="/feed.xml"><!-- start favicons snippet, use https://realfavicongenerator.net/ --><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png"><link rel="manifest" href="/assets/site.webmanifest"><link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#fc4d50"><link rel="shortcut icon" href="/assets/favicon.ico">
 
 <meta name="msapplication-TileColor" content="#ffc40d"><meta name="msapplication-config" content="/assets/browserconfig.xml">
 
@@ -288,138 +288,460 @@
               <div class="col-main cell cell--auto"><!-- start custom main top snippet -->
 
 <!-- end custom main top snippet -->
-<article itemscope itemtype="http://schema.org/Article"><div class="article__header"><header><h1>容器化技术在网络安全应用展望 -- 并没有什么参考价值的节课论文</h1></header></div><meta itemprop="headline" content="容器化技术在网络安全应用展望 -- 并没有什么参考价值的节课论文"><div class="article__info clearfix"><ul class="right-col menu"><li><i class="fas fa-user"></i> <span>FKY</span></li><li><i class="far fa-calendar-alt"></i> <span>2018年 05月16日</span>
-            </li></ul></div><meta itemprop="author" content="FKY"/><meta itemprop="datePublished" content="2018-05-16T00:00:00+08:00"><div class="js-article-content"><div class="layout--article"><!-- start custom article top snippet -->
+<article itemscope itemtype="http://schema.org/Article"><div class="article__header"><header><h1>Git Github Gitlab and CI</h1></header><span class="split-space">&nbsp;</span>
+          <a class="edit-on-github"
+            title="在 Github 上修改"
+            href="https://github.com/user_name/repo_name/tree/master/_posts/2019-03-07-git-github-gitlab-ci.md">
+            <i class="far fa-edit"></i></a></div><meta itemprop="headline" content="Git Github Gitlab and CI"><div class="article__info clearfix"><ul class="left-col menu"><li>
+              <a class="button button--secondary button--pill button--sm"
+                href="/archive.html?tag=git">git</a>
+            </li><li>
+              <a class="button button--secondary button--pill button--sm"
+                href="/archive.html?tag=github">github</a>
+            </li><li>
+              <a class="button button--secondary button--pill button--sm"
+                href="/archive.html?tag=gitlab">gitlab</a>
+            </li><li>
+              <a class="button button--secondary button--pill button--sm"
+                href="/archive.html?tag=ci">ci</a>
+            </li><li>
+              <a class="button button--secondary button--pill button--sm"
+                href="/archive.html?tag=talk">talk</a>
+            </li><li>
+              <a class="button button--secondary button--pill button--sm"
+                href="/archive.html?tag=big+pictrue">big pictrue</a>
+            </li></ul><ul class="right-col menu"><li><i class="fas fa-user"></i> <span>FKY</span></li><li><i class="far fa-calendar-alt"></i> <span>2019年 03月07日</span>
+            </li></ul></div><meta itemprop="author" content="FKY"/><meta itemprop="datePublished" content="2019-03-07T01:22:08+08:00">
+    <meta itemprop="keywords" content="git,github,gitlab,ci,talk,big pictrue"><div class="js-article-content"><div class="layout--article"><!-- start custom article top snippet -->
 
 <!-- end custom article top snippet -->
-<div class="article__content" itemprop="articleBody"><p>这是大一时参加《计算机与网络安全》所写的结课论文，
-针对当时接触的 docker 容器化技术在安全方面做了一些简单不全面的总结。</p>
+<div class="article__content" itemprop="articleBody">
+<p>这篇文章是一次分享的大体提纲，因此有很多概念不会用文字详细解释。</p>
 
-<p>如今看起来还真是青涩呢。</p>
+<p>git的重要性便不在此赘述，为什么在网络上已经有丰富教程的前提下还要做这个东西，
+就是希望大家（班里的同学们）大家能够尽可能站在一个水平线上，为以后的合作提供技术基础。</p>
 
-<!--more-->
+<p>不过，也请不要期待仅仅在两个小时之后就能上手全部的内容。</p>
 
-<h2 id="intro">intro</h2>
+<p>因为坑注定是要自己踩才会有感觉。</p>
 
-<h3 id="写在前面的话">写在前面的话</h3>
+<h2 id="这篇文章不会涉及的内容">这篇文章不会涉及的内容</h2>
 
-<p>我接触并使用虚拟机是从高二时候开始的，而接触docker及容器化技术则是从今年的三月份开始的。我目前只是仅仅利用docker,dockerfile进行构建和部署较小的项目，刚开始在kubernetes中蹒跚学步，并未在生产环境中磨练过自己的’技艺‘。但是从我刚接触docker为代表的容器化技术开始，我就对其产生了浓厚的兴趣，它对于应用开发、测试和部署交出的答卷令人满意。就在这项从2013年才兴起的项目正在展露头角时，一个名为kubernetes的容器编排技术将容器化技术以更优雅和强大的姿态展现在人们眼前。在关注这项技术的同时，我结合这学期所学的网络安全相关内容,一直在思考:容器技术能带在网络安全方面有什么新应用呢?以下的内容只是出于一个大一学生的富有激情的浅见,若是有技术方面的问题还请谅解。</p>
+<h3 id="git的安装">git的安装</h3>
 
-<h3 id="网络安全">网络安全</h3>
+<ul>
+  <li>
+    <p><a href="https://www.jianshu.com/p/414ccd423efc">Windows 安装</a></p>
+  </li>
+  <li>
+    <p><a href="https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/00137396287703354d8c6c01c904c7d9ff056ae23da865a000">Mac/Linux/Windows 安装</a></p>
+  </li>
+</ul>
 
-<p>网络就像是一个又计算机组成的，独立于物理世界的虚拟世界。人们在这个世界变得更加隐秘，却也更加暴露。网络在带给人们的便捷不是没有代价的，人们需要将个人信息作为等价交换。而网站，作为提供服务和存储个人信息的媒介，无疑承担起了维护信息的保密性、完整性、可用性、真实性和可控性的所有任务。由于服务功能的复杂性上升和企业对于安全本身重视程度不够，生产环境中往往会有大量缺陷甚至漏洞存在。而这些漏洞一旦被攻击者恶意利用，轻则造成服务停摆，重则涉及隐私泄露，甚至危害到人身财产安全。因此网络安全的重要性日渐凸显。在软件层面，有防注入、过滤等技术；在操作系统层面，有虚拟化技术、防火墙安全策略等；在管理层面，有物理安全、权限控制等安全措施，可以说网络安全的是离不开任何一个环节的保障的。</p>
+<h3 id="git的全部详解">git的全部详解</h3>
 
-<h3 id="容器化技术">容器化技术</h3>
+<p><a href="https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%85%B3%E4%BA%8E%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6">Pro Git book</a></p>
 
-<p>容器化技术、以及虚拟化技术是一种被大家广泛认可的服务器资源共享方式。这些技术最初要解决的问题是不同软件所需服务器、网络、内存、存储等资源的隔离与服用问题。他将底层的资源打包、整合、抽象出来，打破实体结构间的独立性，让用户所面对着更统一隔离的资源。在虚拟化与容器化技术的发展中，人们不仅被这种技术所带来的经济效益给吸引，更发现由于有了抽象，使得底层资源从某种程度上被隐藏和隔离了起来，而这正是网络安全所寻找的一种防御手段。而在我们开始对容器化技术对网络安全的影响进行进一步探讨前，我们应当首先注意到他和以往虚拟化技术的相同与不同之处。</p>
+<h3 id="github-ssh公钥设置">github ssh公钥设置</h3>
 
-<h4 id="容器化与虚拟化技术的异同">容器化与虚拟化技术的异同</h4>
+<p><a href="https://www.jianshu.com/p/9317a927e844">Windows下公钥配置</a></p>
 
-<p>容器化技术和虚拟化技术，都实现了对资源的虚拟化和再分配。然而传统的虚拟化技术更加面向底层。以系统虚拟化技术为例，它会为用户提供一个完整的虚拟机：包括内核在内的一个完整操作系统镜像。cpu虚拟化技术为每个用户提供一个独享且和其他用户隔离的系统环境，虚拟层为每个用户分配虚拟化后的CPU、内存和IO设备资源。但是在提供高度隔离的环境同时，虚拟化技术所需要的独立的资源，对于很多场景下是资源极大的浪费。
-于是以docker为首的容器化技术诞生了，它以容器为单位，为应用程序提供了隔离的完整的运行空间。但容器是作为一个进程而不是虚拟机来运行的。相比虚拟化技术，应用程序在其中的运行速度甚至可以达到原生级别，而对底层资源的复用也使得容器对于内存，cpu，硬盘的消耗小之又小。
-容器化技术解决的另一大问题是良好的可移植环境与版本控制能力大大提升了软件开发、测试、部署和更新过程中所面临的一系列控制难题。它的硬件隔离复用与可自定义网络拓扑以及敏捷环境，为企业的敏捷开发、微服务、云服务提供了新的技术支持。
-在网络安全层面，信息的可用性强调了速度与稳定性，完整性则强调了信息的保护程度，以下的表格比较了他们在这些方面的主要特性。</p>
+<hr />
 
-<table>
-  <thead>
-    <tr>
-      <th>特点</th>
-      <th>虚拟化技术</th>
-      <th>容器化技术</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>物理资源消耗</td>
-      <td>Gb级别</td>
-      <td>Mb级别</td>
-    </tr>
-    <tr>
-      <td>启动速度</td>
-      <td>分钟级</td>
-      <td>秒级</td>
-    </tr>
-    <tr>
-      <td>隔离程度</td>
-      <td>高</td>
-      <td>较虚拟化技术稍低一些</td>
-    </tr>
-    <tr>
-      <td>版本控制能力</td>
-      <td>低</td>
-      <td>高</td>
-    </tr>
-    <tr>
-      <td>部署速度</td>
-      <td>慢</td>
-      <td>快</td>
-    </tr>
-    <tr>
-      <td>技术成熟度</td>
-      <td>成熟</td>
-      <td>不成熟</td>
-    </tr>
-    <tr>
-      <td>运行平台</td>
-      <td>全部</td>
-      <td>偏向linux（借助了LXC）</td>
-    </tr>
-  </tbody>
-</table>
+<h2 id="git-版本控制器">git 版本控制器</h2>
 
-<h2 id="容器化技术对网络安全带来的影响">容器化技术对网络安全带来的影响</h2>
+<blockquote>
+  <p>Git 是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。</p>
+</blockquote>
 
-<p>本章节将从两个角度来入手这两者之间的关系。第一种是：利用容器化技术作为技术支持，安全防御将会得到怎样的优势。第二个角度是说，当我们开始利用容器化技术时，我们不得不开始面临哪些新的安全威胁。前者强调网络安全防御以及优势，后者强调容器技术本身的安全问题。本章节为了使结构更加清晰而选择这种方式，而读者应当注意其实上这两者是相互贯通的。</p>
+<p><a href="https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-Git-%E7%AE%80%E5%8F%B2">Git 简史</a></p>
 
-<h3 id="容器化技术在网络安全方面的应用">容器化技术在网络安全方面的应用。</h3>
+<h3 id="为什么使用git">为什么使用git</h3>
 
-<h4 id="隔离">隔离</h4>
+<p>你可能会经常遇到这样的情况：正在使用编辑器编写代码的时候，电脑突然死机了。</p>
 
-<p>容器化技术首先提供的就是沙盒与隔离的机制。以docker为例，在linux内核中namespace的帮助下，进程拥有独立的主机与域名（UTS），信号量、消息队列和共享内存（IPC），进程编号（PID），网络设备、网络栈、端口(NETWORK)，文件系统（Mount），用户和用户组（User）。这样容器中的进程就会仿佛自己置身于独立的系统环境下，以达到独立与隔离的目的。
-利用容器的隔离性，入侵者即使提权成功，依然会在沙箱环境中，依然面临着逃逸容器的难题，这将大大保护了同时运行在服务器上的其他容器中存储的重要信息与服务器安全。而且种种隔离性使得网络病毒无法进入主机，只要将容器关闭便可达到清理的目的，此时的操作对与其他容器不会有任何影响。</p>
+<p>当然重启以后发现这个文件并没有丢失，可问题是，如果有一百个文件，你要一个个确认吗？</p>
 
-<h4 id="更少的资源消耗">更少的资源消耗</h4>
+<p>另外一个问题，当你在书写程序时，想要恢复一大段被删除的文字怎么办？</p>
 
-<p>容器化技术在cpu，内存的访问效率和启动时间都要优秀与虚拟机。那么在面对着大量的请求甚至是恶意请求下，更能够保持系统的稳定性和信息的可用性。快速启动也使得容器技术在弹性服务，自动运维方面有着很好的应用前景。而名为kubernetes的容器集群的编排技术，可以自动实现负载均衡与容器规模控制，这使得企业可以快速得到一个高可用、高质量、健壮的生产环境。</p>
+<p>还有，在多人合作时，你如何保证多个人分别开发不同的代码以后，能够安全的合并文件呢？</p>
 
-<h4 id="更快速更模块化的漏洞修复方式">更快速更模块化的漏洞修复方式</h4>
+<p>存在网上？如果断网了呢？</p>
 
-<p>容器技术支撑了微服务的发展，使得服务的更新可以在瞬间就完成。那么依靠这种方式，虽然容器化技术对漏洞发现的支撑取决于其上运行的软件，但是能保证对于漏洞修复的部署能够在极短的时间内完成，这对于信息的可用性无疑是有提升的。而像docker-compose这样的容器编排技术，kubernetes这样的自动化容器集训编排技术，利用yaml文档进行全部的容器配置工作，可以极其自由地将不同的容器耦合在一起，并进行快速稳定的部署。再加之容器化技术自定义的网络拓补结构，这使得网络安全相关的服务能够快速的被整合到原有的环境当中。</p>
+<h3 id="安装">安装</h3>
 
-<h4 id="对容灾的技术支持">对容灾的技术支持</h4>
+<p><strong>略过</strong></p>
 
-<p>容器化技术并并不能直接完成复杂的容灾体系架构，但是它正在作为容灾体系的应用层被越来越多的用户接受。而对docker支持很好的Mesos等资源调度技术也与此同时被使用。</p>
+<h3 id="git是如何实现版本控制的">git是如何实现版本控制的</h3>
 
-<h3 id="在-mtd-中的可能性">在 MTD 中的可能性</h3>
+<ul>
+  <li><a href="https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-Git-%E5%9F%BA%E7%A1%80">架构以及核心概念</a></li>
+</ul>
 
-<h4 id="mtd是什么">MTD是什么</h4>
+<p><img src="https://git-scm.com/book/en/v2/images/distributed.png" alt="架构" /></p>
 
-<p>网络安全一是易攻难守。在传统的网络安全防御手段中，由于代码量的庞大与软件功能的复杂，白箱子调试很难进行；而黑箱调试法则需要利用系统的输入输出进行测试。这不仅对于攻击用例的构造有极高的要求，还很难检测出未被发现的漏洞类型。这使得安全人员只能在漏洞被公布甚至被利用后，才能进行被动防御。因此动态目标防御（MTD）被提出，作为解决这一问题的全新思路。它的核心思想是利用可控的方式随机改变系统配置和结构，让攻击者难以发现目标，并且攻击面会在有效攻击方案形成之前发生转移，增加攻击者利用系统漏洞的难度。</p>
+<p><img src="https://git-scm.com/book/en/v2/images/areas.png" alt="工作区域" /></p>
 
-<h4 id="容器化技术之于mtd">容器化技术之于MTD</h4>
+<h3 id="如何使用git">如何使用git</h3>
 
-<p>容器化技术是一种应用技术，它的本身并不能给MTD提供新的动态防御的思路。但是以kubernetes为代表的自动化容器技术应该会是软件层面以及操作系统层面动态化的很好的解决方案之一。由于之前介绍的快速启动，资源占用小的特点，一个容器的创建，暂停，更新，删除都能在很短的时间内完成。而多应用环境和多操作系统的动态目标防御手段正好需要这样的特性。kubernetes的功能之一就是在保证容器对外一直可用的情况下，自动控制容器的规模，迭代。相信这点可以为服务器进行多环境的动态变化提供一个解决方案。</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git <span class="nt">--help</span>
+<span class="c"># 先查看帮助呦</span>
+</code></pre></div></div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git init
+git add SOME_FILE
+git commit <span class="nt">-m</span> <span class="s2">"SOME_COMMENT"</span>
+git push
+</code></pre></div></div>
+<p>与之对应的四个阶段</p>
 
-<h2 id="容器技术本身的面临安全问题">容器技术本身的面临安全问题</h2>
+<pre><code class="language-flowchart">st=&gt;start: git init || git clone|past
+e=&gt;end: 提出Pull Request 或 关闭相应issue
+state0=&gt;operation: 编辑文件
+cond1=&gt;condition: 文件
+是否有改动
+state1=&gt;operation: git add [files]
+cond2=&gt;condition: 是否完成
+一定功能的修改
+state2=&gt;operation: git commit [change messages]
+cond3=&gt;condition: 是否可以
+提交至服务器
+state3=&gt;operation: git push
+statefix=&gt;inputoutput: git pull 并 解决冲突
 
-<p>然而由于容器化技术本身不是面向安全而诞生的，而且它在市场中还远远不够成熟，因此我们不能忽视容器技术本身存在的安全问题。下面将列举一些最主要的问题，并试图提供解决方式。</p>
 
-<h3 id="共用内核以及namespace本身不够完善导致隔离性不够">共用内核以及namespace本身不够完善导致隔离性不够</h3>
+st-&gt;state0-&gt;cond1-&gt;state1-&gt;cond2-&gt;state2-&gt;cond3-&gt;state3-&gt;e
+cond1(yes)-&gt;state1
+cond1(no)-&gt;state0
+cond2(no)-&gt;state0
+cond2(yes)-&gt;state2
+cond3(yes)-&gt;state3
+cond3(no)-&gt;statefix-&gt;state0
 
-<p>容器并不是全封闭。由于内核使用、/sys、/proc等等未完全隔离，容器的隔离性要弱于传统的虚拟机。这导致攻击者更有可能逃离容器环境，查看到被保护的信息。当然，开源社区，包括红帽公司在内，在docker上提供了许多解决方案，比如文件系统级防护，Capability机制，SElinux的使用。另外工业界也提出了一些适配与加固容器的方案。目前认为经过加固后的容器是可以满足生产环境的要求的。</p>
 
-<h3 id="使用了不可信的容器内容">使用了不可信的容器内容</h3>
+</code></pre>
 
-<p>容器的镜像数据一般来自于源或者自行搭建。如果源不收信任，或者自行搭建时使用了有漏洞的依赖，就会导致容器程序中天然地含有恶意代码。这就需要项目团队在整个开发部署流程中时刻注意安全问题。</p>
+<p>以一次提交为例</p>
 
-<h3 id="docker自身漏洞">docker自身漏洞</h3>
+<h3 id="其他的基本功能">其他的基本功能</h3>
 
-<p>作为一款应用，docker本身也会有代码缺陷存在。CVE官方记录docker历史版本共有超过20项漏洞。而docker本身的版本更迭非常快，这就需要docker用户持续更新，而这对于生产环境并不是一件好事情。</p>
+<ul>
+  <li>回滚 <code class="highlighter-rouge">revert</code></li>
+  <li>压缩 <code class="highlighter-rouge">rebase</code></li>
+  <li>比较 <code class="highlighter-rouge">diff</code></li>
+  <li>隐藏 <code class="highlighter-rouge">.gitignore</code></li>
+  <li>子模块 <code class="highlighter-rouge">submodule</code></li>
+</ul>
 
-<h2 id="小结">小结</h2>
+<h3 id="说说分支与-git-的-workflow">说说分支与 Git 的 Workflow</h3>
 
-<p>容器化技术在一定程度上取代虚拟机，来提供轻量而灵活的服务已经是大势所趋。当面对这样一项新技术时，我们应当怀着一种敢于尝试和迎接的态度来对待它。所以即使不知道容器化技术在网络安全方面终究会有怎样的作为，也应当积极尝试和学习。相信在不就得未来，网络安全能与容器化技术相互融合在一起，一同促进网络空间的建设与发展。</p>
-</div><section class="article__sharing d-print-none"></section><div class="d-print-none"><footer class="article__footer"><meta itemprop="dateModified" content="2018-05-16T00:00:00+08:00"><!-- start custom article footer snippet -->
+<p><a href="https://git-scm.com/book/zh/v2/Git-%E5%88%86%E6%94%AF-%E5%88%86%E6%94%AF%E7%AE%80%E4%BB%8B">分支</a></p>
+
+<p>一些底层的机理，可对照 <code class="highlighter-rouge">.git/objects/</code> 目录下内容学习。</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># generate checksum</span>
+git hash-object &lt;file&gt;
+git cat-file <span class="nt">-p</span> &lt;checksum&gt;
+<span class="c"># check type of object: commit blob tree</span>
+git cat-file <span class="nt">-t</span> &lt;checksum&gt;
+
+</code></pre></div></div>
+
+<p>从零开始创建一个 commit</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git init
+
+<span class="nb">cat</span> <span class="o">&gt;</span> file-1.txt <span class="o">&lt;&lt;</span> <span class="no">EOF</span><span class="sh">
+file-1
+</span><span class="no">EOF
+
+</span><span class="nb">cat</span> <span class="o">&gt;</span> file-2.txt <span class="o">&lt;&lt;</span><span class="no">EOF</span><span class="sh">
+file-2
+</span><span class="no">EOF
+
+</span><span class="c"># hash &amp;&amp; 存放入数据库 </span>
+git hash-object <span class="nt">-w</span> file-1.txt 
+<span class="c"># fbfd79f5e4816836f68f8128e9f99b12a0013a06</span>
+
+git hash-object <span class="nt">-w</span> file-2.txt 
+<span class="c"># 37ad5611998d92506ab38906d83810929f8c4a3d</span>
+
+<span class="c"># 此时 .git/objects/ 多了内容</span>
+
+<span class="c"># -----</span>
+
+<span class="c"># git add</span>
+git update-index <span class="nt">--add</span> <span class="nt">--cacheinfo</span> 100644 <span class="se">\</span>
+fbfd79f5e4816836f68f8128e9f99b12a0013a06 file-1.txt
+
+git update-index <span class="nt">--add</span> <span class="nt">--cacheinfo</span> 100644 <span class="se">\</span>
+37ad5611998d92506ab38906d83810929f8c4a3d file-2.txt
+
+<span class="c"># 此时输入 git status，可以查看到暂存的内容</span>
+<span class="c"># ./git/index 文件诞生</span>
+
+<span class="c"># -----</span>
+
+<span class="c"># 写入 tree 对象</span>
+git write-tree
+<span class="c"># 85b5f8639b41a5ec4ba88381c358141105d3c50c</span>
+
+<span class="c"># 尝试更复杂一点，修改一下</span>
+<span class="nb">cat</span> <span class="o">&gt;</span> file-1.txt <span class="o">&lt;&lt;</span> <span class="no">EOF</span><span class="sh">
+updated
+</span><span class="no">EOF
+
+</span><span class="c"># 写入数据库   </span>
+git hash-object <span class="nt">-w</span> file-1.txt
+
+<span class="c"># 写入暂存区（index）</span>
+git update-index <span class="nt">--cacheinfo</span> 100644 <span class="se">\</span>
+519c15ed8d400dfa4be08f404a5c5b21ad6d4a7a file-1.txt
+
+<span class="c"># 将之前的树也写入暂存区（index）</span>
+git read-tree <span class="nt">--prefix</span><span class="o">=</span>bak 85b5f8639b41a5ec4ba88381c358141105d3c50c
+
+<span class="c"># 此时试图 git status 会看见 bak/ 中 **有过** 文件，这就是上个命令产生的效果</span>
+
+<span class="c"># 写入 tree object</span>
+git write-tree
+<span class="c"># b72c06c298832e50d22d218424f478515e73cea1</span>
+
+<span class="c"># git commit </span>
+<span class="nb">echo</span> <span class="s1">'first commit'</span> | git commit-tree 85b5f8639b41a5ec4ba88381c358141105d3c50c
+<span class="c"># 7ae4ed6a70d0e25ef14b7b46d9b0fb925849187f 会因为信息不同而不一样</span>
+
+<span class="c"># second commit -&gt; first</span>
+<span class="nb">echo</span> <span class="s1">'second commit'</span> | git commit-tree b72c06c298832e50d22d218424f478515e73cea1 <span class="nt">-p</span> 7ae4ed   
+<span class="c"># 97072885b3d1115edeef3fdfdc52e0f48f19f991 会因为信息不同而不一样</span>
+
+<span class="c"># 移动 master 指针</span>
+<span class="nb">echo</span> <span class="s2">"97072885b3d1115edeef3fdfdc52e0f48f19f991"</span> <span class="o">&gt;</span> .git/refs/heads/master
+
+<span class="c"># 此时 git log 可以看见提交</span>
+</code></pre></div></div>
+
+<p><a href="https://www.jianshu.com/p/67afe711c731">Git版本控制与工作流</a></p>
+
+<hr />
+
+<h2 id="git-的局限性以及-gitignore">Git 的局限性以及 .gitignore</h2>
+
+<ul>
+  <li>操作比较繁琐</li>
+  <li>无法彻底解决安全问题</li>
+  <li>无法有效的管理大二进制文件存储问题</li>
+</ul>
+
+<h3 id="gitignore">.gitignore</h3>
+
+<p>那些文件需要使用</p>
+<ul>
+  <li>本地依赖 <code class="highlighter-rouge">node_modules</code></li>
+  <li>编译的结果或者中间结果 <code class="highlighter-rouge">*.out *.a *.o</code></li>
+  <li>隐私文件</li>
+</ul>
+
+<h2 id="一些-faq">一些 FAQ</h2>
+
+<h3 id="有哪些与-git-相关的好用的工具">有哪些与 Git 相关的好用的工具</h3>
+
+<ol>
+  <li>VSCode (或者其他编辑器/IDE) 中的 Git 相关的插件，比如 GitLens</li>
+  <li>zsh 的 Git 插件等（alias）</li>
+  <li>git-cz (better commit)</li>
+  <li>tldr (e.g. <code class="highlighter-rouge">tldr git-log</code>)</li>
+  <li><a href="https://www.gitignore.io/">gitignore.io</a> 帮助生成 .gitignore</li>
+</ol>
+
+<h3 id="我做了很多重复的提交如何压缩成一个">我做了很多重复的提交，如何压缩成一个</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git rebase <span class="nt">-i</span> HEAD~5
+</code></pre></div></div>
+
+<h3 id="想要强制覆盖远程仓库里的记录">想要强制覆盖远程仓库里的记录</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git push <span class="nt">--force</span>
+</code></pre></div></div>
+
+<h3 id="clone-时候速度快一些">clone 时候，速度快一些</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone &lt;xxxxx&gt; <span class="nt">--depth</span> 1
+</code></pre></div></div>
+
+<h3 id="这个-bug-谁写的">这个 Bug 谁写的</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git blame &lt;file&gt;
+git log <span class="nt">-p</span> &lt;file&gt;
+</code></pre></div></div>
+
+<h3 id="如何引白用嫖别人的项目">如何引（白）用（嫖）别人的项目</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git submodule add &lt;...&gt;
+</code></pre></div></div>
+
+<h3 id="想要撤销操作怎么办">想要撤销操作怎么办</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git restore &lt;file&gt;
+git restore <span class="nt">--staged</span> &lt;file&gt;
+git commit <span class="nt">--amend</span>
+git revert
+</code></pre></div></div>
+
+<h3 id="有大文件怎么办">有大文件怎么办</h3>
+
+<p>LFS</p>
+
+<h3 id="如何发布-release">如何发布 release</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git tag
+</code></pre></div></div>
+
+<h3 id="有些复杂的命令记不住">有些复杂的命令记不住</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config <span class="nt">--global</span> alias.last <span class="s1">'log -1 HEAD'</span>
+</code></pre></div></div>
+
+<h3 id="git-merge-是最好的合并代码的方式么">Git Merge 是最好的合并代码的方式么</h3>
+
+<p><code class="highlighter-rouge">git rebase</code></p>
+
+<blockquote>
+  <p>一般我们这样做的目的是为了确保在向远程分支推送时能保持提交历史的整洁——例如向某个其他人维护的项目贡献代码时。 在这种情况下，你首先在自己的分支里进行开发，当开发完成时你需要先将你的代码变基到 origin/master 上，然后再向主项目提交修改。 这样的话，该项目的维护者就不再需要进行整合工作，只需要快进合并便可。
+呃，奇妙的变基也并非完美无缺，要用它得遵守一条准则：不要对在你的仓库外有副本的分支执行变基。</p>
+</blockquote>
+
+<p>详细区别见<a href="https://git-scm.com/book/zh/v2/Git-%E5%88%86%E6%94%AF-%E5%8F%98%E5%9F%BA">教程</a></p>
+
+<h3 id="如果按照-git-的对每一个修改的文件-重新打包的方式会不会很占用空间">如果按照 Git 的“对每一个修改的文件” 重新打包的方式，会不会很占用空间</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git gc
+</code></pre></div></div>
+<p><a href="https://git-scm.com/book/zh/v2/Git-%E5%86%85%E9%83%A8%E5%8E%9F%E7%90%86-%E5%8C%85%E6%96%87%E4%BB%B6">包文件</a></p>
+
+<hr />
+
+<h2 id="github-软件源代码托管服务-大型同性交友社区">github 软件源代码托管服务 <del>大型同性交友社区</del></h2>
+
+<h3 id="为什么使用github">为什么使用github</h3>
+
+<ul>
+  <li>可视化</li>
+  <li>方便协作</li>
+  <li>大量优质项目</li>
+</ul>
+
+<h3 id="github中各个组件的功能以及使用技巧">github中各个组件的功能以及使用技巧</h3>
+
+<ul>
+  <li>Issues</li>
+  <li>Project</li>
+  <li>Wiki</li>
+  <li>Pull Request</li>
+  <li>私人仓库</li>
+  <li>Fork</li>
+  <li><a href="https://github.com/waylau/github-help/blob/master/Creating%20Releases%20%E5%88%9B%E5%BB%BA%E5%8F%91%E5%B8%83%E5%8C%85.md">Release</a></li>
+</ul>
+
+<p>个人经验</p>
+
+<h3 id="合作开发中需要注意的东西">合作开发中需要注意的东西</h3>
+
+<ul>
+  <li>README.md</li>
+  <li>协议（版权）</li>
+  <li>成员之间任务管理</li>
+  <li>利用好分支</li>
+  <li>利用其它插件 （以 Travis 为例）</li>
+</ul>
+
+<p>以项目为例</p>
+
+<p>随便找几个有名的项目</p>
+
+<hr />
+
+<h2 id="gitlab-开源的-github">GitLab “开源的 GitHub”</h2>
+
+<ul>
+  <li>开源，可以部署私有在线代码仓库 <a href="https://git.bitnp.net">网协部署的校内 GitLab</a></li>
+  <li>对 docker 相关部署做了集成
+    <ul>
+      <li>k8s 等</li>
+    </ul>
+  </li>
+  <li>更注重敏捷开发</li>
+</ul>
+
+<p>以项目为例</p>
+
+<p><a href="https://git.bitnp.net/BITNP/clinic_django">诊所预约管理系统</a></p>
+
+<hr />
+
+<h2 id="持续集成---ci">持续集成 - CI</h2>
+
+<p>###　什么叫持续集成</p>
+
+<ul>
+  <li><a href="https://www.ruanyifeng.com/blog/2015/09/continuous-integration.html">持续集成是什么?</a></li>
+  <li><a href="https://www.zhihu.com/question/23444990">如何理解持续集成、持续交付、持续部署？</a></li>
+  <li><a href="如何理解持续集成、持续交付、持续部署？">简介持续集成（CI）以及相关工具推荐</a></li>
+</ul>
+
+<h3 id="以github为例展示简单的持续集成">以github为例展示简单的持续集成</h3>
+
+<ul>
+  <li>原料
+    <ul>
+      <li>服务器（部署环境）、github、travis-ci、docker</li>
+    </ul>
+  </li>
+  <li>使用方式
+    <ul>
+      <li>编写.travis.yml(配置文件)，脚本，<del>docker-compose</del></li>
+    </ul>
+  </li>
+</ul>
+
+<p>简单说说</p>
+
+<hr />
+
+<h2 id="一些展望">一些展望</h2>
+
+<blockquote>
+  <p>唠叨一下</p>
+</blockquote>
+
+<hr />
+
+<h2 id="安全">安全</h2>
+
+<ul>
+  <li>CVE</li>
+  <li>管理权限 <a href="https://www.zhihu.com/question/22438484">百度、阿里、腾讯之类的大公司用 Git 吗？</a></li>
+  <li>生产环境可能存在源码泄露</li>
+</ul>
+
+<hr />
+
+<h2 id="小练习">小练习</h2>
+
+<p>以组为单位完成以下任意一个练习</p>
+
+<ul>
+  <li>创建自己的分支，提交代码，合并到主分支</li>
+  <li>从主分支拉取代码，进行修改并提交，利用Pull Request合并到主分支</li>
+  <li>审核别人的Pull Request，并且同意（拒绝）合并</li>
+  <li>提issues， 新建fix 分支（分支名为fix xxxx），修改提交后，合并并关闭issues</li>
+</ul>
+
+<p>以上内容不分先后</p>
+
+<h2 id="其他资料">其他资料</h2>
+
+<ul>
+  <li><a href="https://learngitbranching.js.org/">在线学习</a></li>
+  <li><a href="https://gogs.io/">gogs 一个基于go语言的在线代码仓库</a></li>
+</ul>
+</div><section class="article__sharing d-print-none"></section><div class="d-print-none"><footer class="article__footer"><meta itemprop="dateModified" content="2019-03-07T01:22:08+08:00"><!-- start custom article footer snippet -->
 
 <!-- end custom article footer snippet -->
 <div class="article__subscribe"><div class="subscribe"><i class="fas fa-rss"></i> <a type="application/rss+xml" href="/feed.xml">订阅</a></div>
@@ -430,7 +752,7 @@
       </a>
     </p>
   </div></div></footer>
-<div class="article__section-navigator clearfix"><div class="previous"><span>上篇</span><a href="/2017/08/26/how_to_learn_python_1.html">How to Learn Python 1</a></div><div class="next"><span>下篇</span><a href="/2018/07/01/welcome.html">Welcome</a></div></div></div>
+<div class="article__section-navigator clearfix"><div class="previous"><span>上篇</span><a href="/2019/03/06/why-markdown.html">写给大家的计算机知识——为什么要用Markdown</a></div><div class="next"><span>下篇</span><a href="/2019/03/07/password-related-discus.html">Password Related Discus</a></div></div></div>
 
 </div>
 

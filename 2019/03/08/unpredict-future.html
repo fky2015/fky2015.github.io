@@ -10,10 +10,10 @@
 		
 	</script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><title>Git Github Gitlab and CI - Code for Good</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><title>不可预测的未来 - Code for Good</title>
 
-<meta name="description" content="这篇文章是一次分享的大体提纲，因此有很多概念不会用文字详细解释。git的重要性便不在此赘述，为什么在网络上已经有丰富教程的前提下还要做这个东西，就是希望大家（班里的同学们）大家能够尽可能站在一个水平线上，为以后的合作提供技术基础。不过，也请不要期待仅仅在两个小时之后就能上手全部的内容。因为坑注定是要自己踩才会有感...">
-<link rel="canonical" href="https://blog.fkynjyq.com/tutor/2019/03/07/git_github_gitlab_ci.html"><link rel="alternate" type="application/rss+xml" title="Code for Good" href="/feed.xml"><!-- start favicons snippet, use https://realfavicongenerator.net/ --><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png"><link rel="manifest" href="/assets/site.webmanifest"><link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#fc4d50"><link rel="shortcut icon" href="/assets/favicon.ico">
+<meta name="description" content="记录一些自己这两年来关于计算机学习的思考和对未来的迷茫。施工中其实这一年多大多接触的都是软件工程的一些具体实践我承认，这些实践经历对于我来说确实弥足珍贵，它改变了我的思考方式，增强了我对于软件开发的全体布局的掌握。也让我有机会把自己的想法落地为现实，提高生活效率。但是我也渐渐感受到，浅层的软件工程更像是熟练工种，...">
+<link rel="canonical" href="https://blog.fkynjyq.com/2019/03/08/unpredict-future.html"><link rel="alternate" type="application/rss+xml" title="Code for Good" href="/feed.xml"><!-- start favicons snippet, use https://realfavicongenerator.net/ --><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png"><link rel="manifest" href="/assets/site.webmanifest"><link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#fc4d50"><link rel="shortcut icon" href="/assets/favicon.ico">
 
 <meta name="msapplication-TileColor" content="#ffc40d"><meta name="msapplication-config" content="/assets/browserconfig.xml">
 
@@ -288,460 +288,43 @@
               <div class="col-main cell cell--auto"><!-- start custom main top snippet -->
 
 <!-- end custom main top snippet -->
-<article itemscope itemtype="http://schema.org/Article"><div class="article__header"><header><h1>Git Github Gitlab and CI</h1></header><span class="split-space">&nbsp;</span>
+<article itemscope itemtype="http://schema.org/Article"><div class="article__header"><header><h1>不可预测的未来</h1></header><span class="split-space">&nbsp;</span>
           <a class="edit-on-github"
             title="在 Github 上修改"
-            href="https://github.com/user_name/repo_name/tree/master/_posts/2019-03-07-git_github_gitlab_ci.md">
-            <i class="far fa-edit"></i></a></div><meta itemprop="headline" content="Git Github Gitlab and CI"><div class="article__info clearfix"><ul class="left-col menu"><li>
-              <a class="button button--secondary button--pill button--sm"
-                href="/archive.html?tag=git">git</a>
-            </li><li>
-              <a class="button button--secondary button--pill button--sm"
-                href="/archive.html?tag=github">github</a>
-            </li><li>
-              <a class="button button--secondary button--pill button--sm"
-                href="/archive.html?tag=gitlab">gitlab</a>
-            </li><li>
-              <a class="button button--secondary button--pill button--sm"
-                href="/archive.html?tag=ci">ci</a>
-            </li><li>
-              <a class="button button--secondary button--pill button--sm"
-                href="/archive.html?tag=talk">talk</a>
-            </li><li>
-              <a class="button button--secondary button--pill button--sm"
-                href="/archive.html?tag=big+pictrue">big pictrue</a>
-            </li></ul><ul class="right-col menu"><li><i class="fas fa-user"></i> <span>FKY</span></li><li><i class="far fa-calendar-alt"></i> <span>2019年 03月07日</span>
-            </li></ul></div><meta itemprop="author" content="FKY"/><meta itemprop="datePublished" content="2019-03-07T01:22:08+08:00">
-    <meta itemprop="keywords" content="git,github,gitlab,ci,talk,big pictrue"><div class="js-article-content"><div class="layout--article"><!-- start custom article top snippet -->
+            href="https://github.com/user_name/repo_name/tree/master/_posts/2019-03-08-unpredict-future.md">
+            <i class="far fa-edit"></i></a></div><meta itemprop="headline" content="不可预测的未来"><div class="article__info clearfix"><ul class="right-col menu"><li><i class="fas fa-user"></i> <span>FKY</span></li><li><i class="far fa-calendar-alt"></i> <span>2019年 03月08日</span>
+            </li></ul></div><meta itemprop="author" content="FKY"/><meta itemprop="datePublished" content="2019-03-08T00:54:38+08:00"><div class="js-article-content"><div class="layout--article"><!-- start custom article top snippet -->
 
 <!-- end custom article top snippet -->
 <div class="article__content" itemprop="articleBody">
-<p>这篇文章是一次分享的大体提纲，因此有很多概念不会用文字详细解释。</p>
+<p>记录一些自己这两年来关于计算机学习的思考和对未来的迷茫。</p>
 
-<p>git的重要性便不在此赘述，为什么在网络上已经有丰富教程的前提下还要做这个东西，
-就是希望大家（班里的同学们）大家能够尽可能站在一个水平线上，为以后的合作提供技术基础。</p>
+<p>施工中</p>
 
-<p>不过，也请不要期待仅仅在两个小时之后就能上手全部的内容。</p>
+<p>其实这一年多大多接触的都是软件工程的一些具体实践</p>
 
-<p>因为坑注定是要自己踩才会有感觉。</p>
+<p>我承认，这些实践经历对于我来说确实弥足珍贵，它改变了我的思考方式，增强了我对于软件开发的全体布局的掌握。
+也让我有机会把自己的想法落地为现实，提高生活效率。</p>
 
-<h2 id="这篇文章不会涉及的内容">这篇文章不会涉及的内容</h2>
+<p>但是我也渐渐感受到，浅层的软件工程更像是熟练工种，这些工作和学历甚至学习经历都不是很相关。譬如一个前端框架，在掌握基本语法、概念的基础上，带着需求，认真研读文档、教程甚至代码，就可以在较短的时间内掌握并且投入生产。然而这和学生的定位是不太相符的。</p>
 
-<h3 id="git的安装">git的安装</h3>
+<p>我并非是在说软件工程是一件简单的事情，我也深深地认同，一个好的框架的诞生，是真正的智慧的结晶，是目前的我无法企及的程度。</p>
 
-<ul>
-  <li>
-    <p><a href="https://www.jianshu.com/p/414ccd423efc">Windows 安装</a></p>
-  </li>
-  <li>
-    <p><a href="https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/00137396287703354d8c6c01c904c7d9ff056ae23da865a000">Mac/Linux/Windows 安装</a></p>
-  </li>
-</ul>
+<p>但是对于一个还要在科研路上走下去的学生，我觉得仅仅注重软件开发是不恰当的。而且结合我国目前软件开发从业者的生存质量，我实在是万分心痛。</p>
 
-<h3 id="git的全部详解">git的全部详解</h3>
+<p>正如我离开算法的原因一样，我觉得计算机的世界，不只有这些。
+　
+—</p>
 
-<p><a href="https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%85%B3%E4%BA%8E%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6">Pro Git book</a></p>
+<p>然而这几年在计算机领域又有另一股旋风——机器学习。</p>
 
-<h3 id="github-ssh公钥设置">github ssh公钥设置</h3>
+<p>机器学习本质上是一种赋能。利用数学的力量（尤其是神经网络），让计算机拟合复杂的情况，从而对未知做出决策。（我知道还有聚类问题）。作为计算机科学与技术专业的学生，我觉得机器学习甚至人工智能，都是一个想在计算机世界继续探索下去的人不可回避的问题。</p>
 
-<p><a href="https://www.jianshu.com/p/9317a927e844">Windows下公钥配置</a></p>
+<p>然而当看着周围的人都狂热的卖出这一步时，我却有些胆怯。</p>
 
-<hr />
-
-<h2 id="git-版本控制器">git 版本控制器</h2>
-
-<blockquote>
-  <p>Git 是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。</p>
-</blockquote>
-
-<p><a href="https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-Git-%E7%AE%80%E5%8F%B2">Git 简史</a></p>
-
-<h3 id="为什么使用git">为什么使用git</h3>
-
-<p>你可能会经常遇到这样的情况：正在使用编辑器编写代码的时候，电脑突然死机了。</p>
-
-<p>当然重启以后发现这个文件并没有丢失，可问题是，如果有一百个文件，你要一个个确认吗？</p>
-
-<p>另外一个问题，当你在书写程序时，想要恢复一大段被删除的文字怎么办？</p>
-
-<p>还有，在多人合作时，你如何保证多个人分别开发不同的代码以后，能够安全的合并文件呢？</p>
-
-<p>存在网上？如果断网了呢？</p>
-
-<h3 id="安装">安装</h3>
-
-<p><strong>略过</strong></p>
-
-<h3 id="git是如何实现版本控制的">git是如何实现版本控制的</h3>
-
-<ul>
-  <li><a href="https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-Git-%E5%9F%BA%E7%A1%80">架构以及核心概念</a></li>
-</ul>
-
-<p><img src="https://git-scm.com/book/en/v2/images/distributed.png" alt="架构" /></p>
-
-<p><img src="https://git-scm.com/book/en/v2/images/areas.png" alt="工作区域" /></p>
-
-<h3 id="如何使用git">如何使用git</h3>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git <span class="nt">--help</span>
-<span class="c"># 先查看帮助呦</span>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>TODO
 </code></pre></div></div>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git init
-git add SOME_FILE
-git commit <span class="nt">-m</span> <span class="s2">"SOME_COMMENT"</span>
-git push
-</code></pre></div></div>
-<p>与之对应的四个阶段</p>
-
-<pre><code class="language-flowchart">st=&gt;start: git init || git clone|past
-e=&gt;end: 提出Pull Request 或 关闭相应issue
-state0=&gt;operation: 编辑文件
-cond1=&gt;condition: 文件
-是否有改动
-state1=&gt;operation: git add [files]
-cond2=&gt;condition: 是否完成
-一定功能的修改
-state2=&gt;operation: git commit [change messages]
-cond3=&gt;condition: 是否可以
-提交至服务器
-state3=&gt;operation: git push
-statefix=&gt;inputoutput: git pull 并 解决冲突
-
-
-st-&gt;state0-&gt;cond1-&gt;state1-&gt;cond2-&gt;state2-&gt;cond3-&gt;state3-&gt;e
-cond1(yes)-&gt;state1
-cond1(no)-&gt;state0
-cond2(no)-&gt;state0
-cond2(yes)-&gt;state2
-cond3(yes)-&gt;state3
-cond3(no)-&gt;statefix-&gt;state0
-
-
-</code></pre>
-
-<p>以一次提交为例</p>
-
-<h3 id="其他的基本功能">其他的基本功能</h3>
-
-<ul>
-  <li>回滚 <code class="highlighter-rouge">revert</code></li>
-  <li>压缩 <code class="highlighter-rouge">rebase</code></li>
-  <li>比较 <code class="highlighter-rouge">diff</code></li>
-  <li>隐藏 <code class="highlighter-rouge">.gitignore</code></li>
-  <li>子模块 <code class="highlighter-rouge">submodule</code></li>
-</ul>
-
-<h3 id="说说分支与-git-的-workflow">说说分支与 Git 的 Workflow</h3>
-
-<p><a href="https://git-scm.com/book/zh/v2/Git-%E5%88%86%E6%94%AF-%E5%88%86%E6%94%AF%E7%AE%80%E4%BB%8B">分支</a></p>
-
-<p>一些底层的机理，可对照 <code class="highlighter-rouge">.git/objects/</code> 目录下内容学习。</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># generate checksum</span>
-git hash-object &lt;file&gt;
-git cat-file <span class="nt">-p</span> &lt;checksum&gt;
-<span class="c"># check type of object: commit blob tree</span>
-git cat-file <span class="nt">-t</span> &lt;checksum&gt;
-
-</code></pre></div></div>
-
-<p>从零开始创建一个 commit</p>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git init
-
-<span class="nb">cat</span> <span class="o">&gt;</span> file-1.txt <span class="o">&lt;&lt;</span> <span class="no">EOF</span><span class="sh">
-file-1
-</span><span class="no">EOF
-
-</span><span class="nb">cat</span> <span class="o">&gt;</span> file-2.txt <span class="o">&lt;&lt;</span><span class="no">EOF</span><span class="sh">
-file-2
-</span><span class="no">EOF
-
-</span><span class="c"># hash &amp;&amp; 存放入数据库 </span>
-git hash-object <span class="nt">-w</span> file-1.txt 
-<span class="c"># fbfd79f5e4816836f68f8128e9f99b12a0013a06</span>
-
-git hash-object <span class="nt">-w</span> file-2.txt 
-<span class="c"># 37ad5611998d92506ab38906d83810929f8c4a3d</span>
-
-<span class="c"># 此时 .git/objects/ 多了内容</span>
-
-<span class="c"># -----</span>
-
-<span class="c"># git add</span>
-git update-index <span class="nt">--add</span> <span class="nt">--cacheinfo</span> 100644 <span class="se">\</span>
-fbfd79f5e4816836f68f8128e9f99b12a0013a06 file-1.txt
-
-git update-index <span class="nt">--add</span> <span class="nt">--cacheinfo</span> 100644 <span class="se">\</span>
-37ad5611998d92506ab38906d83810929f8c4a3d file-2.txt
-
-<span class="c"># 此时输入 git status，可以查看到暂存的内容</span>
-<span class="c"># ./git/index 文件诞生</span>
-
-<span class="c"># -----</span>
-
-<span class="c"># 写入 tree 对象</span>
-git write-tree
-<span class="c"># 85b5f8639b41a5ec4ba88381c358141105d3c50c</span>
-
-<span class="c"># 尝试更复杂一点，修改一下</span>
-<span class="nb">cat</span> <span class="o">&gt;</span> file-1.txt <span class="o">&lt;&lt;</span> <span class="no">EOF</span><span class="sh">
-updated
-</span><span class="no">EOF
-
-</span><span class="c"># 写入数据库   </span>
-git hash-object <span class="nt">-w</span> file-1.txt
-
-<span class="c"># 写入暂存区（index）</span>
-git update-index <span class="nt">--cacheinfo</span> 100644 <span class="se">\</span>
-519c15ed8d400dfa4be08f404a5c5b21ad6d4a7a file-1.txt
-
-<span class="c"># 将之前的树也写入暂存区（index）</span>
-git read-tree <span class="nt">--prefix</span><span class="o">=</span>bak 85b5f8639b41a5ec4ba88381c358141105d3c50c
-
-<span class="c"># 此时试图 git status 会看见 bak/ 中 **有过** 文件，这就是上个命令产生的效果</span>
-
-<span class="c"># 写入 tree object</span>
-git write-tree
-<span class="c"># b72c06c298832e50d22d218424f478515e73cea1</span>
-
-<span class="c"># git commit </span>
-<span class="nb">echo</span> <span class="s1">'first commit'</span> | git commit-tree 85b5f8639b41a5ec4ba88381c358141105d3c50c
-<span class="c"># 7ae4ed6a70d0e25ef14b7b46d9b0fb925849187f 会因为信息不同而不一样</span>
-
-<span class="c"># second commit -&gt; first</span>
-<span class="nb">echo</span> <span class="s1">'second commit'</span> | git commit-tree b72c06c298832e50d22d218424f478515e73cea1 <span class="nt">-p</span> 7ae4ed   
-<span class="c"># 97072885b3d1115edeef3fdfdc52e0f48f19f991 会因为信息不同而不一样</span>
-
-<span class="c"># 移动 master 指针</span>
-<span class="nb">echo</span> <span class="s2">"97072885b3d1115edeef3fdfdc52e0f48f19f991"</span> <span class="o">&gt;</span> .git/refs/heads/master
-
-<span class="c"># 此时 git log 可以看见提交</span>
-</code></pre></div></div>
-
-<p><a href="https://www.jianshu.com/p/67afe711c731">Git版本控制与工作流</a></p>
-
-<hr />
-
-<h2 id="git-的局限性以及-gitignore">Git 的局限性以及 .gitignore</h2>
-
-<ul>
-  <li>操作比较繁琐</li>
-  <li>无法彻底解决安全问题</li>
-  <li>无法有效的管理大二进制文件存储问题</li>
-</ul>
-
-<h3 id="gitignore">.gitignore</h3>
-
-<p>那些文件需要使用</p>
-<ul>
-  <li>本地依赖 <code class="highlighter-rouge">node_modules</code></li>
-  <li>编译的结果或者中间结果 <code class="highlighter-rouge">*.out *.a *.o</code></li>
-  <li>隐私文件</li>
-</ul>
-
-<h2 id="一些-faq">一些 FAQ</h2>
-
-<h3 id="有哪些与-git-相关的好用的工具">有哪些与 Git 相关的好用的工具</h3>
-
-<ol>
-  <li>VSCode (或者其他编辑器/IDE) 中的 Git 相关的插件，比如 GitLens</li>
-  <li>zsh 的 Git 插件等（alias）</li>
-  <li>git-cz (better commit)</li>
-  <li>tldr (e.g. <code class="highlighter-rouge">tldr git-log</code>)</li>
-  <li><a href="https://www.gitignore.io/">gitignore.io</a> 帮助生成 .gitignore</li>
-</ol>
-
-<h3 id="我做了很多重复的提交如何压缩成一个">我做了很多重复的提交，如何压缩成一个</h3>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git rebase <span class="nt">-i</span> HEAD~5
-</code></pre></div></div>
-
-<h3 id="想要强制覆盖远程仓库里的记录">想要强制覆盖远程仓库里的记录</h3>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git push <span class="nt">--force</span>
-</code></pre></div></div>
-
-<h3 id="clone-时候速度快一些">clone 时候，速度快一些</h3>
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone &lt;xxxxx&gt; <span class="nt">--depth</span> 1
-</code></pre></div></div>
-
-<h3 id="这个-bug-谁写的">这个 Bug 谁写的</h3>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git blame &lt;file&gt;
-git log <span class="nt">-p</span> &lt;file&gt;
-</code></pre></div></div>
-
-<h3 id="如何引白用嫖别人的项目">如何引（白）用（嫖）别人的项目</h3>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git submodule add &lt;...&gt;
-</code></pre></div></div>
-
-<h3 id="想要撤销操作怎么办">想要撤销操作怎么办</h3>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git restore &lt;file&gt;
-git restore <span class="nt">--staged</span> &lt;file&gt;
-git commit <span class="nt">--amend</span>
-git revert
-</code></pre></div></div>
-
-<h3 id="有大文件怎么办">有大文件怎么办</h3>
-
-<p>LFS</p>
-
-<h3 id="如何发布-release">如何发布 release</h3>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git tag
-</code></pre></div></div>
-
-<h3 id="有些复杂的命令记不住">有些复杂的命令记不住</h3>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config <span class="nt">--global</span> alias.last <span class="s1">'log -1 HEAD'</span>
-</code></pre></div></div>
-
-<h3 id="git-merge-是最好的合并代码的方式么">Git Merge 是最好的合并代码的方式么</h3>
-
-<p><code class="highlighter-rouge">git rebase</code></p>
-
-<blockquote>
-  <p>一般我们这样做的目的是为了确保在向远程分支推送时能保持提交历史的整洁——例如向某个其他人维护的项目贡献代码时。 在这种情况下，你首先在自己的分支里进行开发，当开发完成时你需要先将你的代码变基到 origin/master 上，然后再向主项目提交修改。 这样的话，该项目的维护者就不再需要进行整合工作，只需要快进合并便可。
-呃，奇妙的变基也并非完美无缺，要用它得遵守一条准则：不要对在你的仓库外有副本的分支执行变基。</p>
-</blockquote>
-
-<p>详细区别见<a href="https://git-scm.com/book/zh/v2/Git-%E5%88%86%E6%94%AF-%E5%8F%98%E5%9F%BA">教程</a></p>
-
-<h3 id="如果按照-git-的对每一个修改的文件-重新打包的方式会不会很占用空间">如果按照 Git 的“对每一个修改的文件” 重新打包的方式，会不会很占用空间</h3>
-
-<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git gc
-</code></pre></div></div>
-<p><a href="https://git-scm.com/book/zh/v2/Git-%E5%86%85%E9%83%A8%E5%8E%9F%E7%90%86-%E5%8C%85%E6%96%87%E4%BB%B6">包文件</a></p>
-
-<hr />
-
-<h2 id="github-软件源代码托管服务-大型同性交友社区">github 软件源代码托管服务 <del>大型同性交友社区</del></h2>
-
-<h3 id="为什么使用github">为什么使用github</h3>
-
-<ul>
-  <li>可视化</li>
-  <li>方便协作</li>
-  <li>大量优质项目</li>
-</ul>
-
-<h3 id="github中各个组件的功能以及使用技巧">github中各个组件的功能以及使用技巧</h3>
-
-<ul>
-  <li>Issues</li>
-  <li>Project</li>
-  <li>Wiki</li>
-  <li>Pull Request</li>
-  <li>私人仓库</li>
-  <li>Fork</li>
-  <li><a href="https://github.com/waylau/github-help/blob/master/Creating%20Releases%20%E5%88%9B%E5%BB%BA%E5%8F%91%E5%B8%83%E5%8C%85.md">Release</a></li>
-</ul>
-
-<p>个人经验</p>
-
-<h3 id="合作开发中需要注意的东西">合作开发中需要注意的东西</h3>
-
-<ul>
-  <li>README.md</li>
-  <li>协议（版权）</li>
-  <li>成员之间任务管理</li>
-  <li>利用好分支</li>
-  <li>利用其它插件 （以 Travis 为例）</li>
-</ul>
-
-<p>以项目为例</p>
-
-<p>随便找几个有名的项目</p>
-
-<hr />
-
-<h2 id="gitlab-开源的-github">GitLab “开源的 GitHub”</h2>
-
-<ul>
-  <li>开源，可以部署私有在线代码仓库 <a href="https://git.bitnp.net">网协部署的校内 GitLab</a></li>
-  <li>对 docker 相关部署做了集成
-    <ul>
-      <li>k8s 等</li>
-    </ul>
-  </li>
-  <li>更注重敏捷开发</li>
-</ul>
-
-<p>以项目为例</p>
-
-<p><a href="https://git.bitnp.net/BITNP/clinic_django">诊所预约管理系统</a></p>
-
-<hr />
-
-<h2 id="持续集成---ci">持续集成 - CI</h2>
-
-<p>###　什么叫持续集成</p>
-
-<ul>
-  <li><a href="https://www.ruanyifeng.com/blog/2015/09/continuous-integration.html">持续集成是什么?</a></li>
-  <li><a href="https://www.zhihu.com/question/23444990">如何理解持续集成、持续交付、持续部署？</a></li>
-  <li><a href="如何理解持续集成、持续交付、持续部署？">简介持续集成（CI）以及相关工具推荐</a></li>
-</ul>
-
-<h3 id="以github为例展示简单的持续集成">以github为例展示简单的持续集成</h3>
-
-<ul>
-  <li>原料
-    <ul>
-      <li>服务器（部署环境）、github、travis-ci、docker</li>
-    </ul>
-  </li>
-  <li>使用方式
-    <ul>
-      <li>编写.travis.yml(配置文件)，脚本，<del>docker-compose</del></li>
-    </ul>
-  </li>
-</ul>
-
-<p>简单说说</p>
-
-<hr />
-
-<h2 id="一些展望">一些展望</h2>
-
-<blockquote>
-  <p>唠叨一下</p>
-</blockquote>
-
-<hr />
-
-<h2 id="安全">安全</h2>
-
-<ul>
-  <li>CVE</li>
-  <li>管理权限 <a href="https://www.zhihu.com/question/22438484">百度、阿里、腾讯之类的大公司用 Git 吗？</a></li>
-  <li>生产环境可能存在源码泄露</li>
-</ul>
-
-<hr />
-
-<h2 id="小练习">小练习</h2>
-
-<p>以组为单位完成以下任意一个练习</p>
-
-<ul>
-  <li>创建自己的分支，提交代码，合并到主分支</li>
-  <li>从主分支拉取代码，进行修改并提交，利用Pull Request合并到主分支</li>
-  <li>审核别人的Pull Request，并且同意（拒绝）合并</li>
-  <li>提issues， 新建fix 分支（分支名为fix xxxx），修改提交后，合并并关闭issues</li>
-</ul>
-
-<p>以上内容不分先后</p>
-
-<h2 id="其他资料">其他资料</h2>
-
-<ul>
-  <li><a href="https://learngitbranching.js.org/">在线学习</a></li>
-  <li><a href="https://gogs.io/">gogs 一个基于go语言的在线代码仓库</a></li>
-</ul>
-</div><section class="article__sharing d-print-none"></section><div class="d-print-none"><footer class="article__footer"><meta itemprop="dateModified" content="2019-03-07T01:22:08+08:00"><!-- start custom article footer snippet -->
+</div><section class="article__sharing d-print-none"></section><div class="d-print-none"><footer class="article__footer"><meta itemprop="dateModified" content="2019-03-08T00:54:38+08:00"><!-- start custom article footer snippet -->
 
 <!-- end custom article footer snippet -->
 <div class="article__subscribe"><div class="subscribe"><i class="fas fa-rss"></i> <a type="application/rss+xml" href="/feed.xml">订阅</a></div>
@@ -752,7 +335,7 @@ git revert
       </a>
     </p>
   </div></div></footer>
-<div class="article__section-navigator clearfix"><div class="previous"><span>上篇</span><a href="/2019/03/06/why_markdown.html">写给大家的计算机知识——为什么要用Markdown</a></div><div class="next"><span>下篇</span><a href="/2019/03/07/password_related_discus.html">Password Related Discus</a></div></div></div>
+<div class="article__section-navigator clearfix"><div class="previous"><span>上篇</span><a href="/2019/03/07/password-related-discus.html">Password Related Discus</a></div><div class="next"><span>下篇</span><a href="/2019/03/19/open-courses.html">公开课学习</a></div></div></div>
 
 </div>
 
@@ -781,7 +364,7 @@ git revert
   });
 })();
 </script>
-</div><section class="page__comments d-print-none"></section></article><!-- start custom main bottom snippet -->
+</div></article><!-- start custom main bottom snippet -->
 
 <!-- end custom main bottom snippet -->
 </div>

@@ -10,10 +10,10 @@
 		
 	</script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><title>公开课学习 - Code for Good</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"><title>容器化技术在网络安全应用展望 -- 并没有什么参考价值的节课论文 - Code for Good</title>
 
-<meta name="description" content="这篇文章记录自己对于公开课的学习和一些小收获。《聆听音乐》《Programming Language》即可以作为国内传统科班计算机教育出身——也就是以 C 入门——的同学的进阶课程，也可以作为编程新手来了解程序语言本身魅力的入门课程。函数式编程、类型系统、闭包、子类型与泛型、静态与动态等等等概念在这里都有所涉及。...">
-<link rel="canonical" href="https://blog.fkynjyq.com/2019/03/19/open_courses.html"><link rel="alternate" type="application/rss+xml" title="Code for Good" href="/feed.xml"><!-- start favicons snippet, use https://realfavicongenerator.net/ --><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png"><link rel="manifest" href="/assets/site.webmanifest"><link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#fc4d50"><link rel="shortcut icon" href="/assets/favicon.ico">
+<meta name="description" content="这是大一时参加《计算机与网络安全》所写的结课论文，针对当时接触的 docker 容器化技术在安全方面做了一些简单不全面的总结。如今看起来还真是青涩呢。">
+<link rel="canonical" href="https://blog.fkynjyq.com/2018/05/16/security-of-container.html"><link rel="alternate" type="application/rss+xml" title="Code for Good" href="/feed.xml"><!-- start favicons snippet, use https://realfavicongenerator.net/ --><link rel="apple-touch-icon" sizes="180x180" href="/assets/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon-16x16.png"><link rel="manifest" href="/assets/site.webmanifest"><link rel="mask-icon" href="/assets/safari-pinned-tab.svg" color="#fc4d50"><link rel="shortcut icon" href="/assets/favicon.ico">
 
 <meta name="msapplication-TileColor" content="#ffc40d"><meta name="msapplication-config" content="/assets/browserconfig.xml">
 
@@ -288,66 +288,138 @@
               <div class="col-main cell cell--auto"><!-- start custom main top snippet -->
 
 <!-- end custom main top snippet -->
-<article itemscope itemtype="http://schema.org/Article"><div class="article__header"><header><h1>公开课学习</h1></header><span class="split-space">&nbsp;</span>
-          <a class="edit-on-github"
-            title="在 Github 上修改"
-            href="https://github.com/user_name/repo_name/tree/master/_posts/2019-03-19-open_courses.md">
-            <i class="far fa-edit"></i></a></div><meta itemprop="headline" content="公开课学习"><div class="article__info clearfix"><ul class="right-col menu"><li><i class="fas fa-user"></i> <span>FKY</span></li><li><i class="far fa-calendar-alt"></i> <span>2019年 03月19日</span>
-            </li></ul></div><meta itemprop="author" content="FKY"/><meta itemprop="datePublished" content="2019-03-19T11:14:48+08:00"><div class="js-article-content"><div class="layout--article"><!-- start custom article top snippet -->
+<article itemscope itemtype="http://schema.org/Article"><div class="article__header"><header><h1>容器化技术在网络安全应用展望 -- 并没有什么参考价值的节课论文</h1></header></div><meta itemprop="headline" content="容器化技术在网络安全应用展望 -- 并没有什么参考价值的节课论文"><div class="article__info clearfix"><ul class="right-col menu"><li><i class="fas fa-user"></i> <span>FKY</span></li><li><i class="far fa-calendar-alt"></i> <span>2018年 05月16日</span>
+            </li></ul></div><meta itemprop="author" content="FKY"/><meta itemprop="datePublished" content="2018-05-16T00:00:00+08:00"><div class="js-article-content"><div class="layout--article"><!-- start custom article top snippet -->
 
 <!-- end custom article top snippet -->
-<div class="article__content" itemprop="articleBody"><p>这篇文章记录自己对于公开课的学习和一些小收获。</p>
+<div class="article__content" itemprop="articleBody"><p>这是大一时参加《计算机与网络安全》所写的结课论文，
+针对当时接触的 docker 容器化技术在安全方面做了一些简单不全面的总结。</p>
 
-<h2 id="聆听音乐">《聆听音乐》</h2>
+<p>如今看起来还真是青涩呢。</p>
 
-<h2 id="programming-language">《Programming Language》</h2>
+<!--more-->
 
-<p>即可以作为国内传统科班计算机教育出身——也就是以 C 入门——的同学的进阶课程，也可以作为编程新手来了解程序语言本身魅力的入门课程。</p>
+<h2 id="intro">intro</h2>
 
-<p>函数式编程、类型系统、闭包、子类型与泛型、静态与动态等等等概念在这里都有所涉及。</p>
+<h3 id="写在前面的话">写在前面的话</h3>
 
-<h2 id="machine-learning">Machine Learning</h2>
+<p>我接触并使用虚拟机是从高二时候开始的，而接触docker及容器化技术则是从今年的三月份开始的。我目前只是仅仅利用docker,dockerfile进行构建和部署较小的项目，刚开始在kubernetes中蹒跚学步，并未在生产环境中磨练过自己的’技艺‘。但是从我刚接触docker为代表的容器化技术开始，我就对其产生了浓厚的兴趣，它对于应用开发、测试和部署交出的答卷令人满意。就在这项从2013年才兴起的项目正在展露头角时，一个名为kubernetes的容器编排技术将容器化技术以更优雅和强大的姿态展现在人们眼前。在关注这项技术的同时，我结合这学期所学的网络安全相关内容,一直在思考:容器技术能带在网络安全方面有什么新应用呢?以下的内容只是出于一个大一学生的富有激情的浅见,若是有技术方面的问题还请谅解。</p>
 
-<p>来自吴恩达的经典入门课程，不多说了。</p>
+<h3 id="网络安全">网络安全</h3>
 
-<h2 id="编译原理-compilers">编译原理 compilers</h2>
+<p>网络就像是一个又计算机组成的，独立于物理世界的虚拟世界。人们在这个世界变得更加隐秘，却也更加暴露。网络在带给人们的便捷不是没有代价的，人们需要将个人信息作为等价交换。而网站，作为提供服务和存储个人信息的媒介，无疑承担起了维护信息的保密性、完整性、可用性、真实性和可控性的所有任务。由于服务功能的复杂性上升和企业对于安全本身重视程度不够，生产环境中往往会有大量缺陷甚至漏洞存在。而这些漏洞一旦被攻击者恶意利用，轻则造成服务停摆，重则涉及隐私泄露，甚至危害到人身财产安全。因此网络安全的重要性日渐凸显。在软件层面，有防注入、过滤等技术；在操作系统层面，有虚拟化技术、防火墙安全策略等；在管理层面，有物理安全、权限控制等安全措施，可以说网络安全的是离不开任何一个环节的保障的。</p>
 
-<p>本来是在 Cousera 上的，不过到了我看的时候，只有耶鲁自己的公开课平台有这门课程。</p>
+<h3 id="容器化技术">容器化技术</h3>
 
-<h2 id="自然语言处理-cs124">自然语言处理 CS124</h2>
+<p>容器化技术、以及虚拟化技术是一种被大家广泛认可的服务器资源共享方式。这些技术最初要解决的问题是不同软件所需服务器、网络、内存、存储等资源的隔离与服用问题。他将底层的资源打包、整合、抽象出来，打破实体结构间的独立性，让用户所面对着更统一隔离的资源。在虚拟化与容器化技术的发展中，人们不仅被这种技术所带来的经济效益给吸引，更发现由于有了抽象，使得底层资源从某种程度上被隐藏和隔离了起来，而这正是网络安全所寻找的一种防御手段。而在我们开始对容器化技术对网络安全的影响进行进一步探讨前，我们应当首先注意到他和以往虚拟化技术的相同与不同之处。</p>
 
-<h2 id="线性代数">线性代数</h2>
+<h4 id="容器化与虚拟化技术的异同">容器化与虚拟化技术的异同</h4>
 
-<p>经典之作，当时在学线代的时候跟着看的。和 3blue1brown 一起看效果非常好。有很多直观的理解。</p>
+<p>容器化技术和虚拟化技术，都实现了对资源的虚拟化和再分配。然而传统的虚拟化技术更加面向底层。以系统虚拟化技术为例，它会为用户提供一个完整的虚拟机：包括内核在内的一个完整操作系统镜像。cpu虚拟化技术为每个用户提供一个独享且和其他用户隔离的系统环境，虚拟层为每个用户分配虚拟化后的CPU、内存和IO设备资源。但是在提供高度隔离的环境同时，虚拟化技术所需要的独立的资源，对于很多场景下是资源极大的浪费。
+于是以docker为首的容器化技术诞生了，它以容器为单位，为应用程序提供了隔离的完整的运行空间。但容器是作为一个进程而不是虚拟机来运行的。相比虚拟化技术，应用程序在其中的运行速度甚至可以达到原生级别，而对底层资源的复用也使得容器对于内存，cpu，硬盘的消耗小之又小。
+容器化技术解决的另一大问题是良好的可移植环境与版本控制能力大大提升了软件开发、测试、部署和更新过程中所面临的一系列控制难题。它的硬件隔离复用与可自定义网络拓扑以及敏捷环境，为企业的敏捷开发、微服务、云服务提供了新的技术支持。
+在网络安全层面，信息的可用性强调了速度与稳定性，完整性则强调了信息的保护程度，以下的表格比较了他们在这些方面的主要特性。</p>
 
-<h2 id="bitcoin-and-cryptocurrency-technologies">Bitcoin and Cryptocurrency Technologies</h2>
+<table>
+  <thead>
+    <tr>
+      <th>特点</th>
+      <th>虚拟化技术</th>
+      <th>容器化技术</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>物理资源消耗</td>
+      <td>Gb级别</td>
+      <td>Mb级别</td>
+    </tr>
+    <tr>
+      <td>启动速度</td>
+      <td>分钟级</td>
+      <td>秒级</td>
+    </tr>
+    <tr>
+      <td>隔离程度</td>
+      <td>高</td>
+      <td>较虚拟化技术稍低一些</td>
+    </tr>
+    <tr>
+      <td>版本控制能力</td>
+      <td>低</td>
+      <td>高</td>
+    </tr>
+    <tr>
+      <td>部署速度</td>
+      <td>慢</td>
+      <td>快</td>
+    </tr>
+    <tr>
+      <td>技术成熟度</td>
+      <td>成熟</td>
+      <td>不成熟</td>
+    </tr>
+    <tr>
+      <td>运行平台</td>
+      <td>全部</td>
+      <td>偏向linux（借助了LXC）</td>
+    </tr>
+  </tbody>
+</table>
 
-<p>Coursera，</p>
+<h2 id="容器化技术对网络安全带来的影响">容器化技术对网络安全带来的影响</h2>
 
-<p>working on it.</p>
+<p>本章节将从两个角度来入手这两者之间的关系。第一种是：利用容器化技术作为技术支持，安全防御将会得到怎样的优势。第二个角度是说，当我们开始利用容器化技术时，我们不得不开始面临哪些新的安全威胁。前者强调网络安全防御以及优势，后者强调容器技术本身的安全问题。本章节为了使结构更加清晰而选择这种方式，而读者应当注意其实上这两者是相互贯通的。</p>
 
-<h2 id="单变量微积分">单变量微积分</h2>
+<h3 id="容器化技术在网络安全方面的应用">容器化技术在网络安全方面的应用。</h3>
 
-<p>当时是趁着复习微积分看的，然后考完微积分就基本没有再看过。不过讲的还是可以的。</p>
+<h4 id="隔离">隔离</h4>
 
-<h2 id="康德的理性哲学和实践哲学">康德的理性哲学和实践哲学</h2>
+<p>容器化技术首先提供的就是沙盒与隔离的机制。以docker为例，在linux内核中namespace的帮助下，进程拥有独立的主机与域名（UTS），信号量、消息队列和共享内存（IPC），进程编号（PID），网络设备、网络栈、端口(NETWORK)，文件系统（Mount），用户和用户组（User）。这样容器中的进程就会仿佛自己置身于独立的系统环境下，以达到独立与隔离的目的。
+利用容器的隔离性，入侵者即使提权成功，依然会在沙箱环境中，依然面临着逃逸容器的难题，这将大大保护了同时运行在服务器上的其他容器中存储的重要信息与服务器安全。而且种种隔离性使得网络病毒无法进入主机，只要将容器关闭便可达到清理的目的，此时的操作对与其他容器不会有任何影响。</p>
 
-<h2 id="公正该如何是好">公正——该如何是好</h2>
+<h4 id="更少的资源消耗">更少的资源消耗</h4>
 
-<p>二刷，墙裂推荐。</p>
+<p>容器化技术在cpu，内存的访问效率和启动时间都要优秀与虚拟机。那么在面对着大量的请求甚至是恶意请求下，更能够保持系统的稳定性和信息的可用性。快速启动也使得容器技术在弹性服务，自动运维方面有着很好的应用前景。而名为kubernetes的容器集群的编排技术，可以自动实现负载均衡与容器规模控制，这使得企业可以快速得到一个高可用、高质量、健壮的生产环境。</p>
 
-<h2 id="计算机科学及编程导论">计算机科学及编程导论</h2>
+<h4 id="更快速更模块化的漏洞修复方式">更快速更模块化的漏洞修复方式</h4>
 
-<p>来自MIT，当时主要是当做听力的（顺便看看他们是怎么介绍计算机科学的基础的）。</p>
+<p>容器技术支撑了微服务的发展，使得服务的更新可以在瞬间就完成。那么依靠这种方式，虽然容器化技术对漏洞发现的支撑取决于其上运行的软件，但是能保证对于漏洞修复的部署能够在极短的时间内完成，这对于信息的可用性无疑是有提升的。而像docker-compose这样的容器编排技术，kubernetes这样的自动化容器集训编排技术，利用yaml文档进行全部的容器配置工作，可以极其自由地将不同的容器耦合在一起，并进行快速稳定的部署。再加之容器化技术自定义的网络拓补结构，这使得网络安全相关的服务能够快速的被整合到原有的环境当中。</p>
 
-<h2 id="博弈论">博弈论</h2>
+<h4 id="对容灾的技术支持">对容灾的技术支持</h4>
 
-<h2 id="计算机科学导论">计算机科学导论</h2>
+<p>容器化技术并并不能直接完成复杂的容灾体系架构，但是它正在作为容灾体系的应用层被越来越多的用户接受。而对docker支持很好的Mesos等资源调度技术也与此同时被使用。</p>
 
-<p>来自哈佛，作为导论课，可以在空闲的时候当做听力。</p>
+<h3 id="在-mtd-中的可能性">在 MTD 中的可能性</h3>
 
-<h2 id="理解马克思">理解马克思</h2>
-</div><section class="article__sharing d-print-none"></section><div class="d-print-none"><footer class="article__footer"><meta itemprop="dateModified" content="2019-03-19T11:14:48+08:00"><!-- start custom article footer snippet -->
+<h4 id="mtd是什么">MTD是什么</h4>
+
+<p>网络安全一是易攻难守。在传统的网络安全防御手段中，由于代码量的庞大与软件功能的复杂，白箱子调试很难进行；而黑箱调试法则需要利用系统的输入输出进行测试。这不仅对于攻击用例的构造有极高的要求，还很难检测出未被发现的漏洞类型。这使得安全人员只能在漏洞被公布甚至被利用后，才能进行被动防御。因此动态目标防御（MTD）被提出，作为解决这一问题的全新思路。它的核心思想是利用可控的方式随机改变系统配置和结构，让攻击者难以发现目标，并且攻击面会在有效攻击方案形成之前发生转移，增加攻击者利用系统漏洞的难度。</p>
+
+<h4 id="容器化技术之于mtd">容器化技术之于MTD</h4>
+
+<p>容器化技术是一种应用技术，它的本身并不能给MTD提供新的动态防御的思路。但是以kubernetes为代表的自动化容器技术应该会是软件层面以及操作系统层面动态化的很好的解决方案之一。由于之前介绍的快速启动，资源占用小的特点，一个容器的创建，暂停，更新，删除都能在很短的时间内完成。而多应用环境和多操作系统的动态目标防御手段正好需要这样的特性。kubernetes的功能之一就是在保证容器对外一直可用的情况下，自动控制容器的规模，迭代。相信这点可以为服务器进行多环境的动态变化提供一个解决方案。</p>
+
+<h2 id="容器技术本身的面临安全问题">容器技术本身的面临安全问题</h2>
+
+<p>然而由于容器化技术本身不是面向安全而诞生的，而且它在市场中还远远不够成熟，因此我们不能忽视容器技术本身存在的安全问题。下面将列举一些最主要的问题，并试图提供解决方式。</p>
+
+<h3 id="共用内核以及namespace本身不够完善导致隔离性不够">共用内核以及namespace本身不够完善导致隔离性不够</h3>
+
+<p>容器并不是全封闭。由于内核使用、/sys、/proc等等未完全隔离，容器的隔离性要弱于传统的虚拟机。这导致攻击者更有可能逃离容器环境，查看到被保护的信息。当然，开源社区，包括红帽公司在内，在docker上提供了许多解决方案，比如文件系统级防护，Capability机制，SElinux的使用。另外工业界也提出了一些适配与加固容器的方案。目前认为经过加固后的容器是可以满足生产环境的要求的。</p>
+
+<h3 id="使用了不可信的容器内容">使用了不可信的容器内容</h3>
+
+<p>容器的镜像数据一般来自于源或者自行搭建。如果源不收信任，或者自行搭建时使用了有漏洞的依赖，就会导致容器程序中天然地含有恶意代码。这就需要项目团队在整个开发部署流程中时刻注意安全问题。</p>
+
+<h3 id="docker自身漏洞">docker自身漏洞</h3>
+
+<p>作为一款应用，docker本身也会有代码缺陷存在。CVE官方记录docker历史版本共有超过20项漏洞。而docker本身的版本更迭非常快，这就需要docker用户持续更新，而这对于生产环境并不是一件好事情。</p>
+
+<h2 id="小结">小结</h2>
+
+<p>容器化技术在一定程度上取代虚拟机，来提供轻量而灵活的服务已经是大势所趋。当面对这样一项新技术时，我们应当怀着一种敢于尝试和迎接的态度来对待它。所以即使不知道容器化技术在网络安全方面终究会有怎样的作为，也应当积极尝试和学习。相信在不就得未来，网络安全能与容器化技术相互融合在一起，一同促进网络空间的建设与发展。</p>
+</div><section class="article__sharing d-print-none"></section><div class="d-print-none"><footer class="article__footer"><meta itemprop="dateModified" content="2018-05-16T00:00:00+08:00"><!-- start custom article footer snippet -->
 
 <!-- end custom article footer snippet -->
 <div class="article__subscribe"><div class="subscribe"><i class="fas fa-rss"></i> <a type="application/rss+xml" href="/feed.xml">订阅</a></div>
@@ -358,7 +430,7 @@
       </a>
     </p>
   </div></div></footer>
-<div class="article__section-navigator clearfix"><div class="previous"><span>上篇</span><a href="/2019/03/08/unpredict_future.html">不可预测的未来</a></div><div class="next"><span>下篇</span><a href="/backend/2019/03/23/creating_your_first_grails_application.html">创建你的第一个Grails应用（中文翻译）</a></div></div></div>
+<div class="article__section-navigator clearfix"><div class="previous"><span>上篇</span><a href="/2017/08/26/how-to-learn-python-1.html">How to Learn Python 1</a></div><div class="next"><span>下篇</span><a href="/2018/07/01/welcome.html">Welcome</a></div></div></div>
 
 </div>
 
@@ -387,7 +459,7 @@
   });
 })();
 </script>
-</div></article><!-- start custom main bottom snippet -->
+</div><section class="page__comments d-print-none"></section></article><!-- start custom main bottom snippet -->
 
 <!-- end custom main bottom snippet -->
 </div>
