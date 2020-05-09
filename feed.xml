@@ -1,5 +1,34 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh"><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://blog.fkynjyq.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.fkynjyq.com/" rel="alternate" type="text/html" hreflang="zh" /><updated>2020-05-08T20:25:20+08:00</updated><id>https://blog.fkynjyq.com/feed.xml</id><title type="html">Code for Good</title><subtitle>A blog made by FKYnJYQ, powered by jekyll, archive some personal ideas and thought.
-</subtitle><author><name>FKY</name><email>loveress01@outlook.com</email></author><entry><title type="html">ctf-web 中的一些（没啥用的）笔记</title><link href="https://blog.fkynjyq.com/2019/07/17/ctf.html" rel="alternate" type="text/html" title="ctf-web 中的一些（没啥用的）笔记" /><published>2019-07-17T00:35:14+08:00</published><updated>2019-07-17T00:35:14+08:00</updated><id>https://blog.fkynjyq.com/2019/07/17/ctf</id><content type="html" xml:base="https://blog.fkynjyq.com/2019/07/17/ctf.html">&lt;!--more--&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh"><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://blog.fkynjyq.com/feed.xml" rel="self" type="application/atom+xml" /><link href="https://blog.fkynjyq.com/" rel="alternate" type="text/html" hreflang="zh" /><updated>2020-05-09T13:33:42+08:00</updated><id>https://blog.fkynjyq.com/feed.xml</id><title type="html">Code for Good</title><subtitle>A blog made by FKYnJYQ, powered by jekyll, archive some personal ideas and thought.
+</subtitle><author><name>FKY</name><email>loveress01@outlook.com</email></author><entry><title type="html">浅谈关于密码的管理和使用策略</title><link href="https://blog.fkynjyq.com/thought/2020/05/07/password-related-discus.html" rel="alternate" type="text/html" title="浅谈关于密码的管理和使用策略" /><published>2020-05-07T00:00:00+08:00</published><updated>2020-05-07T00:00:00+08:00</updated><id>https://blog.fkynjyq.com/thought/2020/05/07/password-related-discus</id><content type="html" xml:base="https://blog.fkynjyq.com/thought/2020/05/07/password-related-discus.html">&lt;p class=&quot;error&quot;&gt;WIP&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;安全与便捷平衡&quot;&gt;安全与便捷平衡&lt;/h2&gt;
+
+&lt;h2 id=&quot;使用密码管理软件&quot;&gt;使用密码管理软件&lt;/h2&gt;
+
+&lt;h3 id=&quot;kepass&quot;&gt;kepass&lt;/h3&gt;
+
+&lt;h3 id=&quot;googlepassword&quot;&gt;google/password&lt;/h3&gt;
+
+&lt;h3 id=&quot;vultr&quot;&gt;vultr&lt;/h3&gt;
+
+&lt;h2 id=&quot;设置密码&quot;&gt;设置密码&lt;/h2&gt;</content><author><name>FKY</name><email>loveress01@outlook.com</email></author><category term="WIP" /><category term="security" /><category term="thought" /><summary type="html">WIP</summary></entry><entry><title type="html">Ucore Lab0</title><link href="https://blog.fkynjyq.com/note/2020/02/11/ucore-lab0.html" rel="alternate" type="text/html" title="Ucore Lab0" /><published>2020-02-11T13:11:57+08:00</published><updated>2020-02-11T13:11:57+08:00</updated><id>https://blog.fkynjyq.com/note/2020/02/11/ucore-lab0</id><content type="html" xml:base="https://blog.fkynjyq.com/note/2020/02/11/ucore-lab0.html">&lt;p class=&quot;info&quot;&gt;💻清华操作系统公开课的一些个人笔记&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;前置知识&quot;&gt;前置知识&lt;/h2&gt;
+
+&lt;h2 id=&quot;工具链&quot;&gt;工具链&lt;/h2&gt;
+
+&lt;p&gt;迁移到了 Neovim，使用 coc-vim。除了参考 coc-vim 和 ccls 的官方文档，还可以看一下 &lt;a href=&quot;https://www.jianshu.com/p/249850f2cc64&quot;&gt;这种类似的文章&lt;/a&gt;，我因为他们才知道有 bear 这个好用的东西。&lt;/p&gt;
+
+&lt;h3 id=&quot;neovim-中常用的命令&quot;&gt;neovim 中常用的命令&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;:vs&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;:sp&lt;/code&gt; 切分窗口&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;tab&lt;/code&gt; 系列&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>FKY</name><email>loveress01@outlook.com</email></author><category term="linux" /><category term="note" /><summary type="html">💻清华操作系统公开课的一些个人笔记</summary></entry><entry><title type="html">ctf-web 中的一些（没啥用的）笔记</title><link href="https://blog.fkynjyq.com/note/2019/07/17/ctf.html" rel="alternate" type="text/html" title="ctf-web 中的一些（没啥用的）笔记" /><published>2019-07-17T00:35:14+08:00</published><updated>2019-07-17T00:35:14+08:00</updated><id>https://blog.fkynjyq.com/note/2019/07/17/ctf</id><content type="html" xml:base="https://blog.fkynjyq.com/note/2019/07/17/ctf.html">&lt;!--more--&gt;
 &lt;h1 id=&quot;ctf-web方向总结&quot;&gt;CTF Web方向总结&lt;/h1&gt;
 
 &lt;h2 id=&quot;一些基础知识和软件&quot;&gt;一些基础知识和软件&lt;/h2&gt;
@@ -7,9 +36,7 @@
 &lt;ul&gt;
   &lt;li&gt;HTTP协议&lt;/li&gt;
   &lt;li&gt;PHP基础&lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Python基础&lt;/p&gt;
-  &lt;/li&gt;
+  &lt;li&gt;Python基础&lt;/li&gt;
   &lt;li&gt;Burpsuite&lt;/li&gt;
   &lt;li&gt;curl/httpie&lt;/li&gt;
   &lt;li&gt;Webdir-scan &lt;a href=&quot;git@git.coding.net:yihangwang/SourceLeakHacker.git&quot;&gt;比如这个repo&lt;/a&gt;&lt;/li&gt;
@@ -92,7 +119,9 @@ s214587387a
 &lt;p&gt;https://www.restran.net/2018/10/29/ctf-sqli-notes/&lt;/p&gt;
 
 &lt;p&gt;sqlmap 与 python盲注
-https://www.twblogs.net/a/5ba424012b71771a4daa4993/zh-cn&lt;/p&gt;</content><author><name>FKY</name><email>loveress01@outlook.com</email></author><category term="CTF" /><summary type="html"></summary></entry><entry><title type="html">记录使用Linux中出现的许多奇奇怪怪的bug以及解决方法</title><link href="https://blog.fkynjyq.com/2019/07/13/debug.html" rel="alternate" type="text/html" title="记录使用Linux中出现的许多奇奇怪怪的bug以及解决方法" /><published>2019-07-13T09:24:24+08:00</published><updated>2019-07-13T09:24:24+08:00</updated><id>https://blog.fkynjyq.com/2019/07/13/debug</id><content type="html" xml:base="https://blog.fkynjyq.com/2019/07/13/debug.html">&lt;p&gt;记录自己遇到的奇奇怪怪的bug。&lt;/p&gt;
+https://www.twblogs.net/a/5ba424012b71771a4daa4993/zh-cn&lt;/p&gt;</content><author><name>FKY</name><email>loveress01@outlook.com</email></author><category term="CTF" /><category term="note" /><summary type="html"></summary></entry><entry><title type="html">记录使用Linux中出现的许多奇奇怪怪的bug以及解决方法</title><link href="https://blog.fkynjyq.com/debug/2019/07/13/debug.html" rel="alternate" type="text/html" title="记录使用Linux中出现的许多奇奇怪怪的bug以及解决方法" /><published>2019-07-13T09:24:24+08:00</published><updated>2019-07-13T09:24:24+08:00</updated><id>https://blog.fkynjyq.com/debug/2019/07/13/debug</id><content type="html" xml:base="https://blog.fkynjyq.com/debug/2019/07/13/debug.html">&lt;p class=&quot;info&quot;&gt;🐛记录自己遇到的奇奇怪怪的bug。&lt;/p&gt;
+
+&lt;!--more--&gt;
 
 &lt;h2 id=&quot;升级反代后-groovy-脚本挂掉&quot;&gt;升级反代后 Groovy 脚本挂掉&lt;/h2&gt;
 
@@ -238,7 +267,78 @@ vue ui &lt;span class=&quot;c&quot;&gt;# 出现报错&lt;/span&gt;
 &lt;p&gt;但现在来说&lt;/p&gt;
 
 &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Vue-cli&lt;/code&gt; + &lt;code class=&quot;highlighter-rouge&quot;&gt;vuetify&lt;/code&gt;+ &lt;code class=&quot;highlighter-rouge&quot;&gt;vuelidate&lt;/code&gt; + &lt;code class=&quot;highlighter-rouge&quot;&gt;Django&lt;/code&gt;+ &lt;code class=&quot;highlighter-rouge&quot;&gt;Django-rest-framework&lt;/code&gt; + &lt;code class=&quot;highlighter-rouge&quot;&gt;gitlab-ci&lt;/code&gt; + &lt;code class=&quot;highlighter-rouge&quot;&gt;docker&lt;/code&gt;
-还是很爽的&lt;/p&gt;</content><author><name>FKY</name></author><category term="linux" /><category term="debug" /><summary type="html">记录自己遇到的奇奇怪怪的bug。 升级反代后 Groovy 脚本挂掉 这个问题对于我来说，难度在于问题的定位，因为问题本身很好解决。 背景情况是这样的，我们一个服务的生产环境上，使用一个 Groovy (Grails 2.3.11) 脚本作为反代。前一天晚上进行更新以后，第二天起床发现微信端发送给这个脚本的请求都会返回 204 No Content。 很奇怪吧。 然而更奇怪的是，昨晚在上线以后，测试了一下是没问题的。（因为这次更新没有 break changes，只是给微信端的 Vue-router 的导航守卫优化了一下用户体验） 然后这时候我的主要怀疑对象变成了学校的服务器。不过经过沟通以后，发现这种可能性并不大。 不过另一条线索是，再跟网协的学长汇报过以后，发现有学长昨晚也进行了操作（后来发现是进行了反代的升级）。然后网页调试过后，发现是脚本那边的 JSON Parser 报错。然而后端接口完全没有异常，非常奇怪。 就这样进行了很多次调试，中间的尝试过程就省略了。主要是因为搞不清楚是不是代码出了问题，或者是哪里出了问题。 后来发现，在 JSON parser 背后最直接的报错是 URI /script_playground/api/ Class javax.net.ssl.SSLException Message Received fatal alert: protocal_version 然后结合之前的信息，才发现原来是反代升级之后，TLSv1.x 无法相互匹配了（Java 版本太老）。经过降级之后解决问题。 pip 配置问题 很长一段时间，我发现我无法使用 pip 安装 tensorflow,具体症状如下： # python3.7 # ArchLinux pip search tensorflow # OK, 能出现 tensorflow pip install --user tensorflow # Could not find a version that satisfies the requirement tensorflow (from versions: none) No matching distribution found for tensorflow 然后一直我是把这个锅甩给 tensorflow 与 pip 的，然后改从 AUR 装。 后来 19/10/xx 的时候，因为想试试 rasa。于是又开始解决这个问题。然后我想了想，我应该遇到的不是普遍情况。因为这么多使用者（尤其有很多非计算机专业的），要是 pip 无法安装，这可是个大新闻。 然后我开始在网上搜索的旅程，显然搜到的都不是我想要的。 后来我发现，如果直接使用 google 提供的软件包 pip install --user https://xxxxxxx/xxxxxxx.whl 是可以正常安装的。 这让我更加一头雾水，直到我看到了 pip config --list # ... # no-binary = :all: ??? 黑人问号脸，这时候才恍然大悟。于是翻了下文档，把它修改为:none:，问题就解决了。 别问我，我也不知道为什么自己会有这个配置。 Ruby 多版本的冲突 时间2019/07/x 事情的起源大概是这样的，虽然我不会Ruby也不直接使用Ruby，但是Ruby是很多软件的依赖。 Travis-ci lolcat msf tmuxinator oh-my-zsh 然后按照提示，我在PATH中直接添加了Ruby的环境变量（不加的话，有时候会有warning） export PATH=&quot;$PATH:$HOME/.rvm/bin&quot; export PATH=&quot;$PATH:/home/my-hostname/.gem/ruby/2.6.0/bin&quot; 然而某天开始，当我试图运行一些安装好的Ruby程序的时候就疯狂报错，内容类似于： Can't find gem bundler (&amp;gt;= 0.a) with executable bundle (Gem::GemNotFoundException) 没错跟bundler官方给出的issue的解决方法很像。 然而除此之外我还发现我的nvm装了好几个，而且一直使用的甚至不是2.x的Ruby，于是利用nvm卸载了较老的Ruby版本，删除了$PATH一些不需要的路径。 最后就莫名其妙好了。Orz 7个小时的debug之旅——Vue-cli无法启动 这个问题是在寒假刚上手的Vue-cli的第一天遇到的， 现在开学了以后才想起来应该记录一下。 遇到的问题很简单，就是在运行Vue-cli时候出现了一个很莫名奇妙的报错 （虽然知道要贴报错，但是想必没有人会再遇到了就不贴了） 执行操作 按照教程上一步步来的 yarn global add @vue/cli vue ui # 出现报错 尝试解决 google搜索 重装了vue 重装了yarn 使用npm 重装了npm 使用nvm新建nodejs环境 重复 分析 随着问题的一次次发生，我渐渐意识到了： 这可能不是我能解决的问题，也许是来自底层的依赖 结局 在下午五点时，终于在stackoverflow一个关于react的提问中找到了问题，是来自于刚刚更新的一个底层依赖产生的问题，解决方法是强制使用原来的版本，遂解决。 吸取的经验 有些问题不一定是我一个人可以解决的，在进行操作之前还要做出多种假设，并利用搜索引擎进行信息收集。（因为如果是底层依赖，搜索时候可以不加入vue-cli关键字） 对于这种'0day'的问题，使用google并不是一个非常完美的方法，因为新的问题或许没有加入索引之中，更好的解决方式是直接在专业论坛内进行搜索。 不要太执着23333 但现在来说 Vue-cli + vuetify+ vuelidate + Django+ Django-rest-framework + gitlab-ci + docker 还是很爽的</summary></entry><entry><title type="html">使用电脑的一些小技巧</title><link href="https://blog.fkynjyq.com/computer/2019/05/01/computer-usage.html" rel="alternate" type="text/html" title="使用电脑的一些小技巧" /><published>2019-05-01T00:51:02+08:00</published><updated>2019-05-01T00:51:02+08:00</updated><id>https://blog.fkynjyq.com/computer/2019/05/01/computer-usage</id><content type="html" xml:base="https://blog.fkynjyq.com/computer/2019/05/01/computer-usage.html">&lt;p&gt;emmmm作为一名多年的电脑使用者，倒是总结了一些使用电脑的经验，想要总结一下。&lt;/p&gt;
+还是很爽的&lt;/p&gt;</content><author><name>FKY</name></author><category term="linux" /><category term="debug" /><summary type="html">🐛记录自己遇到的奇奇怪怪的bug。</summary></entry><entry><title type="html">证明GLM中，对数似然函数为凹函数(存在唯一最大值)</title><link href="https://blog.fkynjyq.com/note/2019/05/07/ml-proof.html" rel="alternate" type="text/html" title="证明GLM中，对数似然函数为凹函数(存在唯一最大值)" /><published>2019-05-07T12:42:25+08:00</published><updated>2019-05-07T12:42:25+08:00</updated><id>https://blog.fkynjyq.com/note/2019/05/07/ml-proof</id><content type="html" xml:base="https://blog.fkynjyq.com/note/2019/05/07/ml-proof.html">&lt;p&gt;记知识工程中的一次证明。&lt;/p&gt;
+
+&lt;!--more--&gt;
+
+&lt;h2 id=&quot;证明-glm-中对数似然函数为凹函数存在唯一最大值&quot;&gt;证明 GLM 中，对数似然函数为凹函数（存在唯一最大值）&lt;/h2&gt;
+
+&lt;p&gt;这种证明方法是从指数分布族入手的，我们的目标是证明：&lt;/p&gt;
+
+\[log(p(y;\eta)) = log[b(y)exp(\eta^TT(y) - a(\eta))]\]
+
+&lt;p&gt;为凹函数。&lt;/p&gt;
+
+&lt;h3 id=&quot;引理&quot;&gt;引理&lt;/h3&gt;
+
+&lt;p&gt;对此我们需要利用几个引理。&lt;/p&gt;
+
+&lt;h4 id=&quot;1-指数分布族中参数aeta满足nabla_eta2aeta半正定&quot;&gt;1. 指数分布族中参数$a(\eta)$满足$\nabla_\eta^2a(\eta)$半正定&lt;/h4&gt;
+
+&lt;p&gt;具体证明见参考资料&lt;/p&gt;
+
+&lt;h4 id=&quot;2-凸函数的一个充要条件是hfracpartial2-fpartial-x_i-partial-x_j的所有特征值ge0&quot;&gt;2. 凸函数的一个充要条件是$H=[\frac{\partial^2 f}{\partial x_i \partial x_j}]$的所有特征值$\ge0$&lt;/h4&gt;
+
+&lt;h4 id=&quot;3-对称半正定矩阵特征值非负&quot;&gt;3. 对称半正定矩阵特征值非负&lt;/h4&gt;
+
+&lt;h3 id=&quot;证明&quot;&gt;证明&lt;/h3&gt;
+
+&lt;p&gt;为了方便证明，我们将所求变形后取对数&lt;/p&gt;
+
+\[log(p(y;\eta)) = \eta^TT(y) - a(\eta)+log(b(y))\]
+
+&lt;p&gt;由于在这里自变量为$\eta$，那么易知第三项$log(b(y))$不影响凹凸性。&lt;/p&gt;
+
+&lt;p&gt;对于第一项，我们易知：&lt;/p&gt;
+
+\[\frac{\partial x^TT(y)}{\partial x} = T(y)\]
+
+\[\frac{\partial^2x^TT(y)}{\partial x^2} = 0\]
+
+&lt;p&gt;故$\eta^TT(y)$也不影响凹凸性。&lt;/p&gt;
+
+&lt;p&gt;因此我们只需证明$a(\eta)$的凹凸性即可。&lt;/p&gt;
+
+&lt;p&gt;我们已知$\nabla_\eta^2a(\eta)$半正定（引理 1）
+又可证明：&lt;/p&gt;
+
+\[\nabla_\eta^2a(\eta)=\frac{\partial^2 a(\eta)}{\partial \eta_i \partial \eta_j} = H\]
+
+&lt;p&gt;其$H$为 Hessian Matrix。&lt;/p&gt;
+
+&lt;p&gt;所以利用引理 2,3,4 我们可以知道，$a(\eta)$为凸函数。&lt;/p&gt;
+
+&lt;p&gt;则$log(p(y;\eta)) = \eta^TT(y) - a(\eta)+log(b(y))$ 为凹函数（存在唯一最大值）&lt;/p&gt;
+
+&lt;p&gt;此时证明完毕。&lt;/p&gt;
+
+&lt;h2 id=&quot;其他证明方法&quot;&gt;其他证明方法&lt;/h2&gt;
+
+&lt;h2 id=&quot;一些其他讨论&quot;&gt;一些其他讨论&lt;/h2&gt;
+
+&lt;p&gt;虽然可以证明对数似然函数是凹函数，但是由于在一般条件下，若$f$为凹函数，则$\exp(f)$不可确定凹凸性。所以无法直接证明似然函数的凹凸性。&lt;/p&gt;
+
+&lt;p&gt;当然，目前普遍的结论也是 GLM 是&lt;code class=&quot;highlighter-rouge&quot;&gt;log-concave&lt;/code&gt;的，并没有说似然函数的凹凸性。&lt;/p&gt;
+
+&lt;h2 id=&quot;参考文献&quot;&gt;参考文献&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://pillowlab.princeton.edu/teaching/statneuro2018/slides/lec10_GLMs2.pdf&quot;&gt;GLM&lt;/a&gt; ：第 27 页开始提供了相关论述&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.cns.nyu.edu/pub/lcv/paninski04b.pdf&quot;&gt;Maximum likelihood estimation of cascade
+point-process neural encoding models&lt;/a&gt;：提供了另一种严格证明的方法，但是研究对象微微有所不同&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.math.snu.ac.kr/~hichoi/machinelearning/lecturenotes/ExpFam_GLM.pdf&quot;&gt;Exponential family of distributions
+and generalized linear model&lt;/a&gt; : 本证明主要参考内容，提供了引理的证明&lt;/p&gt;</content><author><name>FKY</name><email>loveress01@outlook.com</email></author><category term="ML" /><category term="note" /><summary type="html">记知识工程中的一次证明。</summary></entry><entry><title type="html">使用电脑的一些小技巧</title><link href="https://blog.fkynjyq.com/note/2019/05/01/computer-usage.html" rel="alternate" type="text/html" title="使用电脑的一些小技巧" /><published>2019-05-01T00:51:02+08:00</published><updated>2019-05-01T00:51:02+08:00</updated><id>https://blog.fkynjyq.com/note/2019/05/01/computer-usage</id><content type="html" xml:base="https://blog.fkynjyq.com/note/2019/05/01/computer-usage.html">&lt;p class=&quot;info&quot;&gt;作为一名多年的电脑使用者，倒是总结了一些使用电脑的经验，想要总结一下。&lt;/p&gt;
 
 &lt;!--more--&gt;
 
@@ -293,47 +393,67 @@ vue ui &lt;span class=&quot;c&quot;&gt;# 出现报错&lt;/span&gt;
   &lt;li&gt;利用好 &lt;code class=&quot;highlighter-rouge&quot;&gt;aliases&lt;/code&gt; 方便快速切换&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;最后就是一定要定期清理冗余的文件，并且进行备份，并且一定要舍得 &lt;em&gt;下狠手&lt;/em&gt; XD。&lt;/p&gt;</content><author><name>FKY</name></author><category term="tips" /><category term="browser" /><summary type="html">emmmm作为一名多年的电脑使用者，倒是总结了一些使用电脑的经验，想要总结一下。</summary></entry><entry><title type="html">创建你的第一个Grails应用（中文翻译）</title><link href="https://blog.fkynjyq.com/backend/2019/03/23/creating-your-first-grails-application.html" rel="alternate" type="text/html" title="创建你的第一个Grails应用（中文翻译）" /><published>2019-03-23T00:41:04+08:00</published><updated>2019-03-23T00:41:04+08:00</updated><id>https://blog.fkynjyq.com/backend/2019/03/23/creating-your-first-grails-application</id><content type="html" xml:base="https://blog.fkynjyq.com/backend/2019/03/23/creating-your-first-grails-application.html">&lt;ul class=&quot;task-list&quot;&gt;
+&lt;p&gt;最后就是一定要定期清理冗余的文件，并且进行备份，并且一定要舍得 &lt;em&gt;下狠手&lt;/em&gt; XD。&lt;/p&gt;</content><author><name>FKY</name></author><category term="note" /><category term="browser" /><summary type="html">作为一名多年的电脑使用者，倒是总结了一些使用电脑的经验，想要总结一下。</summary></entry><entry><title type="html">Sophomore</title><link href="https://blog.fkynjyq.com/thought/2019/04/14/sophomore.html" rel="alternate" type="text/html" title="Sophomore" /><published>2019-04-14T00:54:03+08:00</published><updated>2019-04-14T00:54:03+08:00</updated><id>https://blog.fkynjyq.com/thought/2019/04/14/sophomore</id><content type="html" xml:base="https://blog.fkynjyq.com/thought/2019/04/14/sophomore.html">&lt;p&gt;关于学业的碎碎念
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;其实能感觉到,进入大二下学期以来,学习的压力变得更大了。似乎是因为对未来（研究生）的方向更清晰也更不清晰所导致的提前的焦虑。&lt;/p&gt;
+
+&lt;p&gt;不仅如此，资本市场的泡沫、996文化的盛行，对于我们微小的个体来说都意味着更恶劣的生存环境。&lt;/p&gt;
+
+&lt;p&gt;这学期其实发现自己变得自律了很多（相较之前）&lt;/p&gt;
+
+&lt;p&gt;但也还有很多不足&lt;/p&gt;
+
+&lt;p&gt;比如现在是凌晨一点多；比如今天好像花了很长时间做一些漫无目的的事情。&lt;/p&gt;
+
+&lt;p&gt;我发现我做这些事情的时候，脑子都不是很清醒。经常是抱着“马上就要休息一会，不如休息之前先看看手机or看看视频or刷刷知乎再休息？“的想法。&lt;/p&gt;
+
+&lt;p&gt;另外其实遇到挫折以后还是感觉到有些难受or自卑or焦虑，尤其是感觉好多东西都不会，但是一整天又忙这忙那却忙不到点上。&lt;/p&gt;
+
+&lt;p&gt;另外就是在实验室，打代码确实方便；但是缺少学习氛围，尤其是读书的氛围，因此我还总是容易分心。以后周末应当泡在图书馆才对。&lt;/p&gt;</content><author><name>FKY</name><email>loveress01@outlook.com</email></author><category term="thought" /><summary type="html">关于学业的碎碎念</summary></entry><entry><title type="html">创建你的第一个Grails应用（中文翻译）</title><link href="https://blog.fkynjyq.com/tutorial/2019/03/23/creating-your-first-grails-application.html" rel="alternate" type="text/html" title="创建你的第一个Grails应用（中文翻译）" /><published>2019-03-23T00:41:04+08:00</published><updated>2019-03-23T00:41:04+08:00</updated><id>https://blog.fkynjyq.com/tutorial/2019/03/23/creating-your-first-grails-application</id><content type="html" xml:base="https://blog.fkynjyq.com/tutorial/2019/03/23/creating-your-first-grails-application.html">&lt;blockquote&gt;
+  &lt;p&gt;本文基于&lt;code class=&quot;highlighter-rouge&quot;&gt;Zachary Klein&lt;/code&gt;的&lt;a href=&quot;http://guides.grails.org/creating-your-first-grails-app/guide/#training&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Creating your first Grails Application&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;学习如何创建一个Grails应用，从无到有。&lt;/p&gt;
+
+&lt;ul class=&quot;task-list&quot;&gt;
   &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;汉化：完成&lt;/li&gt;
   &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;校对文字：C9&lt;/li&gt;
   &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;添加链接：C9&lt;/li&gt;
   &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;&lt;del&gt;Windows/Mac 兼容&lt;/del&gt;&lt;/li&gt;
   &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;增加code中文件名&lt;/li&gt;
   &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;专有名词修订&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;修正错误&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;
-    &lt;p&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;整理编号&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;profile&lt;/code&gt; 配置？&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;controller&lt;/code&gt; 控制器&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;domain&lt;/code&gt; 域&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;domain class&lt;/code&gt; 域类&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;model&lt;/code&gt; 模型&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;view&lt;/code&gt; 视图&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;scaffold&lt;/code&gt; 脚手架&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;transaction&lt;/code&gt; 事物&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;action&lt;/code&gt; 方法
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;修正错误&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;整理编号&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!--more--&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;profile&lt;/code&gt; 配置？&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;controller&lt;/code&gt; 控制器&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;domain&lt;/code&gt; 域&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;domain class&lt;/code&gt; 域类&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;model&lt;/code&gt; 模型&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;view&lt;/code&gt; 视图&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;scaffold&lt;/code&gt; 脚手架&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;transaction&lt;/code&gt; 事物&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;action&lt;/code&gt; 方法
     &lt;ul&gt;
       &lt;li&gt;一般针对设计模式&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;method&lt;/code&gt; 方法
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;method&lt;/code&gt; 方法
     &lt;ul&gt;
       &lt;li&gt;一般针对函数&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;content negotiation&lt;/code&gt; 内容协商&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;layout&lt;/code&gt; 布局&lt;/li&gt;
-  &lt;li class=&quot;task-list-item&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;render&lt;/code&gt; 渲染&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;content negotiation&lt;/code&gt; 内容协商&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;layout&lt;/code&gt; 布局&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;render&lt;/code&gt; 渲染&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;注意一下，作者有时展示了完成一个功能的多种方法，所以强烈建议你在看完每一小段的教程之后再亲自动手。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;本文基于&lt;code class=&quot;highlighter-rouge&quot;&gt;Zachary Klein&lt;/code&gt;的&lt;a href=&quot;http://guides.grails.org/creating-your-first-grails-app/guide/#training&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Creating your first Grails Application&lt;/code&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;学习如何创建一个Grails应用，从无到有。&lt;/p&gt;
 
 &lt;p&gt;Version：&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&quot;language-Bash&quot;&gt;grails -v
@@ -1942,7 +2062,9 @@ BUILD SUCCESSFUL
 &lt;p&gt;一旦我们获得了&lt;code class=&quot;highlighter-rouge&quot;&gt;WAR&lt;/code&gt;文件，我们就可以将它部署在任何JEE容器中，例如&lt;a href=&quot;http://tomcat.apache.org/&quot;&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Tomcat&lt;/code&gt;&lt;/a&gt;。&lt;/p&gt;
 
 &lt;p&gt;恭喜！你已经构建了第一个Grails应用程序。
-**&lt;/p&gt;</content><author><name>FKY</name></author><category term="tutor" /><summary type="html">汉化：完成 校对文字：C9 添加链接：C9 Windows/Mac 兼容 增加code中文件名 专有名词修订 修正错误 整理编号 profile 配置？ controller 控制器 domain 域 domain class 域类 model 模型 view 视图 scaffold 脚手架 transaction 事物 action 方法 一般针对设计模式 method 方法 一般针对函数 content negotiation 内容协商 layout 布局 render 渲染 注意一下，作者有时展示了完成一个功能的多种方法，所以强烈建议你在看完每一小段的教程之后再亲自动手。 本文基于Zachary Klein的Creating your first Grails Application 学习如何创建一个Grails应用，从无到有。 Version： grails -v | Grails Version: 3.3.8 | Groovy Version: 2.4.15 | JVM Version: 1.8.0_202 1 让我们开始 在这篇文章中，你将要从无到有创建一个Grails应用程序。你将会学习有关Domain、Controller、Services、GSP、单元、集成测试等相关知识。这篇文章是为了那些第一次接触Grails框架的人而撰写的。 1.1 你需要什么 为了完成这篇文章，你需要。 一些时间 一个可用的编辑器或IDE（这里首推ULTIMATE版IDEA） 配置了环境变量的JDK1.8 1.2 如何完成这篇教程 这部分讲述了原作者建立的项目应该如何使用，但是在翻译的时候已经不太适用，所以此处的翻译略去，有兴趣的话可以访问原链接查看。 配置Grails Clone 项目 原教程项目文件 https://github.com/grails-guides/creating-your-first-grails-app 这个教程的项目有两个主要文件 initial 存放初始项目 complete 存放完整版项目 2 创建Grails项目 正如以前提到过，创建新项目不能够再简单了。 只需运行 grails create-app myApp 注意到我们并没有指定具体的包名（package），这时package会默认使用当前app名称（e.g.,myapp）。 你也可以在grails-app/conf/application.yml中修改这个参数。 或者在创建的时候使用。 grails create-app org.grails.guides.myApp 2.1 安装Grails 由于此处的方法极多，请自行搜索教程。 2.2 Grails Application Forge 超出本教程要求，因此不做翻译。 Did you know you can download a complete Grails project without installing any additional tools? Go to start.grails.org and use the Grails Application Forge to generate your Grails project. You can choose your project type (Application or Plugin), pick a version of Grails, and choose a Profile - then click “Generate Project” to download a ZIP file. No Grails installation necessary! You can even download your project from the command line using a HTTP tool like curl (see start.grails.org for API documentation): curl -O start.grails.org/myapp.zip -d version=3.2.4 -d profile=angular 2.3 应用配置（Application Profile） 注意这部分内容你并不需要亲自动手操作，只需先了解即可，因为本教程不涉及profile的内容 您可以选择为Grails应用指定profile配置文件。配置文件适用于许多常见的应用程序类型，包括rest-api，angular，react等，您甚至可以创建自己的应用程序。 要查看可用配置文件的列表，请使用list-profiles命令。 $ grails list-profiles | Available Profiles -------------------- * angular - A profile for creating applications using AngularJS * rest-api - Profile for REST API applications * base - The base profile extended by other profiles * angular2 - A profile for creating Grails applications with Angular 2 * plugin - Profile for plugins designed to work across all profiles * profile - A profile for creating new Grails profiles * react - A profile for creating Grails applications with a React frontend * rest-api-plugin - Profile for REST API plugins * web - Profile for Web applications * web-plugin - Profile for Plugins designed for Web applications * webpack - A profile for creating applications with node-based frontends using webpack 要使用配置文件，请在其前面加上-profile标志指定其名称： grails create-app myApp -profile rest-api 您可以选择指定包和版本（默认为org.grails.profiles和配置文件的当前版本） grails create-app myApp -profile org.grails.profiles:react:1.0.2 要获取有关配置文件的详细信息，请使用profile-info命令。 $ grails profile-info plugin Profile: plugin -------------------- Profile for plugins designed to work across all profiles Provided Commands: -------------------- | Error Error occurred loading commands: grails.dev.commands.ApplicationContextCommandRegistry (Use --stacktrace to see the full trace) | Error Error occurred loading commands: grails.dev.commands.ApplicationContextCommandRegistry (Use --stacktrace to see the full trace) * package-plugin - Packages the plugin into a JAR file * publish-plugin - Publishes the plugin to the Grails central repository * help - Prints help information for a specific command * open - Opens a file in the project * gradle - Allows running of Gradle tasks * clean - Cleans a Grails application's compiled sources * compile - Compiles a Grails application * create-command - Creates an Application Command * create-domain-class - Creates a Domain Class * create-service - Creates a Service * create-unit-test - Creates a unit test * install - Installs a Grails application or plugin into the local Maven cache * assemble - Creates a JAR or WAR archive for production deployment * bug-report - Creates a zip file that can be attached to issue reports for the current project * console - Runs the Grails interactive console * create-script - Creates a Grails script * dependency-report - Prints out the Grails application's dependencies * list-plugins - Lists available plugins from the Plugin Repository * plugin-info - Prints information about the given plugin * run-app - Runs a Grails application * run-command - Executes Grails commands * run-script - Executes Groovy scripts in a Grails context * shell - Runs the Grails interactive shell * stats - Prints statistics about the project * stop-app - Stops the running Grails application * test-app - Runs the applications tests Provided Features: -------------------- * asset-pipeline - Adds Asset Pipeline to a Grails project * hibernate4 - Adds GORM for Hibernate 4 to the project * hibernate5 - Adds GORM for Hibernate 5 to the project * json-views - Adds support for JSON Views to the project * less-asset-pipeline - Adds LESS Transpiler Asset Pipeline to a Grails project * markup-views - Adds support for Markup Views to the project * mongodb - Adds GORM for MongoDB to the project * neo4j - Adds GORM for Neo4j to the project * rx-mongodb - Adds RxGORM for MongoDB to the project * asset-pipeline-plugin - Adds Asset Pipeline to a Grails Plugin for packaging 在创建不带-profile的应用程序时，使用的默认配置文件是Web配置文件。 3 运行项目 既然你已经创建了这个项目，我们不妨去尝试运行一下看看效果怎么样，看看有什么东西是Grails已经为我们提供好了的。 3.1 利用不同方式启动 3.1.1 利用grails命令运行 你可以用run-app命令来运行一个Grails项目。 grails run-app 3.1.2 利用grails wrapper命令运行 在[Grails Wrapper)](http://docs.grails.org/latest/guide/introduction.html#whatsNewGrailsWrapper的帮助下，在Grails 3.2.3以后的版本中，你也可以在不安装Grails的情况下运行项目。 ./grailsw run-app # 使用wrapper 3.1.3 利用交互模式运行 你还可以利用Grails interactive mode来运行一个Grails runtime，你可以在交互模式中使用任何命令，而无需等待运行时为每个任务启动。 在本指南中，我们将更喜欢使用Grails wrapper。 $ ./grailsw | Enter a command name to run. Use TAB for completion: grails&amp;gt;run-app //you can shutdown the app with the stop-app command 3.1.4 使用Gradle运行 最后，由于Grails是基于Spring Boot和Gradle构建的，你可以使用Spring Boot的命令来与你的Grails项目交互，比如bootRun。 这些命令可用作Gradle任务。就像Grails本身一样，你无需在机器上安装Gradle。使用Gradle Wrapper（gradlew）时会自动下载 ./gradlew bootRun 运行上述任何命令后，Grails将使用嵌入式Tomcat服务器启动你的应用程序，并使其（默认情况下）可从http://localhost:8080访问。 3.2 修改端口 如果你想修改监听的端口，只需在之前提到的application.yml中加入 # grails-app/conf/application.yml server: port: 8090 一也可以在运行时直接指明端口。 ./grailsw run-app --port=8090 3.3 热更新 现在的应用首页渲染的是含有应用相关信息的默认页面。这个默认页面位于grails-app/views/index.gsp 你可以尝试这查看并修改这个页面，比如 &amp;lt;!-- grails-app/views/index.gsp --&amp;gt; &amp;lt;!-- Line 54 --&amp;gt; &amp;lt;div id=&quot;content&quot; role=&quot;main&quot;&amp;gt; &amp;lt;section class=&quot;row colset-2-its&quot;&amp;gt; &amp;lt;h1&amp;gt;Welcome to My Frist Grails Project&amp;lt;/h1&amp;gt; &amp;lt;!-- 尝试修改h1标签中的文本 --&amp;gt; 保存你的修改，并且刷新浏览器中的页面。你将会立刻看到最新的修改已经被渲染到页面上了。Grails会views、controllers，domain classes以及其他的资源更新以后auto-reload，所以你不必刻意重启服务器。 有一大部分对于domain class的操作，比如重命名、修改关系等对应用Wiring的操作可能无法被auto-reload 4 Domain Classes Grails是一个基于Spring Boot的，采用MVC架构的框架。典型的MVC架构的应用讲整个app划分为三个子项目。 Model 定义和管理数据的代码 View 管理代码如何呈现（如HTML） Controller 负责解决应用内部的逻辑，并且负责连接Model和View。Controller负责对请求做出响应，从Model中获取数据，并把它以特定的逻辑传给View。 通常，面向对象的MVC框架要求开发人员配置哪些类对应于上述三个类别中的每一个。然而，Grails比大多数框架更进一步遵循“约定优于配置”的开发方法。这意味着对于Grails中的许多Artefact类型（Controller，View等），你只需在项目的特定目录中创建一个文件，Grails将自动将其连接到你的应用程序中，而无需你进行任何其他配置。 处理domain到数据库表（以及其他持久存储）的映射是GORM（Grails Object Relational MapperGrails对象关系映射器）的工作。 GORM是Grails框架中的一个强大工具，甚至可以在Grails项目之外独立使用。它支持关系数据库（通过Hibernate）以及MongoDb，Neo4j，Redis和Cassandra数据源。有关更多信息，请参阅GORM文档。 当你构建一个MVC应用时，一般来说你要先从M入手——也就是domain model。在Grails中，你的domain将在grails-app/domain用Groovy的类定义。 所以我们不妨先从Domain入手。 4.1 构建Domain Class Domain class可以由Grails生成（在这种情况下，Grails将自动创建单元测试），或者你可以自己创建文件。 ./grailsw create-domain-class Vehicle | Created grails-app/domain/org/grails/guides/Vehicle.groovy | Created src/test/groovy/org/grails/guides/VehicleSpec.groovy 这将生成两个Groovy文件，一个是我们的Domain class，另一个是单元测试。让我们看看我们的Domain class是什么样的。 // grails-app/domain/org/grails/guides/Vehicle.groovy package org.grails.guides class Vehicle { static constraints = { } } 现在我们的domain class没有属性，也没有约束。这不是很有趣，但值得注意的是，这就是在我们的应用程序中连接persistent domain class所需的全部内容。默认情况下，Hibernate将用于配置数据源（默认情况下为内存中的H2数据库），并为grails-app/domain下的所有Groovy类创建表和关联。让我们为这个domain class添加一些属性： // grails-app/domain/org/grails/guides/Vehicle.groovy package org.grails.guides class Vehicle { String name // #1 String make String model static constraints = { // #2 name maxSize: 255 make inList: ['Ford', 'Chevrolet', 'Nissan'] model nullable: true } } 属性将用于在数据库中创建列（假设使用关系数据库） 约束用于在每个字段中强制执行有效数据 - Grails为常见场景提供了一组丰富的约束，你还可以定义自定义约束 有关如何使用域类和约束的内容，请参阅Grails文档 4.2 DB Console 如果你再次运行该应用程序(注意一定要重新启动你的app)，你应该看到与以前相同的页面。但是，你可以登录到数据库控制台并查看新的数据库表。 浏览到(http://localhost:8080/dbconsole)[http://localhost:8080/dbconsole]并登录。默认用户名是sa，没有密码。默认的JDBC URL是： jdbc:h2:mem:devDb;MVCC=TRUE;LOCK_TIMEOUT=10000;DB_CLOSE_ON_EXIT=FALSE 你可以在/grails-app/conf/application.yml中查看JDBC url 登录到数据库控制台后，你应该会在左侧边栏中看到新的VEHICLES表。单击+图标展开表格 - 你应该看到列的列表，包括我们刚刚定义的三个字符串字段，名称，品牌和型号。 4.3 扩展Domain Model 相比你也能注意到，对于我们的Vehicle来说，它的make和model字段目前还是String类型——这是很不合理的。因为model与make都应该是相互关联的。（正如关系型数据库一样）所以让我们把Domain model扩展一下，变得更robust吧。 创建一下两个新的domain classes： $ ./grailsw create-domain-class Make | Created grails-app/domain/org/grails/guides/Make.groovy | Created src/test/groovy/org/grails/guides/Make.groovy $ ./grailsw create-domain-class Model | Created grails-app/domain/org/grails/guides/Model.groovy | Created src/test/groovy/org/grails/guides/Model.groovy 讲下列两个文件编辑为如下内容： // grails-app/domain/org/grails/guides/Make.groovy package org.grails.guides class Make { String name static constraints = { } String toString() { name } } // grails-app/domain/org/grails/guides/Model.groovy package org.grails.guides class Model { String name static belongsTo = [ make: Make ] static constraints = { } String toString() { name } } belongsTo属性是GORM用于确定域类之间关联的几个属性之一。其他包括hasMany和hasOne。有关更多信息，请参阅GORM文档。 你可以回想一下实体之间的关系（1:n,1:1,n:m） 现在，更新Vehicle.groovy以使用新的Make和Model类来代替原来的String。 // grails-app/domain/org/grails/guides/Vehicle.groovy package org.grails.guides @SuppressWarnings('GrailsDomainReservedSqlKeywordName') class Vehicle { Integer year String name Model model Make make static constraints = { year min: 1900 name maxSize: 255 } } Grails（通过GORM）现在将在我们的数据库中为我们的三个domain class创建三个表，并在表之间创建必要的关联。 再次运行应用程序(重启)并打开数据库控制台以查看新表。 4.4 Bootstrapping Data (初始化数据) 每个Grails项目都包含grails-app/init下的BootStrap.groovy文件。此文件可用于你希望在应用程序启动期间发生的任何自定义逻辑。该文件的一个很好的用途是在我们的数据库中预加载一些数据。让我们创建三个域类的几个实例。 编辑grails-app/init/org/grails/guides/BootStrap.groovy，如下文所示： // grails-app/init/org/grails/guides/BootStrap.groovy package org.grails.guides class BootStrap { def init = { servletContext -&amp;gt; def nissan = new Make(name: 'Nissan').save() def ford = new Make(name: 'Ford').save() def titan = new Model(name: 'Titan', make: nissan).save() def leaf = new Model(name: 'Leaf', make: nissan).save() def windstar = new Model(name: 'Windstar', make: ford).save() new Vehicle(name: 'Pickup', make: nissan, model: titan, year: 2012).save() new Vehicle(name: 'Economy', make: nissan, model: leaf, year: 2014).save() new Vehicle(name: 'Minivan', make: ford, model: windstar, year: 1990).save() } def destroy = { } } 现在重新启动应用程序，并浏览DBConsole，你应该能够展开这三个表并查看我们新创建的数据。 4.5 数据源（Datasources） 默认情况下，Grails配置in-memory内存中的H2数据库，每次重新启动应用程序时都会删除并重新创建。这对于本指南中的目的是足够的，但是，你可以通过配置自己的数据源轻松地将其更改为本地数据库实例。我们将以MySQL为例。 4.6 配置MySQL数据源 前提是你有MySQL数据库，不然译者比较建议你跳过这一段。 编辑build.gradle // build.gradle dependencies { //... runtime 'mysql:mysql-connector-java:5.1.40' 添加MySQL JDBC驱动程序作为依赖项 确保将依赖项添加到build.gradle文件的dependencies部分，而不是buildscript/dependencies部分。前者用于应用程序依赖项（在编译时，运行时或测试时需要），而构建脚本依赖项是作为Gradle构建过程（例如，管理静态资产）的一部分所需的那些依赖项。 编辑 application.yml # grails-app/conf/application.yml dataSource: pooled: true jmxExport: true driverClassName: com.mysql.jdbc.Driver # 1. dialect: org.hibernate.dialect.MySQL5InnoDBDialect username: sa password: testing environments: development: dataSource: dbCreate: update url: jdbc:mysql://127.0.0.1:3306/myapp # 2. 将driverClassName和dialect更改为MySQL设置 这假设你有一个名为myapp的数据库的本地MySQL实例 4.7 Grails Console 现在我们没有设置任何控制器或view来使用我们的domain class。我们很快就会到达那一步，但是现在，让我们启动Grails console，以便我们可以探索Grails和GORM提供的内容。 如果应用程序仍在运行，请使用[Ctrl + C]或（如果在交互模式下运行Grails stop-app命令）将其关闭。 启动Grails控制台： $ ./grailsw console Grails控制台应用程序将会启动。这个应用程序基于Groovy控制台，但具有额外的好处，即我们的整个Grails应用程序在后台启动并运行，因此我们可以访问我们的domain，甚至可以从控制台持久保存到数据库。 尝试从控制台使用我们的新domain class。这是一个简单的脚本，可以帮助你入门——再次参考GORM文档，了解有关查询，持久性，配置等的更多详细信息。 // docs/console.groovy import org.grails.guides.* def vehicles = Vehicle.list() println vehicles.size() def pickup = Vehicle.findByName(&quot;Pickup&quot;) println pickup.name println pickup.make.name println pickup.model.name def nissan = Make.findByName(&quot;Nissan&quot;) def nissans = Vehicle.findAllByMake(nissan) println nissans.size() 5 Controller 本节将重点介绍创建controller和定义操作的基础知识。 虽然不是“MVC”三角形的一部分，但Grails也提供对service的支持。在任何复杂的Grails应用程序中，将核心应用程序逻辑保留在service中被认为是最佳实践。我们稍后将在本指南中介绍它。 遵循约定优于配置原则，Grails将在grails-app/controllers/下将任何Groovy类配置为控制器，无需任何其他配置。你可以自己创建Groovy类，或使用create-controller命令生成控制器和相关的测试规范（test spec）。 $ ./grailsw create-controller org.grails.guides.Home | Created grails-app/controllers/org/grails/guides/HomeController.groovy | Created src/test/groovy/org/grails/guides/HomeControllerSpec.groovy 请注意，Grails会自动添加*Controller后缀。 我们来看看我们的新的Controller。 // grails-app/controllers/org/grails/guides/HomeController.groovy package org.grails.guides class HomeController { def index() { } } Grails创建了一个具有单个action的控制器。action是控制器中的公共方法，可以响应请求。 通常，控制器动作将接收请求，获得一些数据（可选地使用参数或请求的主体，如果存在），并将结果呈现给浏览器（例如，作为网页）。 控制器操作还可以重定向请求，转发，调用服务方法以及返回HTTP响应代码。有关控制器操作的更多信息，请参阅Grails文档。 我们尚未对此action中的逻辑有任何需求，但我们希望它能够呈现页面。我们将在view部分中更详细地查看GSP页面，但是现在，让我们为要显示的HomeController.index操作创建一个非常简单的GSP页面。 在grails-app/views/home目录下创建文件index.gsp。 &amp;lt;!-- grails-app/views/home/index.gsp --&amp;gt; &amp;lt;html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta name=&quot;layout&quot; content=&quot;main&quot;/&amp;gt; &amp;lt;title&amp;gt;Home Page&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;div id=&quot;content&quot; role=&quot;main&quot;&amp;gt; &amp;lt;section class=&quot;row colset-2-its&quot;&amp;gt; &amp;lt;h1&amp;gt;Welcome to our Home Page!&amp;lt;/h1&amp;gt; &amp;lt;/section&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; 再次运行该应用程序并浏览到http:localhost:8080/home。你应该看到你的新页面。 按照惯例，Grails会将控制器操作映射到grails-app/views/[controllername]目录中具有相同名称的视图。你可以覆盖它并指定特定视图（或完全呈现不同的内容）。 我们将在下一节中更详细地介绍视图和GSP，但是现在，你应该注意我们的index.gsp文件基本上是一个HTML页面，带有几个不常见的标记。你可以根据需要随意修改这个新的主页。 5.1 URL Mappings （映射） 现在我们有了新的“主页”页面，如果它是应用程序的登录页面而不是Grails默认页面会很好。为此，我们需要更改我们的UrlMappings.groovy文件。 Grails使用UrlMappings.groovy文件将请求路由到适当的Controller和action。它们可以像重定向到controller和/或action的URI字符串一样简单，也可以包含通配符和约束，并且变得非常复杂。 从Grails文档中了解有关URL映射的更多信息 我们来看看默认的URLMappings.groovy文件。 // grails-app/controllers/org/grails/guides/UrlMappings.groovy package org.grails.guides class UrlMappings { static mappings = { &quot;/$controller/$action?/$id?(.$format)?&quot;{ // 1. constraints { // apply constraints here } } &quot;/&quot;(view:&quot;/index&quot;) // 2. &quot;500&quot;(view:'/error') &quot;404&quot;(view:'/notFound') } } Grails默认URL映射-此规则使请求根据名称映射到controller和操作（以及可选的ID和/或格式）。所以home/index将映射到HomeController，名为index的action。 此URL映射将根URI（/）指向特定视图。 让我们改变/规则指向我们的新HomeController。编辑该行如下： // grails-app/controllers/org/grails/guides/UrlMappings.groovy package org.grails.guides class UrlMappings { static mappings = { //... &quot;/&quot;(controller:&quot;home&quot;) // 1. //... } } Change view: “/index” to controller: “home” 按照惯例，对没有操作名称的controller的请求将转到索引操作（如果存在）（如果不存在，将抛出错误）。如果需要，可以通过在controller中指定defaultAction属性来更改此行为： // grails-app/controllers/org/grails/guides/HomeController.groovy package org.grails.guides class HomeController { static defaultAction = &quot;homePage&quot; def homePage() { } // 1. } 不要进行此更改，这仅用于演示目的 现在你已将/规则更改为指向新的HomeController，如果你将应用程序和浏览器重新启动到http://localhost:8080，则应显示新的主页。 5.2 Scaffolding （脚手架） 我们希望有一些操作允许我们创建新的domain class实例并将它们保存到数据库中。此外，我们希望能够编辑现有实例甚至删除它们。通常所有这些功能都需要大量编码，但Grails为我们提供了scaffolding的来快速生成这些重复的代码。 在Grails文档中了解有关脚手架的更多信息。 5.3 Dynamic Scaffolding (动态脚手架) 现在我们有了一个主页，让我们创建控制器来管理我们之前创建的domain class。为每个domain class（Vehicle，Make和Model）创建3个新控制器。 $ ./grailsw create-controller Vehicle | Created grails-app/controllers/org/grails/guides/VehicleController.groovy | Created src/test/groovy/org/grails/guides/VehicleControllerSpec.groovy $ ./grailsw create-controller Make | Created grails-app/controllers/org/grails/guides/MakeController.groovy | Created src/test/groovy/org/grails/guides/MakeControllerSpec.groovy $ ./grailsw create-controller Model | Created grails-app/controllers/org/grails/guides/ModelController.groovy | Created src/test/groovy/org/grails/guides/ModelControllerSpec.groovy 要使用scaffolding，请编辑我们刚刚创建的三个控制器，并使用scaffolding属性替换默认索引操作，如下面的示例所示。 // grails-app/controllers/org/grails/guides/VehicleController.groovy package org.grails.guides class VehicleController { static scaffold = Vehicle } // grails-app/controllers/org/grails/guides/MakeControler.groovy package org.grails.guides class MakeControler { static scaffold = Make } // grails-app/controllers/org/grails/guides/ModelController.groovy package org.grails.guides class ModelController { static scaffold = Model } 通过设置scaffold属性，Grails现在将为各个域类生成所有必需的CRUD（创建，读取，更新，删除）操作。它还将使用我们的域属性和关联(domain properties and associations)动态生成包含列表，创建，显示和编辑页面的视图。在一开始搭建应用程序时，这可以为你提供一个极大的便利。 重启应用程序，并浏览到http://localhost:8080/vehicle - 你应该看到我们添加到BootStrap的Vehicle实例列表。尝试新视图并创建，查看，编辑和删除某些实例。你也可以使用Model和Make控制器执行相同的操作。 5.4 Static Scaffolding 动态脚手架功能强大，多数时候会提供你需要的所有功能（特别是对于数据访问比演示更重要的管理站点）。但很可能你会觉得需要自定义生成的视图和控制器，以改变其外观或添加自定义逻辑和功能。Grails预见到了这种需求，并提供了一组生成命令（generate commands），可以生成你刚刚看到的控制器 和/或 视图，允许你修改它们以满足你的需求。 生成视图（并继续使用动态脚手架）： $ ./grailsw generate-views Vehicle 你要生成的部分是静态的scaffold，没有生成会继续使用动态scaffold 要生成控制器（并继续使用动态GSP视图）： $ ./grailsw generate-controller Vehicle 对于视图和控制器（绕过所有动态生成）： $ ./grailsw generate-all Vehicle 生成的控制器将放在grails-app/controller下，生成的视图将放在grails-app/views/vehicle下。 要覆盖现有文件，请使用-force标志和generate-*命令： ./ grailsw generate-all com.example.Vehicle -force 让我们为Vehicle生成控制器和视图，并查看生成的控制器。 $ ./grailsw generate-all Vehicle -force 在grails-app/controllers/org/grails/guides/上打开VehicleController.groovy文件。 注意由于版本问题，下述代码可能会与你的实际代码有细微区别，不过这并无大碍，让我们抓大放小。 // grails-app/controllers/org/grails/guides/VehicleController.groovy import static org.springframework.http.HttpStatus.NOT_FOUND import static org.springframework.http.HttpStatus.OK import static org.springframework.http.HttpStatus.CREATED import org.grails.guides.Vehicle import grails.transaction.Transactional @SuppressWarnings(['LineLength']) @Transactional(readOnly = true) // 1. class VehicleController { static namespace = 'scaffolding' static allowedMethods = [save: 'POST', update: 'PUT', delete: 'DELETE'] def index(Integer max) { params.max = Math.min(max ?: 10, 100) // 2. respond Vehicle.list(params), model:[vehicleCount: Vehicle.count()] // 3. } def show(Vehicle vehicle) { respond vehicle // 3. } @SuppressWarnings(['FactoryMethodName', 'GrailsMassAssignment']) def create() { respond new Vehicle(params) // 3. } @Transactional // 1. def save(Vehicle vehicle) { if (vehicle == null) { transactionStatus.setRollbackOnly() notFound() return } if (vehicle.hasErrors()) { transactionStatus.setRollbackOnly() respond vehicle.errors, view:'create' // 3. return } vehicle.save flush:true request.withFormat { // 4. form multipartForm { // 5. flash.message = message(code: 'default.created.message', args: [message(code: 'vehicle.label', default: 'Vehicle'), vehicle.id]) redirect vehicle } '*' { respond vehicle, [status: CREATED] } // 3. } } def edit(Vehicle vehicle) { respond vehicle // 3. } @Transactional // 1. def update(Vehicle vehicle) { if (vehicle == null) { transactionStatus.setRollbackOnly() notFound() return } if (vehicle.hasErrors()) { transactionStatus.setRollbackOnly() respond vehicle.errors, view:'edit' // 3. return } vehicle.save flush:true request.withFormat { form multipartForm { // 5. flash.message = message(code: 'default.updated.message', args: [message(code: 'vehicle.label', default: 'Vehicle'), vehicle.id]) redirect vehicle // 6. } '*' { respond vehicle, [status: OK] } // 3. } } @Transactional // 1. def delete(Vehicle vehicle) { if (vehicle == null) { transactionStatus.setRollbackOnly() notFound() return } vehicle.delete flush:true request.withFormat { form multipartForm { // 5. flash.message = message(code: 'default.deleted.message', args: [message(code: 'vehicle.label', default: 'Vehicle'), vehicle.id]) redirect action: 'index', method: 'GET' // 6. } '*' { render status: NO_CONTENT } // 7. } } protected void notFound() { request.withFormat { form multipartForm { // 5. flash.message = message(code: 'default.not.found.message', args: [message(code: 'vehicle.label', default: 'Vehicle'), params.id]) redirect action: 'index', method: 'GET' //6. @Transactional 注解配置了控制器或方法的事务行为。事务用于管理持久性和应该一起完成的其他复杂操作（如果任何一个步骤失败，可能会回滚）。有关事务的更多信息，请参阅Grails文档 params对象可供所有控制器使用，并包含请求中任何URL参数的映射。你可以按名称引用任何参数来检索值：params.myCustomParameter将匹配此URL参数：[url]?myCustomParameter=hello。有关更多详细信息，请参阅Grails文档。 respond方法把对象返回给请求者，使用content negotiation（内容协商）来选择正确的类型（例如，请求的Accept头可能指定JSON或XML）。respond也可以接受参数映射，例如model（定义数据在页面上加载的方式）。有关如何使用该respond方法的更多信息，请参阅Grails文档。 request在所有控制器上都可用，它是Servlet API的HttpServletRequest类的一个实例。你可以访问请求标头，在请求范围中存储属性，并使用此对象获取有关请求者的信息。有关更多信息，请参阅Grails文档。 flash是一个映射，用于存储会话中的对象以用于下一个请求，在下一个请求完成后自动清除它们。这对于传递你希望下一个请求访问的错误消息或其他数据非常有用。有关更多信息，请参阅Grails文档flash。 redirect方法很简单 - 它允许操作将请求重定向到另一个操作，控制器或URI。你还可以使用重定向传递参数。有关更多信息，请参阅Grails文档redirect。 render方法是一个不太复杂的版本respond——它不执行内容协商，因此你必须准确指定要呈现的内容。你可以呈现纯文本，视图或模板，HTTP响应代码或具有String表示形式的任何对象。请参阅Grails文档。 这一部分有很多代码！ 生成和修改脚手架控制器是一个很好的学习练习，因此可以随意尝试和修改此代码——你始终可以恢复到completed本指南的项目中的版本。（这里指的是英文版的github中的项目） 5.5 Render a response 让我们修改HomeController，使我们能在主页上呈现一些自定义内容。编辑grails-app/controllers/org/grails/guides/HomeController.groovy。 // grails-app/controllers/org/grails/guides/HomeController.groovy package org.grails.guides class HomeController { def index() { respond([name: session.name ?: 'User', vehicleTotal: Vehicle.count()]) // 1. } def updateName(String name) { session.name = name // 2. flash.message = &quot;Name has been updated&quot; // 3. redirect action: 'index' // 4. } } 我们正在调用respond方法向请求者渲染出Groovy内容映射render a Groovy map of content to the requestor，其中包含 1.会话中的属性name（如果不存在会话值，则默认为“User”）以及 2. GORM的count方法返回的，当前Vehicle的实例总数。 session是Servlet API的HttpSession类的一个实例，并且在每个控制器中都可用。我们可以在会话中检索和存储属性——在这种情况下，我们将在会话中存储String类型的属性name。有关更多信息，请参阅Grails文档。 我们使用flash语句来设置在下一个请求时显示的消息 我们没有在此操作中显示任何特定内容的需求，因此我们向index操作发出redirect重定向（请注意，只要存在至少一个参数，Groovy方法中的括号是可选的）。 我们更新了我们的index操作以向页面呈现一些自定义内容，并且我们创建了一个新操作updateName，该操作接受一个String参数并将其保存到session，为了以后的检索使用。但是，我们需要将视图更新为1.显示新可用的内容，以及2.提供一些调用updateName和设置session属性的方法。 编辑grails-app/views/home/index.gsp： &amp;lt;!-- grails-app/views/home/index.gsp --&amp;gt; &amp;lt;html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta name=&quot;layout&quot; content=&quot;main&quot;/&amp;gt; &amp;lt;title&amp;gt;Home Page&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;div id=&quot;content&quot; role=&quot;main&quot;&amp;gt; &amp;lt;section class=&quot;row colset-2-its&quot;&amp;gt; &amp;lt;h1&amp;gt;Welcome ${name}!&amp;lt;/h1&amp;gt; &amp;lt;!-- 1. --&amp;gt; &amp;lt;h4&amp;gt;${flash.message}&amp;lt;/h4&amp;gt; &amp;lt;!-- 2. --&amp;gt; &amp;lt;p&amp;gt;There are ${vehicleTotal} vehicles in the database.&amp;lt;/p&amp;gt; &amp;lt;!-- 1. --&amp;gt; &amp;lt;form action=&quot;/home/updateName&quot; method=&quot;post&quot; style=&quot;margin: 0 auto; width:320px&quot;&amp;gt; &amp;lt;!-- 3. --&amp;gt; &amp;lt;input type=&quot;text&quot; name=&quot;name&quot; value=&quot;&quot; id=&quot;name&quot;&amp;gt; &amp;lt;input type=&quot;submit&quot; name=&quot;Update name&quot; value=&quot;Update name&quot; id=&quot;Update name&quot;&amp;gt; &amp;lt;/form&amp;gt; &amp;lt;/section&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt;&amp;lt;html&amp;gt; 我们可以使用Groovy String Expressions ${name} ${vehicleTotal}在GSP页面中按名称引用我们的“模型”中的任何值。 在这里，我们访问我们的flash.message属性——如果它为null，则此处不会呈现任何内容。 这是一个纯HTML表单，它将名称文本字段提交给我们刚刚创建的updateName操作。 运行应用程序，你应该在 标题中看到我们的新消息：&quot;Welcome User!&quot;，以及数据库中当前的Vehicle实例总数。 尝试在表单中输入你自己的名称并提交——你应该看到页面重新加载，你自己的名称将替换”User”,刷新页面几次。因为我们将名称存储在会话中，所以只要会话有效，它就会一直存在。 5.6 Content Negotiation 请记住，我们使用了respond方法，而不是使用更简单的render方法将”model”发送到页面。这意味着除了HTML页面之外，我们可以使用其他格式来获取模型，例如JSON或XML。 在终端中运行以下命令（在应用程序运行时） $ curl -i -H &quot;Accept: application/json&quot; &quot;http://localhost:8080/home/index&quot; HTTP/1.1 200 X-Application-Context: application:development Set-Cookie: JSESSIONID=008B45AAA1A820CE5C9FDC2741D345F3;path=/;HttpOnly Content-Type: application/json;charset=UTF-8 Transfer-Encoding: chunked Date: Wed, 11 Jan 2017 04:06:57 GMT {&quot;name&quot;:&quot;User&quot;,&quot;vehicleTotal&quot;:3} 我们使用curl来调用我们的索引操作，但是我们已经将Accept标头更改为application/json。现在我们在JSON中收到相同的数据，而不是HTML页面。 由于Grails的默认URL映射（如下所示），你也可以在浏览器中请求不同的内容类型： // grails-app/controllers/org/grails/guides/UrlMappings.groovy &quot;/$controller/$action?/$id?(.$format)?&quot; { constraints { // apply constraints here } } 注意(.$format)?映射中的令牌。这将匹配我们的URL上的后缀，例如.json或.xml。在浏览器中测试一下。 浏览http://localhost:8080/home/index.json。你应该看到我们使用curl检索的相同JSON主体。 尝试将.json更改为.xml。你应该看到模型的XML表示。content negotiation会让你的控制器变得非常通用，并通过相同的操作将适当的数据返回给不同的客户端。 6 Views 视图是MVC模式的第三个组成部分。视图负责向用户（可能是浏览器页面，API端点或其他类型的消费者）呈现数据。在许多应用程序中，视图是设计为在浏览器中加载的HTML页面。但是，根据请求视图的客户端类型，“视图”是XML或JSON文档是完全合理的。 Grails的主要视图技术是Groovy Server Pages。它遵循JSP和ASP的许多约定，但自然它基于Groovy语言。 GSP页面本质上是HTML文档，但它们支持许多特殊标记（通常以g:)作为前缀，以允许对你的视图进行编程控制。你甚至可以在GSP页面中编写任意Groovy代码，但强烈建议不要这样做 - 理想情况下，GSP页面应该只包含与视图相关的逻辑和内容;在呈现视图之前，控制器（或服务）中应该已经将任何类型的数据操作或处理完成。 你已经在本指南中使用了GSP视图，但让我们快速介绍一下基础知识。 Layouts 应用程序中的GSP视图通常需要共享一些通用结构，也许还需要一些共享资源，如JavaScript文件。 Grails使用SiteMesh模板技术来支持“布局”的概念，“布局”本质上是GSP页面可以“继承”的GSP模板文件。 按照惯例，布局位于grails-app/views/layouts下。 Grails在默认项目中包含一个main.gsp模板，这是Grails脚手架使用的模板，以及默认主页。我们也在使用它。要使用GSP布局，只需使用&amp;lt;meta name=&quot;layout&quot;&amp;gt;标签指定布局的名称： &amp;lt;!-- grails-app/views/layouts/main.gsp --&amp;gt; &amp;lt;html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta name=&quot;layout&quot; content=&quot;main&quot;/&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;!-- ... --&amp;gt; 你也可以创建自己的布局。让我们为我们的主页创建一个新的布局。 $ vim grails-app/views/layouts/public.gsp 编辑新布局。我们将复制现有的main.gsp作为开始，但我们将添加自定义徽标图像并删除我们页面上不需要的一些布局代码。 &amp;lt;!-- grails-app/views/layouts/public.gsp --&amp;gt; &amp;lt;!doctype html&amp;gt; &amp;lt;html lang=&quot;en&quot; class=&quot;no-js&quot;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=UTF-8&quot;/&amp;gt; &amp;lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;/&amp;gt; &amp;lt;title&amp;gt; &amp;lt;g:layoutTitle default=&quot;Auto Catalog&quot;/&amp;gt; &amp;lt;/title&amp;gt; &amp;lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;/&amp;gt; &amp;lt;asset:stylesheet src=&quot;application.css&quot;/&amp;gt; &amp;lt;g:layoutHead/&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;div class=&quot;navbar navbar-default navbar-static-top&quot; role=&quot;navigation&quot;&amp;gt; &amp;lt;div class=&quot;container&quot;&amp;gt; &amp;lt;div class=&quot;navbar-header&quot;&amp;gt; &amp;lt;a class=&quot;navbar-brand&quot; href=&quot;/#&quot;&amp;gt; &amp;lt;i class=&quot;fa grails-icon&quot;&amp;gt; &amp;lt;asset:image src=&quot;logo.png&quot;/&amp;gt; &amp;lt;/i&amp;gt; Auto Catalog &amp;lt;/a&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;div class=&quot;navbar-collapse collapse&quot; aria-expanded=&quot;false&quot; style=&quot;height: 0.8px;&quot;&amp;gt; &amp;lt;ul class=&quot;nav navbar-nav navbar-right&quot;&amp;gt; &amp;lt;g:pageProperty name=&quot;page.nav&quot; /&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;g:layoutBody/&amp;gt; &amp;lt;div class=&quot;footer&quot; role=&quot;contentinfo&quot;&amp;gt;&amp;lt;/div&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; 此布局的关键点是&amp;lt;g：layoutbody&amp;gt;和&amp;lt;g：layouthead&amp;gt;标记。 SiteMesh将这些标记替换为使用该布局的任何GSP页面的&amp;lt;head&amp;gt;和&amp;lt;body&amp;gt;部分。 你可以随意提供自己的logo.png图像，或使用已完成项目中的图像（或通过此链接下载）。将图像放在grails-app/assets/images/目录中，布局应该呈现它而不是Grails徽标。 不要担心新布局中的&amp;lt;asset&amp;gt;标签——我们将很快介绍这些标签。 现在编辑home/index.gsp视图以使用新的公共布局。 &amp;lt;!-- home/index.gsp --&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta name=&quot;layout&quot; content=&quot;public&quot;/&amp;gt; &amp;lt;!-- 1. --&amp;gt; &amp;lt;title&amp;gt;Home Page&amp;lt;/title&amp;gt; 把&quot;main&quot;换为&quot;public&quot; 刷新页面（或重新启动应用程序），你应该可以立即看到新的布局。如果你愿意，可以随意进一步修改public.gsp布局。 6.1 Views Resolution Grails是如何知道要要选择哪个视图去渲染呢？按照惯例，Grails在grails-app/views目录下查找视图。它将尝试通过将控制器名称与views目录下的目录进行匹配来解析对控制器操作的视图。例如，HomeController将解析为grails-app/views/home。然后，Grails会将操作映射到具有相同名称的GSP页面。例如，索引将解析为index.gsp。 你还可以使用render方法从控制器操作渲染特定视图（覆盖Grails的约定）： class SomeController { def someAction() { render view: 'anotherView' } } 这将尝试解析为grails-app/views/some/下的anotherView.gsp页面。如果你想要解析不在控制器自己的视图目录下的视图，请使用/来指定grails-app/views中的绝对路径： class SomeController { def someAction() { render view: '/another/view' } } 这将解析为grails-app/views/another/下的view.gsp。 6.2 GSP GSP页面可以访问丰富的tags标签集。我们已经看到了一些action。你可以从Grails文档中获取有关可用GSP标记（包括如何定义自定义标记）的更多详细信息。 让我们在index.gsp页面上添加一些GSPtags。 编辑grails-app/views/home/index.gsp &amp;lt;!-- grails-app/views/home/index.gsp --&amp;gt; &amp;lt;%@ page import=&quot;Vehicle&quot; %&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta name=&quot;layout&quot; content=&quot;public&quot;/&amp;gt; &amp;lt;title&amp;gt;Home Page&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;div id=&quot;content&quot; role=&quot;main&quot;&amp;gt; &amp;lt;section class=&quot;row colset-2-its&quot;&amp;gt; &amp;lt;h1&amp;gt;Welcome ${name}!&amp;lt;/h1&amp;gt; &amp;lt;g:if test=&quot;${flash.message}&quot;&amp;gt; &amp;lt;!-- 1.--&amp;gt; &amp;lt;div class=&quot;message&quot; role=&quot;status&quot;&amp;gt;${flash.message}&amp;lt;/div&amp;gt; &amp;lt;/g:if&amp;gt; &amp;lt;p&amp;gt;There are ${vehicleTotal} vehicles in the database.&amp;lt;/p&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;g:each in=&quot;${Vehicle.list()}&quot; var=&quot;vehicle&quot;&amp;gt; &amp;lt;li&amp;gt; &amp;lt;g:link controller=&quot;vehicle&quot; action=&quot;show&quot; id=&quot;${vehicle.id}&quot;&amp;gt; ${vehicle.name} - ${vehicle.year} ${vehicle.make.name} ${vehicle.model.name} &amp;lt;/g:link&amp;gt; &amp;lt;/li&amp;gt; &amp;lt;/g:each&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;g:form action=&quot;updateName&quot; style=&quot;margin: 0 auto; width:320px&quot;&amp;gt; &amp;lt;!-- 2. --&amp;gt; &amp;lt;g:textField name=&quot;name&quot; value=&quot;&quot; /&amp;gt; &amp;lt;g:submitButton name=&quot;Update name&quot; /&amp;gt; &amp;lt;/g:form&amp;gt; &amp;lt;/section&amp;gt; &amp;lt;/div&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; 我们使用&amp;lt;g:if&amp;gt;标签测试是否有message，然后渲染message（使用一些自定义样式），而不是一味地渲染flash.message而不管它是否存在。 将纯HTML&amp;lt;form&amp;gt;标记替换为其GSP等效项。 让我们仔细看看&amp;lt;g:if&amp;gt;。 &amp;lt;!-- grails-app/views/home/index.gsp --&amp;gt; &amp;lt;g:if test=&quot;${isThisTrue}&quot;&amp;gt; Some content &amp;lt;/g:if&amp;gt; GSP tag可以接受attributes(属性)，例如本例中的测试。不同的标签需要不同类型的属性，但通常你最终会像本示例中那样传递Groovy Expression。将评估${和}之间的任何Groovy代码（在服务器上），结果将在呈现的页面上替换。 你可以在GSP页面的任何位置使用Groovy Expressions，而不仅仅是在标签中。可以参考index.gsp页面中的${flash.message}。 其他标记属性可能接受普通字符串或数字。例如，&amp;lt;g:form action=&quot;“updateName”&quot;&amp;gt; GSP tag也可以选择包括一个主体。在&amp;lt;g:if&amp;gt;的情况下，只有在test表达式求值为true时才会呈现正文（遵循Groovy Truth约定）。其他GSP标记（如&amp;lt;g:form&amp;gt;）只是在生成的HTML输出中包含正文。 6.3 GSP Tags Iteration 6.3.1 Iteration 还有用于迭代的GSP标签——非常有用的是&amp;lt;g:each&amp;gt;。我们来试试吧： &amp;lt;!-- grails-app/views/home/index.gsp --&amp;gt; &amp;lt;%@ page import=&quot;Vehicle&quot; %&amp;gt; &amp;lt;!-- 1. --&amp;gt; &amp;lt;html&amp;gt; &amp;lt;!-- ... --&amp;gt; &amp;lt;p&amp;gt;There are ${vehicleTotal} vehicles in the database.&amp;lt;/p&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;g:each in=&quot;${Vehicle.list()}&quot; var=&quot;vehicle&quot;&amp;gt; &amp;lt;!-- 2. --&amp;gt; &amp;lt;li&amp;gt; &amp;lt;! -- ... --&amp;gt; &amp;lt;/li&amp;gt; &amp;lt;/g:each&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;!-- ... --&amp;gt; &amp;lt;g:each&amp;gt;标记遍历由in属性提供的对象集合。 var设置集合中每个对象的名称。 Grails将遍历集合（在本例中为Vehicle.list()返回的Vehicle列表），并为每个项目呈现&amp;lt;g:each&amp;gt;标记的主体。 这是一个JSP样式的表达式，允许执行任意Groovy代码（而不会渲染结果）。我们在这里使用它来导入我们的Vehicle类。然而这种方式是非常令人沮丧的——我们很快就会解释原因。 不好的做法，直接从视图访问domain class 这种代码是一个坏主意 - 我们直接从我们的视图访问我们的domain class（Vehicle），它紧密地耦合应用程序的两个独立部分，并且通常导致非常混乱的代码。完成此功能的更好方法是在HomeController.index操作中获取Vehicle列表，并将列表添加到我们的model object（the one being passed to respond(传递给响应的对象)）。然后我们可以像访问name和vehicleTotal那样引用列表。继续更改控制器和视图以使用这种更好的方法 - 如果你需要帮助，已完成的项目已经进行了此更改。 6.4 GSP Tags Links 我们来看一个更常见的GSP标记：&amp;lt;g:link&amp;gt;s &amp;lt;!-- grails-app/views/home/index.gsp --&amp;gt; &amp;lt;li&amp;gt; &amp;lt;g:link controller=&quot;vehicle&quot; action=&quot;show&quot; id=&quot;${vehicle.id}&quot;&amp;gt; ${vehicle.name} - ${vehicle.year} ${vehicle.make.name} ${vehicle.model.name} &amp;lt;/g:link&amp;gt; &amp;lt;/li&amp;gt; &amp;lt;g:link&amp;gt;呈现HTML &amp;lt;a&amp;gt;标记，但它的优点在于它允许你按照Grails约定指定链接目标，例如本示例（使用controller，action和id属性）。 &amp;lt;g:link&amp;gt;也非常智能，可以跟踪我们的URL映射，因此如果我们更改vehicle/show的URL映射，&amp;lt;g:link&amp;gt;标记仍将呈现正确的URL。 &amp;lt;g:link&amp;gt;支持更多属性 - 有关详细信息，请参阅Grails文档。 6.5 Asset Pipeline 你可能已经注意到我们的GSP页面中有一些标签。这些标签由`Asset Pipeline`插件提供，这是Grails用于管理`static assets`静态资源（图像，CSS，JavaScript文件等）的默认工具。 `Asset Pipeline`插件提供了一组自定义GSP标记，但与我们一直在探索的标记不同，它使用`asset`前缀（或命名空间）。 最常见的&amp;lt;asset&amp;gt;标签如下： &amp;lt;asset:javascript src=&quot;myscript.js&quot; /&amp;gt; &amp;lt;!-- 1. --&amp;gt; &amp;lt;asset:image src=&quot;myimage.png&quot; /&amp;gt; &amp;lt;!-- 2. --&amp;gt; &amp;lt;asset:stylesheet src=&quot;mystyles.css&quot; /&amp;gt; &amp;lt;!-- 3. --&amp;gt; 此标记从grails-app/assets/javascripts加载JavaScript文件 此标记从grails-app/assets/images加载图像 此标记从grails-app/assets/stylesheets加载CSS文件 正如你所看到的，Asset Pipeline遵循约定优于配置方法，遵循Grails的先例。但是，Asset Pipeline是一个非常强大的框架，包含一个丰富的插件生态系统 - 你可以找到插件来渲染LESS和SASS文件，CoffeeScript，Ember，Angular，JSX（React）等等。 Asset Pipeline还支持缩小和压缩你的资源等等。 访问asset-pipeline.com以获取有关使用Asset Pipeline的更多信息，包括可用插件的目录。 6.6 Add Javascript Asset 让我们使用Asset Pipeline插件将jQuery添加到我们的页面。 Grails默认包含jQuery。本指南中使用的Grails版本默认包含jQuery 2.2.0： _grails-app/assets/javascripts/jquery-2.2.0.min.js_ 但是让我们下载最新版本。从https://code.jquery.com/jquery-3.1.1.js 下载jQuery 将jquery-3.1.1.js保存到grails-app/assets/javascripts。 编辑grails-app/views/home/index.gsp，在head块中添加以下代码段。 &amp;lt;!-- grails-app/views/home/index.gsp --&amp;gt; &amp;lt;asset:javascript src=&quot;jquery-3.1.1.js&quot; /&amp;gt; &amp;lt;script type=&quot;text/javascript&quot;&amp;gt; $( document ).ready(function() { console.log( &quot;jQuery 3.1.1 loaded!&quot; ); }); &amp;lt;/script&amp;gt; 刷新页面，然后打开浏览器的开发人员控制台。你应该能看到字符串jQuery 3.1.1 loaded!在控制台日志中。 7 Services Grails提供了一个“service layer服务层”，它们是封装业务逻辑的类，并且是有线的（使用dependency injection 依赖注入）连接到应用程序上下文中，因此任何控制器都可以注入和使用它们。服务是大多数应用逻辑的首选工具，而不是控制器。 如果这看起来令人困惑，请按照这种方式考虑：控制器旨在响应请求并返回响应。服务可以在许多控制器（以及域类和其他服务）中重用。服务更加通用，可以帮助你保持控制器简洁，防止重复业务逻辑。对服务方法编写单元测试通常比对控制器操作更容易。 控制器用于“Web逻辑”，service用于“业务逻辑”。 按照惯例，Grails会将grails-app/services目录中的任何Groovy类配置为服务。服务将在Grails应用程序上下文中“连接”为Spring bean，这意味着你可以通过任何其他Spring bean（包括控制器和域类）的名称简单地引用它们。 让我们添加一个功能，根据品牌，型号和年份生成Vehicle的估算值。我们将这个逻辑放在一个服务中，并从我们的应用程序代码中调用它。 使用create-service命令创建新服务 $ ./grailsw create-service ValueEstimateService | Created grails-app/services/org/grails/guides/ValueEstimateService.groovy | Created src/test/groovy/org/grails/guides/ValueEstimateServiceSpec.groovy 编辑grails-app/services/org/grails/guides/ValueEstimateService.groovy // grails-app/services/org/grails/guides/ValueEstimateService.groovy package org.grails.guides import grails.transaction.Transactional @Transactional class ValueEstimateService { def serviceMethod() { } } Grails提供了一个serviceMethod作为示例。删除它并将其替换为以下内容： // grails-app/services/org/grails/guides/ValueEstimateService.groovy package org.grails.guides import grails.transaction.Transactional @Transactional class ValueEstimateService { def getEstimate(Vehicle vehicle) { log.info 'Estimating vehicle value...' //TODO: Call third-party valuation API Math.round (vehicle.name.size() + vehicle.model.name.size() * vehicle.year) * 2 } } 显然，这种估算车辆价值的方法非常人为！实际上，你可能会调用第三方Web服务来获取评估，或者可能针对你自己的数据库运行查询。但是，此示例的要点是显示可以放在服务中的“业务逻辑”，而不是在控制器或视图中计算。 现在，让我们使用我们的新服务。 编辑grails-app/controllers/org/grails/guides/VehicleController.groovy（我们之前生成的脚手架控制器），并添加如下所示的属性： // grails-app/controllers/org/grails/guides/VehicleController.groovy import static org.springframework.http.HttpStatus.CREATED import org.grails.guides.Vehicle import grails.transaction.Transactional @SuppressWarnings('LineLength') @Transactional(readOnly = true) class VehicleController { static allowedMethods = [save: 'POST', update: 'PUT', delete: 'DELETE'] def valueEstimateService // 1. ... } 通过简单地在控制器中定义一个与我们的服务类同名的属性，Grails将为我们注入对服务的引用。 现在（仍在编辑VehicleController.groovy），修改show动作，如下所示： // grails-app/controllers/org/grails/guides/VehicleController.groovy def show(Vehicle vehicle) { respond vehicle, model: [estimatedValue: valueEstimateService.getEstimate(vehicle)] } 我们在model中添加了新属性，名为estimatedValue。这个属性的值是调用我们的服务方法getEstimate的结果，我们将传递我们要渲染的车辆属性。 现在，在显示页面上，我们可以访问estimatedValue属性并在页面上显示它。编辑grails-app/views/vehicle/show.gsp，如下所示： &amp;lt;!-- grails-app/views/vehicle/show.gsp --&amp;gt; &amp;lt;div id=&quot;show-vehicle&quot; class=&quot;content scaffold-show&quot; role=&quot;main&quot;&amp;gt; &amp;lt;h1&amp;gt;&amp;lt;g:message code=&quot;default.show.label&quot; args=&quot;[entityName]&quot; /&amp;gt;&amp;lt;/h1&amp;gt; &amp;lt;h1&amp;gt;Estimated Value: &amp;lt;g:formatNumber number=&quot;${estimatedValue}&quot; type=&quot;currency&quot; currencyCode=&quot;USD&quot; /&amp;gt;&amp;lt;/h1&amp;gt; &amp;lt;!-- 1. --&amp;gt; &amp;lt;g:formatnumber&amp;gt;是另一个GSP标记，它为渲染数字提供了许多有用的选项，包括货币和小数精度。有关更多信息，请参阅Grails文档。 重新启动应用程序并浏览到车辆的显示页面，例如http://localhost:8080/vehicle/show/1。你应该在页面上看到“估计值” 8 Testing your App 测试是Web应用程序开发的重要部分。 Grails为三种类型的测试提供支持：单元测试，集成测试和功能测试。 单元测试通常是最简单的一种，专注于特定的代码而不依赖于应用程序的其他部分。 集成测试要求Grails环境启动并运行，并用于测试依赖于数据库或网络资源的功能。 功能测试要求应用程序运行，并且旨在通过对其发出HTTP请求，几乎以用户的身份运行应用程序。这些往往是最复杂的测试。 Grails使用的测试框架是Spock。 Spock提供了一种基于Groovy语言编写测试用例的富有表现力的语法，因此非常适合Grails。它包括一个JUnit runner，这意味着IDE支持是有效的通用（任何可以运行JUnit测试的IDE都可以运行Spock测试）。 Spock是一个丰富的框架（甚至在Grails应用程序之外），如果你还没有，那么值得你花时间去掌握它。查看有关Spock简介的大量文档。 Grails测试（按照惯例）存储在src/test/groovy目录（单元测试）和src/integration-test/groovy目录（集成/功能测试）中。 你可以使用test-app命令运行Grails测试： $ ./grailsw test-app 如果只想运行单元测试或集成/功能测试，可以传入命令行标志来选择其中一个。 $ ./grailsw test-app -unit $ ./grailsw test-app -integration 你还可以通过将测试类作为参数传递来运行特定测试： $ ./grailsw test-app org.grails.guides.MyTestSpec 编写测试是一个非常广泛的主题，值得用专门的时间去了解。在实践中，最简单（通常是最有用的）测试是单元测试，所以让我们编写一个简单的单元测试来练习我们的ValueEstimateService。 Grails自动为使用create-service命令创建的服务创建测试规范。打开src/test/groovy/org/grails/guides/ValueEstimateServiceSpec。 // src/test/groovy/org/grails/guides/ValueEstimateServiceSpec package org.grails.guides import grails.testing.gorm.DataTest import grails.testing.services.ServiceUnitTest import spock.lang.Specification class ValueEstimateServiceSpec extends Specification implements ServiceUnitTest&amp;lt;ValueEstimateService&amp;gt;, DataTest { def setup() { } def cleanup() { } void &quot;test something&quot;() { expect:&quot;fix me&quot; true == false } } 目前我们的测试规范有一个测试，&quot;test something&quot;，断言true == false。 Grails有助于你通过在测试失败的情况下解决问题来做正确的事情。 尝试运行测试，只是为了确认它必定失败： $ /grailsw test-app org.grails.guides.ValueEstimateServiceSpec ... &amp;gt; There were failing tests. See the report at: file:///Users/dev/projects/creating-your-first-grails-app/complete/build/reports/tests/test/index.html BUILD FAILED Total time: 6.353 secs | Tests FAILED Test execution failed 现在我们已经确认我们的测试失败了，让我们编辑这个测试用例来检验我们的getEstimate方法。编辑src/test/groovy/org/grails/guides/ValueEstimateServiceSpec。 // src/test/groovy/org/grails/guides/ValueEstimateServiceSpec.groovy package org.grails.guides import grails.testing.gorm.DataTest import grails.testing.services.ServiceUnitTest import spock.lang.Specification class ValueEstimateServiceSpec extends Specification implements ServiceUnitTest&amp;lt;ValueEstimateService&amp;gt;, DataTest { void setupSpec() { // 1. mockDomain Make mockDomain Model mockDomain Vehicle } void testEstimateRetrieval() { given: 'a vehicle' def make = new Make(name: 'Test') def model = new Model(name: 'Test', make: make) def vehicle = new Vehicle(year: 2000, make: make, model: model, name: 'Test Vehicle') when: 'service is called' def estimate = service.getEstimate(vehicle) then: 'a non-zero result is returned' estimate &amp;gt; 0 and: 'estimate is not too large' estimate &amp;lt; 1000000 } } 使用Grails 3.3中更新的测试框架模拟多个对象时，我们现在在安装过程中执行模拟，不再需要@Mock注释。 我们在这个测试中保持了非常简单的事情，因为我们没有非常复杂的逻辑用来测试，但是你也可以专注于Spock测试用例的基本公式。 Spock提供了一组关键字，允许你以人类可读的形式编写测试。 given 表示setup语句 —— 你可以在此处设置完成测试所需的任何对象或变量。 when 和 then 是Spock中最常见的“一对儿”之一（另一个，这里没有使用，是expect/where —— 它们定义了一个声明和一个预期的结果。 and继续当前的then语句，但它允许你指定你对多个断言的期望。请注意，所有这些块都接受（可选）字符串描述，这使你的测试更具可读性。例如，when: &quot;this method is called&quot;, then: &quot;expect this result&quot;。 继续并重新运行此测试 - 如果一切顺利，它应该通过测试，并伴随一个小旗子。 $ ./grailsw test-app org.grails.guides.ValueEstimateServiceSpec ... BUILD SUCCESSFUL | Tests PASSED 9 Deploying your App 开发Grails应用程序的最后一步是将完成的项目构建为可部署的包。通常，Java Web应用程序被部署为WAR文件，而Grails使用war命令可以轻松实现： $ ./grailsw war ... BUILD SUCCESSFUL | Built application to build/libs using environment: production 我们没有在本指南中涉及configuration的相关主题（虽然我们对配置文件进行了一些编辑），但是值得一提的是Grails支持环境概念，例如“开发”，“测试”和“生产”。每个环境都可以拥有自己的配置属性和值，因此你可以在开发和生产系统之间进行不同的设置。默认情况下，war命令使用“生产”环境 - 你可以使用-Dgrails.env标志覆盖它，如下所示： $ ./grailsw war -Dgrails.env=development ... BUILD SUCCESSFUL | Built application to build/libs using environment: development 一旦我们获得了WAR文件，我们就可以将它部署在任何JEE容器中，例如Tomcat。 恭喜！你已经构建了第一个Grails应用程序。 **</summary></entry><entry><title type="html">公开课学习</title><link href="https://blog.fkynjyq.com/2019/03/19/open-courses.html" rel="alternate" type="text/html" title="公开课学习" /><published>2019-03-19T11:14:48+08:00</published><updated>2019-03-19T11:14:48+08:00</updated><id>https://blog.fkynjyq.com/2019/03/19/open-courses</id><content type="html" xml:base="https://blog.fkynjyq.com/2019/03/19/open-courses.html">&lt;p&gt;这篇文章记录自己对于公开课的学习和一些小收获。&lt;/p&gt;
+**&lt;/p&gt;</content><author><name>FKY</name><email>loveress01@outlook.com</email></author><category term="tutorial" /><category term="grails" /><category term="translation" /><summary type="html">本文基于Zachary Klein的Creating your first Grails Application 学习如何创建一个Grails应用，从无到有。 汉化：完成 校对文字：C9 添加链接：C9 Windows/Mac 兼容 增加code中文件名 专有名词修订 修正错误 整理编号</summary></entry><entry><title type="html">公开课学习</title><link href="https://blog.fkynjyq.com/thought/2019/03/19/open-courses.html" rel="alternate" type="text/html" title="公开课学习" /><published>2019-03-19T11:14:48+08:00</published><updated>2019-03-19T11:14:48+08:00</updated><id>https://blog.fkynjyq.com/thought/2019/03/19/open-courses</id><content type="html" xml:base="https://blog.fkynjyq.com/thought/2019/03/19/open-courses.html">&lt;p&gt;这篇文章记录自己对于公开课的学习和一些小收获。&lt;/p&gt;
+
+&lt;!--more--&gt;
 
 &lt;h2 id=&quot;聆听音乐&quot;&gt;《聆听音乐》&lt;/h2&gt;
 
@@ -1992,9 +2114,9 @@ BUILD SUCCESSFUL
 
 &lt;p&gt;来自哈佛，作为导论课，可以在空闲的时候当做听力。&lt;/p&gt;
 
-&lt;h2 id=&quot;理解马克思&quot;&gt;理解马克思&lt;/h2&gt;</content><author><name>FKY</name><email>loveress01@outlook.com</email></author><summary type="html">这篇文章记录自己对于公开课的学习和一些小收获。 《聆听音乐》 《Programming Language》 即可以作为国内传统科班计算机教育出身——也就是以 C 入门——的同学的进阶课程，也可以作为编程新手来了解程序语言本身魅力的入门课程。 函数式编程、类型系统、闭包、子类型与泛型、静态与动态等等等概念在这里都有所涉及。 Machine Learning 来自吴恩达的经典入门课程，不多说了。 编译原理 compilers 本来是在 Cousera 上的，不过到了我看的时候，只有耶鲁自己的公开课平台有这门课程。 自然语言处理 CS124 线性代数 经典之作，当时在学线代的时候跟着看的。和 3blue1brown 一起看效果非常好。有很多直观的理解。 Bitcoin and Cryptocurrency Technologies Coursera， working on it. 单变量微积分 当时是趁着复习微积分看的，然后考完微积分就基本没有再看过。不过讲的还是可以的。 康德的理性哲学和实践哲学 公正——该如何是好 二刷，墙裂推荐。 计算机科学及编程导论 来自MIT，当时主要是当做听力的（顺便看看他们是怎么介绍计算机科学的基础的）。 博弈论 计算机科学导论 来自哈佛，作为导论课，可以在空闲的时候当做听力。 理解马克思</summary></entry><entry><title type="html">不可预测的未来</title><link href="https://blog.fkynjyq.com/2019/03/08/unpredict-future.html" rel="alternate" type="text/html" title="不可预测的未来" /><published>2019-03-08T00:54:38+08:00</published><updated>2019-03-08T00:54:38+08:00</updated><id>https://blog.fkynjyq.com/2019/03/08/unpredict-future</id><content type="html" xml:base="https://blog.fkynjyq.com/2019/03/08/unpredict-future.html">&lt;p&gt;记录一些自己这两年来关于计算机学习的思考和对未来的迷茫。&lt;/p&gt;
+&lt;h2 id=&quot;理解马克思&quot;&gt;理解马克思&lt;/h2&gt;</content><author><name>FKY</name><email>loveress01@outlook.com</email></author><category term="MOOC" /><category term="thought" /><summary type="html">这篇文章记录自己对于公开课的学习和一些小收获。</summary></entry><entry><title type="html">不可预测的未来</title><link href="https://blog.fkynjyq.com/thought/2019/03/08/unpredict-future.html" rel="alternate" type="text/html" title="不可预测的未来" /><published>2019-03-08T00:54:38+08:00</published><updated>2019-03-08T00:54:38+08:00</updated><id>https://blog.fkynjyq.com/thought/2019/03/08/unpredict-future</id><content type="html" xml:base="https://blog.fkynjyq.com/thought/2019/03/08/unpredict-future.html">&lt;p&gt;记录一些自己这两年来关于计算机学习的思考和对未来的迷茫。&lt;/p&gt;
 
-&lt;p&gt;施工中&lt;/p&gt;
+&lt;!--more--&gt;
 
 &lt;p&gt;其实这一年多大多接触的都是软件工程的一些具体实践&lt;/p&gt;
 
@@ -2015,696 +2137,4 @@ BUILD SUCCESSFUL
 
 &lt;p&gt;机器学习本质上是一种赋能。利用数学的力量（尤其是神经网络），让计算机拟合复杂的情况，从而对未知做出决策。（我知道还有聚类问题）。作为计算机科学与技术专业的学生，我觉得机器学习甚至人工智能，都是一个想在计算机世界继续探索下去的人不可回避的问题。&lt;/p&gt;
 
-&lt;p&gt;然而当看着周围的人都狂热的卖出这一步时，我却有些胆怯。&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;TODO
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>FKY</name><email>loveress01@outlook.com</email></author><summary type="html">记录一些自己这两年来关于计算机学习的思考和对未来的迷茫。 施工中 其实这一年多大多接触的都是软件工程的一些具体实践 我承认，这些实践经历对于我来说确实弥足珍贵，它改变了我的思考方式，增强了我对于软件开发的全体布局的掌握。 也让我有机会把自己的想法落地为现实，提高生活效率。 但是我也渐渐感受到，浅层的软件工程更像是熟练工种，这些工作和学历甚至学习经历都不是很相关。譬如一个前端框架，在掌握基本语法、概念的基础上，带着需求，认真研读文档、教程甚至代码，就可以在较短的时间内掌握并且投入生产。然而这和学生的定位是不太相符的。 我并非是在说软件工程是一件简单的事情，我也深深地认同，一个好的框架的诞生，是真正的智慧的结晶，是目前的我无法企及的程度。 但是对于一个还要在科研路上走下去的学生，我觉得仅仅注重软件开发是不恰当的。而且结合我国目前软件开发从业者的生存质量，我实在是万分心痛。 正如我离开算法的原因一样，我觉得计算机的世界，不只有这些。 　 — 然而这几年在计算机领域又有另一股旋风——机器学习。 机器学习本质上是一种赋能。利用数学的力量（尤其是神经网络），让计算机拟合复杂的情况，从而对未知做出决策。（我知道还有聚类问题）。作为计算机科学与技术专业的学生，我觉得机器学习甚至人工智能，都是一个想在计算机世界继续探索下去的人不可回避的问题。 然而当看着周围的人都狂热的卖出这一步时，我却有些胆怯。 TODO</summary></entry><entry><title type="html">Git Github Gitlab and CI</title><link href="https://blog.fkynjyq.com/tutor/2019/03/07/git-github-gitlab-ci.html" rel="alternate" type="text/html" title="Git Github Gitlab and CI" /><published>2019-03-07T01:22:08+08:00</published><updated>2019-03-07T01:22:08+08:00</updated><id>https://blog.fkynjyq.com/tutor/2019/03/07/git-github-gitlab-ci</id><content type="html" xml:base="https://blog.fkynjyq.com/tutor/2019/03/07/git-github-gitlab-ci.html">&lt;p&gt;这篇文章是一次分享的大体提纲，因此有很多概念不会用文字详细解释。&lt;/p&gt;
-
-&lt;p&gt;git的重要性便不在此赘述，为什么在网络上已经有丰富教程的前提下还要做这个东西，
-就是希望大家（班里的同学们）大家能够尽可能站在一个水平线上，为以后的合作提供技术基础。&lt;/p&gt;
-
-&lt;p&gt;不过，也请不要期待仅仅在两个小时之后就能上手全部的内容。&lt;/p&gt;
-
-&lt;p&gt;因为坑注定是要自己踩才会有感觉。&lt;/p&gt;
-
-&lt;h2 id=&quot;这篇文章不会涉及的内容&quot;&gt;这篇文章不会涉及的内容&lt;/h2&gt;
-
-&lt;h3 id=&quot;git的安装&quot;&gt;git的安装&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.jianshu.com/p/414ccd423efc&quot;&gt;Windows 安装&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/00137396287703354d8c6c01c904c7d9ff056ae23da865a000&quot;&gt;Mac/Linux/Windows 安装&lt;/a&gt;&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;git的全部详解&quot;&gt;git的全部详解&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-%E5%85%B3%E4%BA%8E%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6&quot;&gt;Pro Git book&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;github-ssh公钥设置&quot;&gt;github ssh公钥设置&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.jianshu.com/p/9317a927e844&quot;&gt;Windows下公钥配置&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;git-版本控制器&quot;&gt;git 版本控制器&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Git 是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-Git-%E7%AE%80%E5%8F%B2&quot;&gt;Git 简史&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;为什么使用git&quot;&gt;为什么使用git&lt;/h3&gt;
-
-&lt;p&gt;你可能会经常遇到这样的情况：正在使用编辑器编写代码的时候，电脑突然死机了。&lt;/p&gt;
-
-&lt;p&gt;当然重启以后发现这个文件并没有丢失，可问题是，如果有一百个文件，你要一个个确认吗？&lt;/p&gt;
-
-&lt;p&gt;另外一个问题，当你在书写程序时，想要恢复一大段被删除的文字怎么办？&lt;/p&gt;
-
-&lt;p&gt;还有，在多人合作时，你如何保证多个人分别开发不同的代码以后，能够安全的合并文件呢？&lt;/p&gt;
-
-&lt;p&gt;存在网上？如果断网了呢？&lt;/p&gt;
-
-&lt;h3 id=&quot;安装&quot;&gt;安装&lt;/h3&gt;
-
-&lt;p&gt;&lt;strong&gt;略过&lt;/strong&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;git是如何实现版本控制的&quot;&gt;git是如何实现版本控制的&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://git-scm.com/book/zh/v2/%E8%B5%B7%E6%AD%A5-Git-%E5%9F%BA%E7%A1%80&quot;&gt;架构以及核心概念&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://git-scm.com/book/en/v2/images/distributed.png&quot; alt=&quot;架构&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://git-scm.com/book/en/v2/images/areas.png&quot; alt=&quot;工作区域&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;如何使用git&quot;&gt;如何使用git&lt;/h3&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git &lt;span class=&quot;nt&quot;&gt;--help&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# 先查看帮助呦&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git init
-git add SOME_FILE
-git commit &lt;span class=&quot;nt&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;SOME_COMMENT&quot;&lt;/span&gt;
-git push
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;与之对应的四个阶段&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-flowchart&quot;&gt;st=&amp;gt;start: git init || git clone|past
-e=&amp;gt;end: 提出Pull Request 或 关闭相应issue
-state0=&amp;gt;operation: 编辑文件
-cond1=&amp;gt;condition: 文件
-是否有改动
-state1=&amp;gt;operation: git add [files]
-cond2=&amp;gt;condition: 是否完成
-一定功能的修改
-state2=&amp;gt;operation: git commit [change messages]
-cond3=&amp;gt;condition: 是否可以
-提交至服务器
-state3=&amp;gt;operation: git push
-statefix=&amp;gt;inputoutput: git pull 并 解决冲突
-
-
-st-&amp;gt;state0-&amp;gt;cond1-&amp;gt;state1-&amp;gt;cond2-&amp;gt;state2-&amp;gt;cond3-&amp;gt;state3-&amp;gt;e
-cond1(yes)-&amp;gt;state1
-cond1(no)-&amp;gt;state0
-cond2(no)-&amp;gt;state0
-cond2(yes)-&amp;gt;state2
-cond3(yes)-&amp;gt;state3
-cond3(no)-&amp;gt;statefix-&amp;gt;state0
-
-
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;以一次提交为例&lt;/p&gt;
-
-&lt;h3 id=&quot;其他的基本功能&quot;&gt;其他的基本功能&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;回滚 &lt;code class=&quot;highlighter-rouge&quot;&gt;revert&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;压缩 &lt;code class=&quot;highlighter-rouge&quot;&gt;rebase&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;比较 &lt;code class=&quot;highlighter-rouge&quot;&gt;diff&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;隐藏 &lt;code class=&quot;highlighter-rouge&quot;&gt;.gitignore&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;子模块 &lt;code class=&quot;highlighter-rouge&quot;&gt;submodule&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;说说分支与-git-的-workflow&quot;&gt;说说分支与 Git 的 Workflow&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://git-scm.com/book/zh/v2/Git-%E5%88%86%E6%94%AF-%E5%88%86%E6%94%AF%E7%AE%80%E4%BB%8B&quot;&gt;分支&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;一些底层的机理，可对照 &lt;code class=&quot;highlighter-rouge&quot;&gt;.git/objects/&lt;/code&gt; 目录下内容学习。&lt;/p&gt;
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c&quot;&gt;# generate checksum&lt;/span&gt;
-git hash-object &amp;lt;file&amp;gt;
-git cat-file &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; &amp;lt;checksum&amp;gt;
-&lt;span class=&quot;c&quot;&gt;# check type of object: commit blob tree&lt;/span&gt;
-git cat-file &lt;span class=&quot;nt&quot;&gt;-t&lt;/span&gt; &amp;lt;checksum&amp;gt;
-
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;从零开始创建一个 commit&lt;/p&gt;
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git init
-
-&lt;span class=&quot;nb&quot;&gt;cat&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; file-1.txt &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;EOF&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;
-file-1
-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;EOF
-
-&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cat&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; file-2.txt &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;EOF&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;
-file-2
-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;EOF
-
-&lt;/span&gt;&lt;span class=&quot;c&quot;&gt;# hash &amp;amp;&amp;amp; 存放入数据库 &lt;/span&gt;
-git hash-object &lt;span class=&quot;nt&quot;&gt;-w&lt;/span&gt; file-1.txt 
-&lt;span class=&quot;c&quot;&gt;# fbfd79f5e4816836f68f8128e9f99b12a0013a06&lt;/span&gt;
-
-git hash-object &lt;span class=&quot;nt&quot;&gt;-w&lt;/span&gt; file-2.txt 
-&lt;span class=&quot;c&quot;&gt;# 37ad5611998d92506ab38906d83810929f8c4a3d&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;# 此时 .git/objects/ 多了内容&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;# -----&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;# git add&lt;/span&gt;
-git update-index &lt;span class=&quot;nt&quot;&gt;--add&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--cacheinfo&lt;/span&gt; 100644 &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-fbfd79f5e4816836f68f8128e9f99b12a0013a06 file-1.txt
-
-git update-index &lt;span class=&quot;nt&quot;&gt;--add&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;--cacheinfo&lt;/span&gt; 100644 &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-37ad5611998d92506ab38906d83810929f8c4a3d file-2.txt
-
-&lt;span class=&quot;c&quot;&gt;# 此时输入 git status，可以查看到暂存的内容&lt;/span&gt;
-&lt;span class=&quot;c&quot;&gt;# ./git/index 文件诞生&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;# -----&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;# 写入 tree 对象&lt;/span&gt;
-git write-tree
-&lt;span class=&quot;c&quot;&gt;# 85b5f8639b41a5ec4ba88381c358141105d3c50c&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;# 尝试更复杂一点，修改一下&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;cat&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; file-1.txt &lt;span class=&quot;o&quot;&gt;&amp;lt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;EOF&lt;/span&gt;&lt;span class=&quot;sh&quot;&gt;
-updated
-&lt;/span&gt;&lt;span class=&quot;no&quot;&gt;EOF
-
-&lt;/span&gt;&lt;span class=&quot;c&quot;&gt;# 写入数据库   &lt;/span&gt;
-git hash-object &lt;span class=&quot;nt&quot;&gt;-w&lt;/span&gt; file-1.txt
-
-&lt;span class=&quot;c&quot;&gt;# 写入暂存区（index）&lt;/span&gt;
-git update-index &lt;span class=&quot;nt&quot;&gt;--cacheinfo&lt;/span&gt; 100644 &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
-519c15ed8d400dfa4be08f404a5c5b21ad6d4a7a file-1.txt
-
-&lt;span class=&quot;c&quot;&gt;# 将之前的树也写入暂存区（index）&lt;/span&gt;
-git read-tree &lt;span class=&quot;nt&quot;&gt;--prefix&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;bak 85b5f8639b41a5ec4ba88381c358141105d3c50c
-
-&lt;span class=&quot;c&quot;&gt;# 此时试图 git status 会看见 bak/ 中 **有过** 文件，这就是上个命令产生的效果&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;# 写入 tree object&lt;/span&gt;
-git write-tree
-&lt;span class=&quot;c&quot;&gt;# b72c06c298832e50d22d218424f478515e73cea1&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;# git commit &lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'first commit'&lt;/span&gt; | git commit-tree 85b5f8639b41a5ec4ba88381c358141105d3c50c
-&lt;span class=&quot;c&quot;&gt;# 7ae4ed6a70d0e25ef14b7b46d9b0fb925849187f 会因为信息不同而不一样&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;# second commit -&amp;gt; first&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'second commit'&lt;/span&gt; | git commit-tree b72c06c298832e50d22d218424f478515e73cea1 &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; 7ae4ed   
-&lt;span class=&quot;c&quot;&gt;# 97072885b3d1115edeef3fdfdc52e0f48f19f991 会因为信息不同而不一样&lt;/span&gt;
-
-&lt;span class=&quot;c&quot;&gt;# 移动 master 指针&lt;/span&gt;
-&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;97072885b3d1115edeef3fdfdc52e0f48f19f991&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; .git/refs/heads/master
-
-&lt;span class=&quot;c&quot;&gt;# 此时 git log 可以看见提交&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.jianshu.com/p/67afe711c731&quot;&gt;Git版本控制与工作流&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;git-的局限性以及-gitignore&quot;&gt;Git 的局限性以及 .gitignore&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;操作比较繁琐&lt;/li&gt;
-  &lt;li&gt;无法彻底解决安全问题&lt;/li&gt;
-  &lt;li&gt;无法有效的管理大二进制文件存储问题&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;gitignore&quot;&gt;.gitignore&lt;/h3&gt;
-
-&lt;p&gt;那些文件需要使用&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;本地依赖 &lt;code class=&quot;highlighter-rouge&quot;&gt;node_modules&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;编译的结果或者中间结果 &lt;code class=&quot;highlighter-rouge&quot;&gt;*.out *.a *.o&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;隐私文件&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;一些-faq&quot;&gt;一些 FAQ&lt;/h2&gt;
-
-&lt;h3 id=&quot;有哪些与-git-相关的好用的工具&quot;&gt;有哪些与 Git 相关的好用的工具&lt;/h3&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;VSCode (或者其他编辑器/IDE) 中的 Git 相关的插件，比如 GitLens&lt;/li&gt;
-  &lt;li&gt;zsh 的 Git 插件等（alias）&lt;/li&gt;
-  &lt;li&gt;git-cz (better commit)&lt;/li&gt;
-  &lt;li&gt;tldr (e.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;tldr git-log&lt;/code&gt;)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.gitignore.io/&quot;&gt;gitignore.io&lt;/a&gt; 帮助生成 .gitignore&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h3 id=&quot;我做了很多重复的提交如何压缩成一个&quot;&gt;我做了很多重复的提交，如何压缩成一个&lt;/h3&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git rebase &lt;span class=&quot;nt&quot;&gt;-i&lt;/span&gt; HEAD~5
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;想要强制覆盖远程仓库里的记录&quot;&gt;想要强制覆盖远程仓库里的记录&lt;/h3&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git push &lt;span class=&quot;nt&quot;&gt;--force&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;clone-时候速度快一些&quot;&gt;clone 时候，速度快一些&lt;/h3&gt;
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone &amp;lt;xxxxx&amp;gt; &lt;span class=&quot;nt&quot;&gt;--depth&lt;/span&gt; 1
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;这个-bug-谁写的&quot;&gt;这个 Bug 谁写的&lt;/h3&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git blame &amp;lt;file&amp;gt;
-git log &lt;span class=&quot;nt&quot;&gt;-p&lt;/span&gt; &amp;lt;file&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;如何引白用嫖别人的项目&quot;&gt;如何引（白）用（嫖）别人的项目&lt;/h3&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git submodule add &amp;lt;...&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;想要撤销操作怎么办&quot;&gt;想要撤销操作怎么办&lt;/h3&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git restore &amp;lt;file&amp;gt;
-git restore &lt;span class=&quot;nt&quot;&gt;--staged&lt;/span&gt; &amp;lt;file&amp;gt;
-git commit &lt;span class=&quot;nt&quot;&gt;--amend&lt;/span&gt;
-git revert
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;有大文件怎么办&quot;&gt;有大文件怎么办&lt;/h3&gt;
-
-&lt;p&gt;LFS&lt;/p&gt;
-
-&lt;h3 id=&quot;如何发布-release&quot;&gt;如何发布 release&lt;/h3&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git tag
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;有些复杂的命令记不住&quot;&gt;有些复杂的命令记不住&lt;/h3&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git config &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; alias.last &lt;span class=&quot;s1&quot;&gt;'log -1 HEAD'&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h3 id=&quot;git-merge-是最好的合并代码的方式么&quot;&gt;Git Merge 是最好的合并代码的方式么&lt;/h3&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;git rebase&lt;/code&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;一般我们这样做的目的是为了确保在向远程分支推送时能保持提交历史的整洁——例如向某个其他人维护的项目贡献代码时。 在这种情况下，你首先在自己的分支里进行开发，当开发完成时你需要先将你的代码变基到 origin/master 上，然后再向主项目提交修改。 这样的话，该项目的维护者就不再需要进行整合工作，只需要快进合并便可。
-呃，奇妙的变基也并非完美无缺，要用它得遵守一条准则：不要对在你的仓库外有副本的分支执行变基。&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;详细区别见&lt;a href=&quot;https://git-scm.com/book/zh/v2/Git-%E5%88%86%E6%94%AF-%E5%8F%98%E5%9F%BA&quot;&gt;教程&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;如果按照-git-的对每一个修改的文件-重新打包的方式会不会很占用空间&quot;&gt;如果按照 Git 的“对每一个修改的文件” 重新打包的方式，会不会很占用空间&lt;/h3&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git gc
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;p&gt;&lt;a href=&quot;https://git-scm.com/book/zh/v2/Git-%E5%86%85%E9%83%A8%E5%8E%9F%E7%90%86-%E5%8C%85%E6%96%87%E4%BB%B6&quot;&gt;包文件&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;github-软件源代码托管服务-大型同性交友社区&quot;&gt;github 软件源代码托管服务 &lt;del&gt;大型同性交友社区&lt;/del&gt;&lt;/h2&gt;
-
-&lt;h3 id=&quot;为什么使用github&quot;&gt;为什么使用github&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;可视化&lt;/li&gt;
-  &lt;li&gt;方便协作&lt;/li&gt;
-  &lt;li&gt;大量优质项目&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;github中各个组件的功能以及使用技巧&quot;&gt;github中各个组件的功能以及使用技巧&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Issues&lt;/li&gt;
-  &lt;li&gt;Project&lt;/li&gt;
-  &lt;li&gt;Wiki&lt;/li&gt;
-  &lt;li&gt;Pull Request&lt;/li&gt;
-  &lt;li&gt;私人仓库&lt;/li&gt;
-  &lt;li&gt;Fork&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/waylau/github-help/blob/master/Creating%20Releases%20%E5%88%9B%E5%BB%BA%E5%8F%91%E5%B8%83%E5%8C%85.md&quot;&gt;Release&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;个人经验&lt;/p&gt;
-
-&lt;h3 id=&quot;合作开发中需要注意的东西&quot;&gt;合作开发中需要注意的东西&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;README.md&lt;/li&gt;
-  &lt;li&gt;协议（版权）&lt;/li&gt;
-  &lt;li&gt;成员之间任务管理&lt;/li&gt;
-  &lt;li&gt;利用好分支&lt;/li&gt;
-  &lt;li&gt;利用其它插件 （以 Travis 为例）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;以项目为例&lt;/p&gt;
-
-&lt;p&gt;随便找几个有名的项目&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;gitlab-开源的-github&quot;&gt;GitLab “开源的 GitHub”&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;开源，可以部署私有在线代码仓库 &lt;a href=&quot;https://git.bitnp.net&quot;&gt;网协部署的校内 GitLab&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;对 docker 相关部署做了集成
-    &lt;ul&gt;
-      &lt;li&gt;k8s 等&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;更注重敏捷开发&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;以项目为例&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://git.bitnp.net/BITNP/clinic_django&quot;&gt;诊所预约管理系统&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;持续集成---ci&quot;&gt;持续集成 - CI&lt;/h2&gt;
-
-&lt;p&gt;###　什么叫持续集成&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.ruanyifeng.com/blog/2015/09/continuous-integration.html&quot;&gt;持续集成是什么?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.zhihu.com/question/23444990&quot;&gt;如何理解持续集成、持续交付、持续部署？&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;如何理解持续集成、持续交付、持续部署？&quot;&gt;简介持续集成（CI）以及相关工具推荐&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;以github为例展示简单的持续集成&quot;&gt;以github为例展示简单的持续集成&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;原料
-    &lt;ul&gt;
-      &lt;li&gt;服务器（部署环境）、github、travis-ci、docker&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;使用方式
-    &lt;ul&gt;
-      &lt;li&gt;编写.travis.yml(配置文件)，脚本，&lt;del&gt;docker-compose&lt;/del&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;简单说说&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;一些展望&quot;&gt;一些展望&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;唠叨一下&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;安全&quot;&gt;安全&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;CVE&lt;/li&gt;
-  &lt;li&gt;管理权限 &lt;a href=&quot;https://www.zhihu.com/question/22438484&quot;&gt;百度、阿里、腾讯之类的大公司用 Git 吗？&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;生产环境可能存在源码泄露&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;小练习&quot;&gt;小练习&lt;/h2&gt;
-
-&lt;p&gt;以组为单位完成以下任意一个练习&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;创建自己的分支，提交代码，合并到主分支&lt;/li&gt;
-  &lt;li&gt;从主分支拉取代码，进行修改并提交，利用Pull Request合并到主分支&lt;/li&gt;
-  &lt;li&gt;审核别人的Pull Request，并且同意（拒绝）合并&lt;/li&gt;
-  &lt;li&gt;提issues， 新建fix 分支（分支名为fix xxxx），修改提交后，合并并关闭issues&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;以上内容不分先后&lt;/p&gt;
-
-&lt;h2 id=&quot;其他资料&quot;&gt;其他资料&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://learngitbranching.js.org/&quot;&gt;在线学习&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://gogs.io/&quot;&gt;gogs 一个基于go语言的在线代码仓库&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>FKY</name></author><category term="git" /><category term="github" /><category term="gitlab" /><category term="ci" /><category term="talk" /><category term="big pictrue" /><summary type="html">这篇文章是一次分享的大体提纲，因此有很多概念不会用文字详细解释。 git的重要性便不在此赘述，为什么在网络上已经有丰富教程的前提下还要做这个东西， 就是希望大家（班里的同学们）大家能够尽可能站在一个水平线上，为以后的合作提供技术基础。 不过，也请不要期待仅仅在两个小时之后就能上手全部的内容。 因为坑注定是要自己踩才会有感觉。 这篇文章不会涉及的内容 git的安装 Windows 安装 Mac/Linux/Windows 安装 git的全部详解 Pro Git book github ssh公钥设置 Windows下公钥配置 git 版本控制器 Git 是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。 Git 简史 为什么使用git 你可能会经常遇到这样的情况：正在使用编辑器编写代码的时候，电脑突然死机了。 当然重启以后发现这个文件并没有丢失，可问题是，如果有一百个文件，你要一个个确认吗？ 另外一个问题，当你在书写程序时，想要恢复一大段被删除的文字怎么办？ 还有，在多人合作时，你如何保证多个人分别开发不同的代码以后，能够安全的合并文件呢？ 存在网上？如果断网了呢？ 安装 略过 git是如何实现版本控制的 架构以及核心概念 如何使用git git --help # 先查看帮助呦 git init git add SOME_FILE git commit -m &quot;SOME_COMMENT&quot; git push 与之对应的四个阶段 st=&amp;gt;start: git init || git clone|past e=&amp;gt;end: 提出Pull Request 或 关闭相应issue state0=&amp;gt;operation: 编辑文件 cond1=&amp;gt;condition: 文件 是否有改动 state1=&amp;gt;operation: git add [files] cond2=&amp;gt;condition: 是否完成 一定功能的修改 state2=&amp;gt;operation: git commit [change messages] cond3=&amp;gt;condition: 是否可以 提交至服务器 state3=&amp;gt;operation: git push statefix=&amp;gt;inputoutput: git pull 并 解决冲突 st-&amp;gt;state0-&amp;gt;cond1-&amp;gt;state1-&amp;gt;cond2-&amp;gt;state2-&amp;gt;cond3-&amp;gt;state3-&amp;gt;e cond1(yes)-&amp;gt;state1 cond1(no)-&amp;gt;state0 cond2(no)-&amp;gt;state0 cond2(yes)-&amp;gt;state2 cond3(yes)-&amp;gt;state3 cond3(no)-&amp;gt;statefix-&amp;gt;state0 以一次提交为例 其他的基本功能 回滚 revert 压缩 rebase 比较 diff 隐藏 .gitignore 子模块 submodule 说说分支与 Git 的 Workflow 分支 一些底层的机理，可对照 .git/objects/ 目录下内容学习。 # generate checksum git hash-object &amp;lt;file&amp;gt; git cat-file -p &amp;lt;checksum&amp;gt; # check type of object: commit blob tree git cat-file -t &amp;lt;checksum&amp;gt; 从零开始创建一个 commit git init cat &amp;gt; file-1.txt &amp;lt;&amp;lt; EOF file-1 EOF cat &amp;gt; file-2.txt &amp;lt;&amp;lt;EOF file-2 EOF # hash &amp;amp;&amp;amp; 存放入数据库 git hash-object -w file-1.txt # fbfd79f5e4816836f68f8128e9f99b12a0013a06 git hash-object -w file-2.txt # 37ad5611998d92506ab38906d83810929f8c4a3d # 此时 .git/objects/ 多了内容 # ----- # git add git update-index --add --cacheinfo 100644 \ fbfd79f5e4816836f68f8128e9f99b12a0013a06 file-1.txt git update-index --add --cacheinfo 100644 \ 37ad5611998d92506ab38906d83810929f8c4a3d file-2.txt # 此时输入 git status，可以查看到暂存的内容 # ./git/index 文件诞生 # ----- # 写入 tree 对象 git write-tree # 85b5f8639b41a5ec4ba88381c358141105d3c50c # 尝试更复杂一点，修改一下 cat &amp;gt; file-1.txt &amp;lt;&amp;lt; EOF updated EOF # 写入数据库 git hash-object -w file-1.txt # 写入暂存区（index） git update-index --cacheinfo 100644 \ 519c15ed8d400dfa4be08f404a5c5b21ad6d4a7a file-1.txt # 将之前的树也写入暂存区（index） git read-tree --prefix=bak 85b5f8639b41a5ec4ba88381c358141105d3c50c # 此时试图 git status 会看见 bak/ 中 **有过** 文件，这就是上个命令产生的效果 # 写入 tree object git write-tree # b72c06c298832e50d22d218424f478515e73cea1 # git commit echo 'first commit' | git commit-tree 85b5f8639b41a5ec4ba88381c358141105d3c50c # 7ae4ed6a70d0e25ef14b7b46d9b0fb925849187f 会因为信息不同而不一样 # second commit -&amp;gt; first echo 'second commit' | git commit-tree b72c06c298832e50d22d218424f478515e73cea1 -p 7ae4ed # 97072885b3d1115edeef3fdfdc52e0f48f19f991 会因为信息不同而不一样 # 移动 master 指针 echo &quot;97072885b3d1115edeef3fdfdc52e0f48f19f991&quot; &amp;gt; .git/refs/heads/master # 此时 git log 可以看见提交 Git版本控制与工作流 Git 的局限性以及 .gitignore 操作比较繁琐 无法彻底解决安全问题 无法有效的管理大二进制文件存储问题 .gitignore 那些文件需要使用 本地依赖 node_modules 编译的结果或者中间结果 *.out *.a *.o 隐私文件 一些 FAQ 有哪些与 Git 相关的好用的工具 VSCode (或者其他编辑器/IDE) 中的 Git 相关的插件，比如 GitLens zsh 的 Git 插件等（alias） git-cz (better commit) tldr (e.g. tldr git-log) gitignore.io 帮助生成 .gitignore 我做了很多重复的提交，如何压缩成一个 git rebase -i HEAD~5 想要强制覆盖远程仓库里的记录 git push --force clone 时候，速度快一些 git clone &amp;lt;xxxxx&amp;gt; --depth 1 这个 Bug 谁写的 git blame &amp;lt;file&amp;gt; git log -p &amp;lt;file&amp;gt; 如何引（白）用（嫖）别人的项目 git submodule add &amp;lt;...&amp;gt; 想要撤销操作怎么办 git restore &amp;lt;file&amp;gt; git restore --staged &amp;lt;file&amp;gt; git commit --amend git revert 有大文件怎么办 LFS 如何发布 release git tag 有些复杂的命令记不住 git config --global alias.last 'log -1 HEAD' Git Merge 是最好的合并代码的方式么 git rebase 一般我们这样做的目的是为了确保在向远程分支推送时能保持提交历史的整洁——例如向某个其他人维护的项目贡献代码时。 在这种情况下，你首先在自己的分支里进行开发，当开发完成时你需要先将你的代码变基到 origin/master 上，然后再向主项目提交修改。 这样的话，该项目的维护者就不再需要进行整合工作，只需要快进合并便可。 呃，奇妙的变基也并非完美无缺，要用它得遵守一条准则：不要对在你的仓库外有副本的分支执行变基。 详细区别见教程 如果按照 Git 的“对每一个修改的文件” 重新打包的方式，会不会很占用空间 git gc 包文件 github 软件源代码托管服务 大型同性交友社区 为什么使用github 可视化 方便协作 大量优质项目 github中各个组件的功能以及使用技巧 Issues Project Wiki Pull Request 私人仓库 Fork Release 个人经验 合作开发中需要注意的东西 README.md 协议（版权） 成员之间任务管理 利用好分支 利用其它插件 （以 Travis 为例） 以项目为例 随便找几个有名的项目 GitLab “开源的 GitHub” 开源，可以部署私有在线代码仓库 网协部署的校内 GitLab 对 docker 相关部署做了集成 k8s 等 更注重敏捷开发 以项目为例 诊所预约管理系统 持续集成 - CI ###　什么叫持续集成 持续集成是什么? 如何理解持续集成、持续交付、持续部署？ 简介持续集成（CI）以及相关工具推荐 以github为例展示简单的持续集成 原料 服务器（部署环境）、github、travis-ci、docker 使用方式 编写.travis.yml(配置文件)，脚本，docker-compose 简单说说 一些展望 唠叨一下 安全 CVE 管理权限 百度、阿里、腾讯之类的大公司用 Git 吗？ 生产环境可能存在源码泄露 小练习 以组为单位完成以下任意一个练习 创建自己的分支，提交代码，合并到主分支 从主分支拉取代码，进行修改并提交，利用Pull Request合并到主分支 审核别人的Pull Request，并且同意（拒绝）合并 提issues， 新建fix 分支（分支名为fix xxxx），修改提交后，合并并关闭issues 以上内容不分先后 其他资料 在线学习 gogs 一个基于go语言的在线代码仓库</summary></entry><entry><title type="html">写给大家的计算机知识——为什么要用Markdown</title><link href="https://blog.fkynjyq.com/2019/03/06/why-markdown.html" rel="alternate" type="text/html" title="写给大家的计算机知识——为什么要用Markdown" /><published>2019-03-06T01:22:08+08:00</published><updated>2019-03-06T01:22:08+08:00</updated><id>https://blog.fkynjyq.com/2019/03/06/why-markdown</id><content type="html" xml:base="https://blog.fkynjyq.com/2019/03/06/why-markdown.html">&lt;p&gt;一种新的工具从投入使用，到被人们所接受，不是没有原因的。工具，帮助人们简化复杂的任务，解放劳动力，&lt;code class=&quot;highlighter-rouge&quot;&gt;Markdown&lt;/code&gt;也是如此。&lt;/p&gt;
-
-&lt;p&gt;如果你简单&lt;code class=&quot;highlighter-rouge&quot;&gt;google&lt;/code&gt;一下，你会发现网络中已经充斥着大量的&lt;code class=&quot;highlighter-rouge&quot;&gt;Markdown&lt;/code&gt;语法教程。
-所以这篇文章的主要目的并不是教会你如何使用&lt;code class=&quot;highlighter-rouge&quot;&gt;Markdown&lt;/code&gt;，而是想试图让你知道，为什么不是计算机专业的同学，也有了解它的意义。&lt;/p&gt;
-
-&lt;h2 id=&quot;所以我们面对着什么样的问题&quot;&gt;所以我们面对着什么样的问题？&lt;/h2&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;首先，正如你看到的这篇文章一样，我们写作的内容越来越多地在互联网上以网页的形式分享（而不是其他方式）。&lt;/li&gt;
-  &lt;li&gt;另一点，我们为了更良好的阅读体验，往往希望赋予文章更多的层次结构与标记，比如段落、标题、粗体、斜体、链接、图片、列表甚至表格。&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;OK，幸运的是，在 &lt;code class=&quot;highlighter-rouge&quot;&gt;HTML/CSS&lt;/code&gt; 和浏览器的帮助下，我们能够完成这两点。&lt;/p&gt;
-
-&lt;p&gt;简单的来说，你看到的一段文字：&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&quot;我是标题&quot;&gt;我是标题&lt;/h3&gt;
-
-&lt;p&gt;我是正文文字&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;我是列表,&lt;em&gt;斜体&lt;/em&gt;&lt;/li&gt;
-  &lt;li&gt;我是列表的第二项，&lt;del&gt;删除线&lt;/del&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;在浏览器接收到服务器的数据中，看起来是这样：&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&quot;language-HTML&quot;&gt;&amp;lt;html&amp;gt;
-    &amp;lt;head&amp;gt;
-    ...
-    &amp;lt;/head&amp;gt;
-    &amp;lt;body&amp;gt;
-        &amp;lt;h3&amp;gt; 我是标题 &amp;lt;/h3&amp;gt;
-
-        &amp;lt;p&amp;gt;我是正文文字&amp;lt;/p&amp;gt;
-
-        &amp;lt;ul&amp;gt;
-            &amp;lt;li&amp;gt;我是列表,&amp;lt;em&amp;gt;斜体&amp;lt;em&amp;gt;&amp;lt;/li&amp;gt;
-            &amp;lt;li&amp;gt;我是列表的第二项，&amp;lt;s&amp;gt;删除线&amp;lt;/s&amp;gt;&amp;lt;/li&amp;gt;
-        &amp;lt;/ul&amp;gt;
-    &amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;strong&gt;但是谁愿意直接写这样的代码呢！！？？&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;所以回到问题本质，我们期待一种书写方式：&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;它比纯文本的书写方式能够提供&lt;strong&gt;更多&lt;/strong&gt;的信息&lt;/li&gt;
-  &lt;li&gt;它不能像代码那样及其抽象，要对普通用户也具有&lt;strong&gt;可读性&lt;/strong&gt;&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;为了满足以上要求，一大批&lt;strong&gt;标记性语言&lt;/strong&gt;诞生了。而&lt;code class=&quot;highlighter-rouge&quot;&gt;Markdown&lt;/code&gt;就是其中的佼佼者。&lt;/p&gt;
-
-&lt;p&gt;想要达到例子中的效果，你只需要书写:&lt;/p&gt;
-&lt;div class=&quot;language-md highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gu&quot;&gt;### 我是标题&lt;/span&gt;
-
-我是正文文字
-&lt;span class=&quot;p&quot;&gt;
--&lt;/span&gt; 我是列表,&lt;span class=&quot;ge&quot;&gt;*斜体*&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;-&lt;/span&gt; 我是列表的第二项，~~删除线~~
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;没错，是不是看上去好多了。&lt;/p&gt;
-
-&lt;h2 id=&quot;什么是markdown&quot;&gt;什么是Markdown&lt;/h2&gt;
-
-&lt;p&gt;如果你使用中文搜索，可能大概率会遇到介绍Markdown语法的文章，但是这不是这篇文章的重点。&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Markdown is a lightweight markup language with plain text formatting syntax.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;引自wikipedia&lt;/p&gt;
-
-&lt;h3 id=&quot;标记语言&quot;&gt;标记语言&lt;/h3&gt;
-
-&lt;p&gt;我们注意一个关键词 &lt;code class=&quot;highlighter-rouge&quot;&gt;markup&lt;/code&gt;。如果你知道 &lt;code class=&quot;highlighter-rouge&quot;&gt;HTML&lt;/code&gt; 的话，就知道这两者中都含有 &lt;code class=&quot;highlighter-rouge&quot;&gt;Markup&lt;/code&gt; ——即 &lt;code class=&quot;highlighter-rouge&quot;&gt;标记&lt;/code&gt; 的含义。也就是说，不管是 &lt;code class=&quot;highlighter-rouge&quot;&gt;Markdown&lt;/code&gt; ，甚至是 &lt;code class=&quot;highlighter-rouge&quot;&gt;HTML&lt;/code&gt; ，他们都与我们接触的 &lt;code class=&quot;highlighter-rouge&quot;&gt;C语言&lt;/code&gt; 、 &lt;code class=&quot;highlighter-rouge&quot;&gt;Python&lt;/code&gt; 、 &lt;code class=&quot;highlighter-rouge&quot;&gt;Java&lt;/code&gt;等完全不同。如果说后者是用来操纵数据的语言，那么前者更像是用来描述数据的语言。&lt;code class=&quot;highlighter-rouge&quot;&gt;标记&lt;/code&gt; 二字的精髓也在于此。&lt;/p&gt;
-
-&lt;p&gt;所以你也能够明白为什么 &lt;code class=&quot;highlighter-rouge&quot;&gt;Markdown&lt;/code&gt; 对你是有价值的——因为尽管不是人人都需要会操纵数据，但是人们需要更好地描述信息。（正如这篇文章一样，如果都是白底黑字，岂不痛哉？）&lt;/p&gt;
-
-&lt;h3 id=&quot;属于文本文件而不是二进制文件&quot;&gt;属于文本文件而不是二进制文件&lt;/h3&gt;
-
-&lt;p&gt;请不要忽视另一个关键字&lt;code class=&quot;highlighter-rouge&quot;&gt;plain text&lt;/code&gt;，&lt;/p&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;// TODO&lt;/code&gt;&lt;!-- // TODO --&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;如何使用-markdown&quot;&gt;如何使用 Markdown&lt;/h2&gt;
-
-&lt;p&gt;看到这里，我假定你已经大致了解了&lt;code class=&quot;highlighter-rouge&quot;&gt;Markdown&lt;/code&gt;，但是也许你会有疑问，我怎样才能使用它呢。换句话说，在什么场合下、用什么工具，才能用好 &lt;code class=&quot;highlighter-rouge&quot;&gt;Markdown&lt;/code&gt; 呢。&lt;/p&gt;
-
-&lt;h3 id=&quot;使用场景&quot;&gt;使用场景&lt;/h3&gt;
-
-&lt;p&gt;以下是一些恰当的使用场景&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;计算机专业中 文档、教程 的写作&lt;/li&gt;
-  &lt;li&gt;博客文章&lt;/li&gt;
-  &lt;li&gt;需求丰富的个人笔记&lt;/li&gt;
-  &lt;li&gt;电子书&lt;/li&gt;
-  &lt;li&gt;笔记&lt;/li&gt;
-  &lt;li&gt;日记&lt;/li&gt;
-  &lt;li&gt;需要团队合作进行版本控制的场景（当然各种云doc也是推荐的）&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;以下是一些不太恰当的使用场景（欢迎补充）&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;学术论文 （请使用Word 或者 LaTeX）&lt;/li&gt;
-  &lt;li&gt;带有大量手工绘图需求的场景&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;方言与普通话&quot;&gt;方言与普通话&lt;/h3&gt;
-
-&lt;h3 id=&quot;写作工具&quot;&gt;写作工具&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;VSCode&lt;/li&gt;
-  &lt;li&gt;Typora&lt;/li&gt;
-  &lt;li&gt;在线写作&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;// TODO&lt;/code&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;参考文献&quot;&gt;参考文献&lt;/h2&gt;</content><author><name>fky</name></author><category term="tutorial" /><category term="markdown" /><summary type="html">一种新的工具从投入使用，到被人们所接受，不是没有原因的。工具，帮助人们简化复杂的任务，解放劳动力，Markdown也是如此。 如果你简单google一下，你会发现网络中已经充斥着大量的Markdown语法教程。 所以这篇文章的主要目的并不是教会你如何使用Markdown，而是想试图让你知道，为什么不是计算机专业的同学，也有了解它的意义。 所以我们面对着什么样的问题？ 首先，正如你看到的这篇文章一样，我们写作的内容越来越多地在互联网上以网页的形式分享（而不是其他方式）。 另一点，我们为了更良好的阅读体验，往往希望赋予文章更多的层次结构与标记，比如段落、标题、粗体、斜体、链接、图片、列表甚至表格。 OK，幸运的是，在 HTML/CSS 和浏览器的帮助下，我们能够完成这两点。 简单的来说，你看到的一段文字： 我是标题 我是正文文字 我是列表,斜体 我是列表的第二项，删除线 在浏览器接收到服务器的数据中，看起来是这样： &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; ... &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;h3&amp;gt; 我是标题 &amp;lt;/h3&amp;gt; &amp;lt;p&amp;gt;我是正文文字&amp;lt;/p&amp;gt; &amp;lt;ul&amp;gt; &amp;lt;li&amp;gt;我是列表,&amp;lt;em&amp;gt;斜体&amp;lt;em&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;li&amp;gt;我是列表的第二项，&amp;lt;s&amp;gt;删除线&amp;lt;/s&amp;gt;&amp;lt;/li&amp;gt; &amp;lt;/ul&amp;gt; &amp;lt;/body&amp;gt; &amp;lt;/html&amp;gt; 但是谁愿意直接写这样的代码呢！！？？ 所以回到问题本质，我们期待一种书写方式： 它比纯文本的书写方式能够提供更多的信息 它不能像代码那样及其抽象，要对普通用户也具有可读性 为了满足以上要求，一大批标记性语言诞生了。而Markdown就是其中的佼佼者。 想要达到例子中的效果，你只需要书写: ### 我是标题 我是正文文字 - 我是列表,*斜体* - 我是列表的第二项，~~删除线~~ 没错，是不是看上去好多了。 什么是Markdown 如果你使用中文搜索，可能大概率会遇到介绍Markdown语法的文章，但是这不是这篇文章的重点。 Markdown is a lightweight markup language with plain text formatting syntax. 引自wikipedia 标记语言 我们注意一个关键词 markup。如果你知道 HTML 的话，就知道这两者中都含有 Markup ——即 标记 的含义。也就是说，不管是 Markdown ，甚至是 HTML ，他们都与我们接触的 C语言 、 Python 、 Java等完全不同。如果说后者是用来操纵数据的语言，那么前者更像是用来描述数据的语言。标记 二字的精髓也在于此。 所以你也能够明白为什么 Markdown 对你是有价值的——因为尽管不是人人都需要会操纵数据，但是人们需要更好地描述信息。（正如这篇文章一样，如果都是白底黑字，岂不痛哉？） 属于文本文件而不是二进制文件 请不要忽视另一个关键字plain text， // TODO 如何使用 Markdown 看到这里，我假定你已经大致了解了Markdown，但是也许你会有疑问，我怎样才能使用它呢。换句话说，在什么场合下、用什么工具，才能用好 Markdown 呢。 使用场景 以下是一些恰当的使用场景 计算机专业中 文档、教程 的写作 博客文章 需求丰富的个人笔记 电子书 笔记 日记 需要团队合作进行版本控制的场景（当然各种云doc也是推荐的） 以下是一些不太恰当的使用场景（欢迎补充） 学术论文 （请使用Word 或者 LaTeX） 带有大量手工绘图需求的场景 方言与普通话 写作工具 VSCode Typora 在线写作 // TODO 参考文献</summary></entry><entry><title type="html">Welcome</title><link href="https://blog.fkynjyq.com/2018/07/01/welcome.html" rel="alternate" type="text/html" title="Welcome" /><published>2018-07-01T00:00:00+08:00</published><updated>2018-07-01T00:00:00+08:00</updated><id>https://blog.fkynjyq.com/2018/07/01/welcome</id><content type="html" xml:base="https://blog.fkynjyq.com/2018/07/01/welcome.html">&lt;p&gt;If you see this page, that means you have setup your site. enjoy! :ghost: :ghost: :ghost:&lt;/p&gt;
-
-&lt;p&gt;You may want to &lt;a href=&quot;https://tianqi.name/jekyll-TeXt-theme/docs/en/configuration&quot;&gt;config the site&lt;/a&gt; or &lt;a href=&quot;https://tianqi.name/jekyll-TeXt-theme/docs/en/writing-posts&quot;&gt;writing a post&lt;/a&gt; next. Please feel free to &lt;a href=&quot;https://github.com/kitian616/jekyll-TeXt-theme/issues&quot;&gt;create an issue&lt;/a&gt; or &lt;a href=&quot;mailto:kitian616@outlook.com&quot;&gt;send me an email&lt;/a&gt; if you have any questions.&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;If you like TeXt, don’t forget to give me a star. :star2:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://github.com/kitian616/jekyll-TeXt-theme/&quot;&gt;&lt;img src=&quot;https://img.shields.io/github/stars/kitian616/jekyll-TeXt-theme.svg?label=Stars&amp;amp;style=social&quot; alt=&quot;Star This Project&quot; /&gt;&lt;/a&gt;&lt;/p&gt;</content><author><name>FKY</name><email>loveress01@outlook.com</email></author><category term="TeXt" /><summary type="html">If you see this page, that means you have setup your site. enjoy! :ghost: :ghost: :ghost: You may want to config the site or writing a post next. Please feel free to create an issue or send me an email if you have any questions.</summary></entry><entry><title type="html">容器化技术在网络安全应用展望 – 并没有什么参考价值的节课论文</title><link href="https://blog.fkynjyq.com/2018/05/16/security-of-container.html" rel="alternate" type="text/html" title="容器化技术在网络安全应用展望 -- 并没有什么参考价值的节课论文" /><published>2018-05-16T00:00:00+08:00</published><updated>2018-05-16T00:00:00+08:00</updated><id>https://blog.fkynjyq.com/2018/05/16/security-of-container</id><content type="html" xml:base="https://blog.fkynjyq.com/2018/05/16/security-of-container.html">&lt;p&gt;这是大一时参加《计算机与网络安全》所写的结课论文，
-针对当时接触的 docker 容器化技术在安全方面做了一些简单不全面的总结。&lt;/p&gt;
-
-&lt;p&gt;如今看起来还真是青涩呢。&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;intro&quot;&gt;intro&lt;/h2&gt;
-
-&lt;h3 id=&quot;写在前面的话&quot;&gt;写在前面的话&lt;/h3&gt;
-
-&lt;p&gt;我接触并使用虚拟机是从高二时候开始的，而接触docker及容器化技术则是从今年的三月份开始的。我目前只是仅仅利用docker,dockerfile进行构建和部署较小的项目，刚开始在kubernetes中蹒跚学步，并未在生产环境中磨练过自己的’技艺‘。但是从我刚接触docker为代表的容器化技术开始，我就对其产生了浓厚的兴趣，它对于应用开发、测试和部署交出的答卷令人满意。就在这项从2013年才兴起的项目正在展露头角时，一个名为kubernetes的容器编排技术将容器化技术以更优雅和强大的姿态展现在人们眼前。在关注这项技术的同时，我结合这学期所学的网络安全相关内容,一直在思考:容器技术能带在网络安全方面有什么新应用呢?以下的内容只是出于一个大一学生的富有激情的浅见,若是有技术方面的问题还请谅解。&lt;/p&gt;
-
-&lt;h3 id=&quot;网络安全&quot;&gt;网络安全&lt;/h3&gt;
-
-&lt;p&gt;网络就像是一个又计算机组成的，独立于物理世界的虚拟世界。人们在这个世界变得更加隐秘，却也更加暴露。网络在带给人们的便捷不是没有代价的，人们需要将个人信息作为等价交换。而网站，作为提供服务和存储个人信息的媒介，无疑承担起了维护信息的保密性、完整性、可用性、真实性和可控性的所有任务。由于服务功能的复杂性上升和企业对于安全本身重视程度不够，生产环境中往往会有大量缺陷甚至漏洞存在。而这些漏洞一旦被攻击者恶意利用，轻则造成服务停摆，重则涉及隐私泄露，甚至危害到人身财产安全。因此网络安全的重要性日渐凸显。在软件层面，有防注入、过滤等技术；在操作系统层面，有虚拟化技术、防火墙安全策略等；在管理层面，有物理安全、权限控制等安全措施，可以说网络安全的是离不开任何一个环节的保障的。&lt;/p&gt;
-
-&lt;h3 id=&quot;容器化技术&quot;&gt;容器化技术&lt;/h3&gt;
-
-&lt;p&gt;容器化技术、以及虚拟化技术是一种被大家广泛认可的服务器资源共享方式。这些技术最初要解决的问题是不同软件所需服务器、网络、内存、存储等资源的隔离与服用问题。他将底层的资源打包、整合、抽象出来，打破实体结构间的独立性，让用户所面对着更统一隔离的资源。在虚拟化与容器化技术的发展中，人们不仅被这种技术所带来的经济效益给吸引，更发现由于有了抽象，使得底层资源从某种程度上被隐藏和隔离了起来，而这正是网络安全所寻找的一种防御手段。而在我们开始对容器化技术对网络安全的影响进行进一步探讨前，我们应当首先注意到他和以往虚拟化技术的相同与不同之处。&lt;/p&gt;
-
-&lt;h4 id=&quot;容器化与虚拟化技术的异同&quot;&gt;容器化与虚拟化技术的异同&lt;/h4&gt;
-
-&lt;p&gt;容器化技术和虚拟化技术，都实现了对资源的虚拟化和再分配。然而传统的虚拟化技术更加面向底层。以系统虚拟化技术为例，它会为用户提供一个完整的虚拟机：包括内核在内的一个完整操作系统镜像。cpu虚拟化技术为每个用户提供一个独享且和其他用户隔离的系统环境，虚拟层为每个用户分配虚拟化后的CPU、内存和IO设备资源。但是在提供高度隔离的环境同时，虚拟化技术所需要的独立的资源，对于很多场景下是资源极大的浪费。
-于是以docker为首的容器化技术诞生了，它以容器为单位，为应用程序提供了隔离的完整的运行空间。但容器是作为一个进程而不是虚拟机来运行的。相比虚拟化技术，应用程序在其中的运行速度甚至可以达到原生级别，而对底层资源的复用也使得容器对于内存，cpu，硬盘的消耗小之又小。
-容器化技术解决的另一大问题是良好的可移植环境与版本控制能力大大提升了软件开发、测试、部署和更新过程中所面临的一系列控制难题。它的硬件隔离复用与可自定义网络拓扑以及敏捷环境，为企业的敏捷开发、微服务、云服务提供了新的技术支持。
-在网络安全层面，信息的可用性强调了速度与稳定性，完整性则强调了信息的保护程度，以下的表格比较了他们在这些方面的主要特性。&lt;/p&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;特点&lt;/th&gt;
-      &lt;th&gt;虚拟化技术&lt;/th&gt;
-      &lt;th&gt;容器化技术&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;物理资源消耗&lt;/td&gt;
-      &lt;td&gt;Gb级别&lt;/td&gt;
-      &lt;td&gt;Mb级别&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;启动速度&lt;/td&gt;
-      &lt;td&gt;分钟级&lt;/td&gt;
-      &lt;td&gt;秒级&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;隔离程度&lt;/td&gt;
-      &lt;td&gt;高&lt;/td&gt;
-      &lt;td&gt;较虚拟化技术稍低一些&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;版本控制能力&lt;/td&gt;
-      &lt;td&gt;低&lt;/td&gt;
-      &lt;td&gt;高&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;部署速度&lt;/td&gt;
-      &lt;td&gt;慢&lt;/td&gt;
-      &lt;td&gt;快&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;技术成熟度&lt;/td&gt;
-      &lt;td&gt;成熟&lt;/td&gt;
-      &lt;td&gt;不成熟&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;运行平台&lt;/td&gt;
-      &lt;td&gt;全部&lt;/td&gt;
-      &lt;td&gt;偏向linux（借助了LXC）&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;h2 id=&quot;容器化技术对网络安全带来的影响&quot;&gt;容器化技术对网络安全带来的影响&lt;/h2&gt;
-
-&lt;p&gt;本章节将从两个角度来入手这两者之间的关系。第一种是：利用容器化技术作为技术支持，安全防御将会得到怎样的优势。第二个角度是说，当我们开始利用容器化技术时，我们不得不开始面临哪些新的安全威胁。前者强调网络安全防御以及优势，后者强调容器技术本身的安全问题。本章节为了使结构更加清晰而选择这种方式，而读者应当注意其实上这两者是相互贯通的。&lt;/p&gt;
-
-&lt;h3 id=&quot;容器化技术在网络安全方面的应用&quot;&gt;容器化技术在网络安全方面的应用。&lt;/h3&gt;
-
-&lt;h4 id=&quot;隔离&quot;&gt;隔离&lt;/h4&gt;
-
-&lt;p&gt;容器化技术首先提供的就是沙盒与隔离的机制。以docker为例，在linux内核中namespace的帮助下，进程拥有独立的主机与域名（UTS），信号量、消息队列和共享内存（IPC），进程编号（PID），网络设备、网络栈、端口(NETWORK)，文件系统（Mount），用户和用户组（User）。这样容器中的进程就会仿佛自己置身于独立的系统环境下，以达到独立与隔离的目的。
-利用容器的隔离性，入侵者即使提权成功，依然会在沙箱环境中，依然面临着逃逸容器的难题，这将大大保护了同时运行在服务器上的其他容器中存储的重要信息与服务器安全。而且种种隔离性使得网络病毒无法进入主机，只要将容器关闭便可达到清理的目的，此时的操作对与其他容器不会有任何影响。&lt;/p&gt;
-
-&lt;h4 id=&quot;更少的资源消耗&quot;&gt;更少的资源消耗&lt;/h4&gt;
-
-&lt;p&gt;容器化技术在cpu，内存的访问效率和启动时间都要优秀与虚拟机。那么在面对着大量的请求甚至是恶意请求下，更能够保持系统的稳定性和信息的可用性。快速启动也使得容器技术在弹性服务，自动运维方面有着很好的应用前景。而名为kubernetes的容器集群的编排技术，可以自动实现负载均衡与容器规模控制，这使得企业可以快速得到一个高可用、高质量、健壮的生产环境。&lt;/p&gt;
-
-&lt;h4 id=&quot;更快速更模块化的漏洞修复方式&quot;&gt;更快速更模块化的漏洞修复方式&lt;/h4&gt;
-
-&lt;p&gt;容器技术支撑了微服务的发展，使得服务的更新可以在瞬间就完成。那么依靠这种方式，虽然容器化技术对漏洞发现的支撑取决于其上运行的软件，但是能保证对于漏洞修复的部署能够在极短的时间内完成，这对于信息的可用性无疑是有提升的。而像docker-compose这样的容器编排技术，kubernetes这样的自动化容器集训编排技术，利用yaml文档进行全部的容器配置工作，可以极其自由地将不同的容器耦合在一起，并进行快速稳定的部署。再加之容器化技术自定义的网络拓补结构，这使得网络安全相关的服务能够快速的被整合到原有的环境当中。&lt;/p&gt;
-
-&lt;h4 id=&quot;对容灾的技术支持&quot;&gt;对容灾的技术支持&lt;/h4&gt;
-
-&lt;p&gt;容器化技术并并不能直接完成复杂的容灾体系架构，但是它正在作为容灾体系的应用层被越来越多的用户接受。而对docker支持很好的Mesos等资源调度技术也与此同时被使用。&lt;/p&gt;
-
-&lt;h3 id=&quot;在-mtd-中的可能性&quot;&gt;在 MTD 中的可能性&lt;/h3&gt;
-
-&lt;h4 id=&quot;mtd是什么&quot;&gt;MTD是什么&lt;/h4&gt;
-
-&lt;p&gt;网络安全一是易攻难守。在传统的网络安全防御手段中，由于代码量的庞大与软件功能的复杂，白箱子调试很难进行；而黑箱调试法则需要利用系统的输入输出进行测试。这不仅对于攻击用例的构造有极高的要求，还很难检测出未被发现的漏洞类型。这使得安全人员只能在漏洞被公布甚至被利用后，才能进行被动防御。因此动态目标防御（MTD）被提出，作为解决这一问题的全新思路。它的核心思想是利用可控的方式随机改变系统配置和结构，让攻击者难以发现目标，并且攻击面会在有效攻击方案形成之前发生转移，增加攻击者利用系统漏洞的难度。&lt;/p&gt;
-
-&lt;h4 id=&quot;容器化技术之于mtd&quot;&gt;容器化技术之于MTD&lt;/h4&gt;
-
-&lt;p&gt;容器化技术是一种应用技术，它的本身并不能给MTD提供新的动态防御的思路。但是以kubernetes为代表的自动化容器技术应该会是软件层面以及操作系统层面动态化的很好的解决方案之一。由于之前介绍的快速启动，资源占用小的特点，一个容器的创建，暂停，更新，删除都能在很短的时间内完成。而多应用环境和多操作系统的动态目标防御手段正好需要这样的特性。kubernetes的功能之一就是在保证容器对外一直可用的情况下，自动控制容器的规模，迭代。相信这点可以为服务器进行多环境的动态变化提供一个解决方案。&lt;/p&gt;
-
-&lt;h2 id=&quot;容器技术本身的面临安全问题&quot;&gt;容器技术本身的面临安全问题&lt;/h2&gt;
-
-&lt;p&gt;然而由于容器化技术本身不是面向安全而诞生的，而且它在市场中还远远不够成熟，因此我们不能忽视容器技术本身存在的安全问题。下面将列举一些最主要的问题，并试图提供解决方式。&lt;/p&gt;
-
-&lt;h3 id=&quot;共用内核以及namespace本身不够完善导致隔离性不够&quot;&gt;共用内核以及namespace本身不够完善导致隔离性不够&lt;/h3&gt;
-
-&lt;p&gt;容器并不是全封闭。由于内核使用、/sys、/proc等等未完全隔离，容器的隔离性要弱于传统的虚拟机。这导致攻击者更有可能逃离容器环境，查看到被保护的信息。当然，开源社区，包括红帽公司在内，在docker上提供了许多解决方案，比如文件系统级防护，Capability机制，SElinux的使用。另外工业界也提出了一些适配与加固容器的方案。目前认为经过加固后的容器是可以满足生产环境的要求的。&lt;/p&gt;
-
-&lt;h3 id=&quot;使用了不可信的容器内容&quot;&gt;使用了不可信的容器内容&lt;/h3&gt;
-
-&lt;p&gt;容器的镜像数据一般来自于源或者自行搭建。如果源不收信任，或者自行搭建时使用了有漏洞的依赖，就会导致容器程序中天然地含有恶意代码。这就需要项目团队在整个开发部署流程中时刻注意安全问题。&lt;/p&gt;
-
-&lt;h3 id=&quot;docker自身漏洞&quot;&gt;docker自身漏洞&lt;/h3&gt;
-
-&lt;p&gt;作为一款应用，docker本身也会有代码缺陷存在。CVE官方记录docker历史版本共有超过20项漏洞。而docker本身的版本更迭非常快，这就需要docker用户持续更新，而这对于生产环境并不是一件好事情。&lt;/p&gt;
-
-&lt;h2 id=&quot;小结&quot;&gt;小结&lt;/h2&gt;
-
-&lt;p&gt;容器化技术在一定程度上取代虚拟机，来提供轻量而灵活的服务已经是大势所趋。当面对这样一项新技术时，我们应当怀着一种敢于尝试和迎接的态度来对待它。所以即使不知道容器化技术在网络安全方面终究会有怎样的作为，也应当积极尝试和学习。相信在不就得未来，网络安全能与容器化技术相互融合在一起，一同促进网络空间的建设与发展。&lt;/p&gt;</content><author><name>FKY</name></author><summary type="html">这是大一时参加《计算机与网络安全》所写的结课论文， 针对当时接触的 docker 容器化技术在安全方面做了一些简单不全面的总结。 如今看起来还真是青涩呢。</summary></entry></feed>
+&lt;p&gt;然而当看着周围的人都狂热的卖出这一步时，我却有些胆怯。&lt;/p&gt;</content><author><name>FKY</name><email>loveress01@outlook.com</email></author><category term="thought" /><category term="CS" /><summary type="html">记录一些自己这两年来关于计算机学习的思考和对未来的迷茫。</summary></entry></feed>
